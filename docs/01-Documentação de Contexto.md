@@ -1,46 +1,55 @@
 # Introdução
+ O termo inclusão tem sido frequentemente abordado nos dias atuais, inclusive dentro do mercado de trabalho, cujo cenário apresenta empresas cada vez mais preocupadas em adotar políticas inclusivas e ações afirmativas a fim de apresentar um perfil de colaboradores mais diverso. Uma pesquisa realizada em 100 empresas de atuação global, intitulada "Perspectivas de Mobilidade Global – O papel da mobilidade na estratégia de diversidade e inclusão corporativa" (Crown World Mobility, 2019), demonstrou um vínculo cada vez maior entre o tema "diversidade" e a prospecção de reconhecimento global, uma vez que, dada a relevância atual da pauta, entende-se que uma empresa de destaque investe em pautas inclusivas.  
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+ Dentro dos temas abrangidos pela emergência da inclusão, está a neurodiversidade, que defende que pessoas com diagnósticos ou características neurodiversas tenham suas diferenças respeitadas e possam alcançar a aceitação social em diversos ambientes (BAKER, 2011; SCARRET, 2017). 
+
+ As pessoas neurodivergentes são aquelas que possuem diferenças de neurodesenvolvimento expressivas em relação à média da população. Isso pode incluir, por exemplo, Transtorno do Espectro Autista (TEA), Transtorno do Déficit de Atenção com Hiperatividade (TDAH), Transtorno do Processamento Sensorial (TPS), Dislexia, entre outros (DI BENEDITO e SILVA, 2022). 
+
+ Apesar do termo neurodiversidade estar cada vez mais reconhecido no cenário mundial, os desafios da inclusão de pessoas atípicas vão muito além do mercado de trabalho. São enormes as dificuldades que pessoas neurodivergentes enfrentam no seu dia a dia. 
+
+ Segundo Araujo (2021), existem diversos fatores que dificultam a inclusão social efetiva dessas pessoas na sociedade, dentre eles o estigma social, o acesso à educação especializada e inclusiva, serviços médicos de qualidade voltados para tratamentos específicos e a acessibilidade ao transporte e locomoção. Importante destacar que o problema torna-se ainda maior em famílias em desvantagem social e econômica. 
+
+ Dentro do contexto familiar, os responsáveis e cuidadores de pessoas neurodivergentes também são vítimas da inacessibilidade, uma vez que são diretamente afetados pelos fatores supracitados. Outrossim, a rotina dessas famílias, que não se enquadram no modelo tradicional de família nuclear, muitas vezes é intensa, repleta de diferentes tipos de rotinas médicas e de tratamentos terapêuticos farmacológicos, gerando uma sobrecarga emocional e física ocasionada pela ausência de meios facilitadores ao exercício da parentalidade (CAMILO et. al, 2020). 
+
+ Nesse aspecto, torna-se ainda mais complicado manter uma rotina eficaz e organizada, que incorpore informações adquiridas da equipe multidisciplinar, análises feitas por educadores ou cuidadores, observações de humor e outros aspectos globais que influenciam diretamente na eficácia do tratamento desse paciente. Sem um histórico bem organizado, as tomadas de decisões são prejudicadas. 
+
+ Diante desses desafios, é importante que existam meios para prover suporte adequado a famílias atípicas, cuidadores e pessoas neurodivergentes. A tecnologia deve estar atenta às necessidades sociais emergentes de inclusão e acessibilidade.  A criação de ferramentas específicas para pessoas destes grupos sociais faz-se fundamental, de modo a garantir que tenham acesso a informações e recursos facilitadores para o cotidiano e no processamento de informações. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+ O problema que se busca resolver com este projeto é a dificuldade que pais, responsáveis, cuidadores e as próprias pessoas neurodivergentes enfrentam ao lidar com um volume intenso de informações captadas no dia-a-dia na rotina da pessoa atípica, como por exemplo as devolutivas e observações das equipes multidisciplinares, enfermagem e médicas. Ademais, destaca-se os obstáculos na manutenção de históricos quanto à aspectos globais que influenciam o desenvolvimento e sucesso das intervenções terapêuticas, tornando difícil identificar padrões e tendências no comportamento e desenvolvimento da pessoa atípica, dada a ausência de ferramentas específicas ao público e que organizem essas informações de forma facilitadora. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral desse trabalho é a criação de uma página que apresente ferramentas de uso fácil e intuitivo para auxiliar cuidadores de neurodivergentes e as próprias pessoas desse quadro a organizarem sua agenda e incluírem informações de rotina. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+
+Como objetivos específicos, podemos ressaltar: 
+
+ 
+
+   * Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas; 
+
+   * Permitir a inclusão de informações sobre devolutivas e observações de terapeutas; 
+
+   * Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância; 
+
+   * Disponibilizar a geração de gráficos a partir de histórico de dados; 
+
+   * Integrar ferramentas de notificações e lembretes para atividades como medicamentação. 
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+ A rotina de responsáveis por pessoas neurodivergentes e pelos indivíduos assim identificados possuem necessidades específicas relacionadas à condição. Santini et. al (2010) faz importantes observações sobre o cotidiano de pais de pessoas neurodivergentes, destacando a sobrecarga adicional que acomete esses grupos em vários níveis, sejam eles psicológicos, sociais e financeiros.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+ Nesse sentido, as pessoas neurodivergentes em situação de autonomia e independência, lidam ainda diretamente com esses desafios. Exemplos práticos incluem sintomas comuns em pacientes atípicos, como portadores de Transtorno do Déficit de Atenção com Hiperatividade, que possuem dificuldade em manter uma rotina consistente e organizada.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+ Dessa forma, uma ferramenta que auxilia objetivamente a rotina dos mencionados grupos, fornecendo armazenamento de dados e gerenciamento de compromissos, prevê uma solução facilitadora e acessível para as vulnerabilidades descritas. 
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ Estabeleceu-se como público alvo do projeto os familiares, responsáveis ou cuidadores de pacientes neurodivergentes, bem como pessoas portadoras de transtonos de neurodesenvolvimento, com rotina intensa de compromissos médicos, tratamentos de saúde multidisciplinares e acompanhamento terapêutico, que fazem uso frequente de dispositivos móveis ou computadores para se organizarem. 
