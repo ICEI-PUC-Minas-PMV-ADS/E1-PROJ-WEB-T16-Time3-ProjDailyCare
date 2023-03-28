@@ -2,43 +2,36 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+As especificações mais exatas em relação ao desenvolvimento da aplicação, principalmente no que diz respeito ao perfil dos usuários visados, suas expectativas e como atendê-las, foram elaboradas a partir da realização de uma pesquisa de campo, com a aplicação de um formulário de questões através da plataforma Google Forms, cujo público alvo foram pessoas neurodivergentes e pessoas responsáveis por indivíduos inclusos nesse grupo.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Foram colhidas informações de vinte e sete participantes através da pesquisa consolidada. O levantamento dessas informações permitiu ao grupo a idealização de dois tipos distintos de personas e suas respectivas histórias de usuários.
 
 ## Personas
+As personas criadas a partir da pesquisa supracitada encontram-se descritas a seguir:
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![Danielle](https://user-images.githubusercontent.com/127430454/228360445-2e0da6c1-1bef-4daa-97a3-408569bb0747.png)
+![Felipe](https://user-images.githubusercontent.com/127430454/228360489-16556856-6ca6-4aa9-a8f9-19f6971def5e.png)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Conforme as vivências, dificuldades e desejos identificados a partir da pesquisa realizada, bem como da elaboração das personas, foram elaboradas as seguintes histórias de usuário:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Felipe Ribeiro      | gerenciamento de tarefas importantes|para reduzir a procrastinação e ter mais cautela com os prazos do trabalho.|
+|Felipe Ribeiro  |registrar medicação diariamente        | para não perder os horários das medicações e ter confirmação se as tomou ou não.|
+|Felipe Ribeiro       | registrar de hábitos de sono     | para melhorar e regular o horário de sono |
+|Felipe Ribeiro  | registrar mudanças de humor           | para monitorar os sintomas das mudanças de humor e comunicar ao terapeuta e ao médico.|
+|Felipe Ribeiro |acessar a plataforma tanto pelo desktop como pelo celular | utilizar o tempo disponível entre uma atividade e outra para atualizar os dados. |
+|Danielle Barbosa | anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica |para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe|
+|Danielle Barbosa      |controlar diariamente os aspectos globais da paciente (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da paciente, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica da paciente|
+|Danielle Barbosa  |usufruir de uma aplicação que possuam funções específicas para o monitoramento que deseja realizar|customizar ferramentas de gestão de organização de acordo com as necessidades da pessoa por quem sou responsável|
+|Danielle Barbosa      |ter uma aplicação específica para minhas necessidades de cuidadora que tenha funções de agenda| para facilitar o manuseio e fluxo de informações conforme os compromissos do paciente.|
+|Danielle Barbosa  |poder fazer pesquisa através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
+|Danielle Barbosa       |ter acesso a gráficos de desempenho dos aspectos monitorados|apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
