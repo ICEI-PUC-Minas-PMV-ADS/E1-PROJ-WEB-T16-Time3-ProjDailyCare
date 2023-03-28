@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO`: Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`: Projeto: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
+`SEMESTRE`: 1º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+  Um sistema que irá ajudar pacientes neurodivergente e cuidadores de pacientes neurodivergente com gerenciamento de tarefas, controle nos horários de medicamentos, registro de humor e hábitos de sono
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Andreia Cristina Bera
+* Arthur Zebral de Castro Koehne
+* Carolina Morais Rabelo
+* Débora Alexia C. Silva
+* Laila Suelen Martins Costa
+* Pedro Arthur Silva Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
