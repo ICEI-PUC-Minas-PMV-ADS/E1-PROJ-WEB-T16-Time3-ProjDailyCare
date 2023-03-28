@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-<li><a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1441974_sga_pucminas_br/ETue8_stmR5Gt1_xYaeSUbsBdp_3R11CLJ4Ssm_jdVPjQQ?e=ntNBXu">Projeto de Desenvolvimento de Aplicação Web Front-End: Neurodiversidade</a></li> 
+* <a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1441974_sga_pucminas_br/ETue8_stmR5Gt1_xYaeSUbsBdp_3R11CLJ4Ssm_jdVPjQQ?e=ntNBXu">Projeto de Desenvolvimento de Aplicação Web Front-End: Neurodiversidade</a></li> 
 
 # Armazenamento do Código-Fonte
 
