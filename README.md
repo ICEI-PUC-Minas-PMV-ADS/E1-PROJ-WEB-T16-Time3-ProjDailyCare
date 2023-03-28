@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 1º Semestre
 
-  Um sistema que irá ajudar pacientes neurodivergente e cuidadores de pacientes neurodivergente com gerenciamento de tarefas, controle nos horários de medicamentos, registro de humor e hábitos de sono
+  Uma aplicação web que irá ajudar pacientes neurodivergentes e cuidadores de pacientes neurodivergentes com gerenciamento de tarefas, controle de horários de medicamentos e resgistros de aspectos globais.
 
 ## Integrantes
 
@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <li><a href="https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1441974_sga_pucminas_br/ETue8_stmR5Gt1_xYaeSUbsBdp_3R11CLJ4Ssm_jdVPjQQ?e=ntNBXu">Projeto de Desenvolvimento de Aplicação Web Front-End: Neurodiversidade</a></li> 
 
 # Armazenamento do Código-Fonte
 
