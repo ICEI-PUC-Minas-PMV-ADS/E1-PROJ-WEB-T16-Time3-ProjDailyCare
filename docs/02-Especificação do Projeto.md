@@ -9,11 +9,27 @@ Foram colhidas informações de vinte e sete participantes através da pesquisa 
 ## Personas
 As personas criadas a partir da pesquisa supracitada encontram-se descritas a seguir:
 
-![Danielle](https://user-images.githubusercontent.com/127430454/228360445-2e0da6c1-1bef-4daa-97a3-408569bb0747.png)
-![Felipe](https://user-images.githubusercontent.com/127430454/228360489-16556856-6ca6-4aa9-a8f9-19f6971def5e.png)
+|![daniele](https://user-images.githubusercontent.com/127430454/228533303-68a82164-8264-454f-96da-b41c71f78c32.png)|Danielle|
+|------|-----------------------------------------|
+|**Idade:** | 41 |
+|**Ocupação:**| Mãe e dona de casa de uma criança de 03 anos de idade portadora de TEA.|
+|**Aplicativos de Organização:**|* Google Agenda; <br> * Notas do Celular;|
+|**Motivações:**|* Guardar informações, manter agenda e controle de afazeres de maneira mais eficaz e centralizada em apenas um local; <br> * Ter uma rotina mais organizada e menos tumultuada; <br> * Desacelerar, identificar prioridades e estabelecer disciplina.|
+|**Frustrações:**|* Dificuldade em administrar agenda da filha com TEA e de fazer anotações em relação aos feedbacks da equipe de saúde; <br> * Aplicações pouco intuitivas que levam-na a preferir fazer anotações em papel; <br> * Ausência de materiais mais práticos e didáticos para auxílio em questões técnicas como laudo de médicos, informações cotidianas do comportamento da paciente; <br> * Dificuldade na manutenção centralizada de lembretes de consultas e exames.|
+|**História:**| Mãe, graduada em Física, decidiu parar de dar aulas para Ensino Médio ao receber o diagnóstico de TEA de sua primeira filha. Devido as intensas rotinas de terapia, exames, acompanhamentos médicos e por querer priorizar participação na rotina de sua filha, se dedica à maternidade e está sempre em busca de informações e conhecimentos na área da saúde e participa de diversos grupos de apoio para pais e mães de filhos atípicos. A maternidade atípica acaba trazendo-na sobrecarga, dificuldade de organização de sua rotina negligência com seu auto-cuidado. |
 
 
 
+|![felipe](https://user-images.githubusercontent.com/127430454/228591343-573068ab-ecd0-4667-a1a8-3cb9aae99219.png)|Felipe Ribeiro|
+|------|-----------------------------------------|
+|**Idade:**| 26 | 
+|**Ocupação:**| Engenheiro de Alimentos|
+|**Aplicativos de Organização:**| * Google Keep; <br> * Trello;|
+|**Motivações:**|* Conseguir fazer uma melhor gestão de tempo; <br> * Melhorar produtividade; <br> * Conclusão de projetos e tarefas dentro do prazo;|
+|**Frustrações:**| * Dificuldades com mudanças de rotina; <br> * Dificuldades com prazos de tarefas; <br> * Desorganização constante; <br> * Grande grau de distrações;|
+|**História**|Jovem engenheiro de alimentos apaixonado por culinária e química, diagnosticado com TEA leve e TDAH. Enfrenta dificuldades no ambiente de trabalho, como procrastinação, falta de organização, dificuldades em cumprir com os prazos. Luta contra mudanças de humor, dificuldade com horário de sono adequado e, devido ao dia-a-dia atribulado, muitas vezes esquece de tomar seus medicamentos, ou não se lembra de ter realizado a medicação.|
+
+  
 ## Histórias de Usuários
 
 Conforme as vivências, dificuldades e desejos identificados a partir da pesquisa realizada, bem como da elaboração das personas, foram elaboradas as seguintes histórias de usuário:
