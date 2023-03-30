@@ -59,11 +59,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas;| ALTA| 
 |RF-002|Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas;|ALTA|
-|RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;|MÉDIA|
+|RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;| MÉDIA |
 |RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
 |RF-005|Permitir que o sistema envie lembretes ao usuário para lembrá-lo de tomar as medicações nos horários cadastrados;|ALTA|
 |RF-006|Inclusão de uma checkbox permitindo que o usuário marque se foi medicado ou não;|ALTA|
-|RF-007|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
+|RF-007|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;| MÉDIA |
 |RF-008|Fornecer ao usuário uma caixa de busca para pesquisa de histórico anteriores do usuário;|BAIXA|
 |RF-009|Proporcionar uma interface intuitiva e de fácil acessibilidade; |BAIXA|
 
