@@ -21,24 +21,8 @@
 
 
 ## Objetivos
-
-O objetivo geral desse trabalho é a criação de uma página que apresente ferramentas de uso fácil e intuitivo para auxiliar cuidadores de neurodivergentes e as próprias pessoas desse quadro a organizarem sua agenda e incluírem informações de rotina. 
-
  
-
-Como objetivos específicos, podemos ressaltar: 
-
- 
-
-   * Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas; 
-
-   * Permitir a inclusão de informações sobre devolutivas e observações de terapeutas; 
-
-   * Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância; 
-
-   * Disponibilizar a geração de gráficos a partir de histórico de dados; 
-
-   * Integrar ferramentas de notificações e lembretes para atividades como medicamentação. 
+O objetivo geral desse trabalho é a criação de uma plataforma de gerenciamento de tarefas e informações das pessoas neurodiversas. Uma plataforma com ferramentas de monitoramento dos aspectos globais da qualidade de vida dessas pessoas. Uma ferramenta que facilita o dia-a-dia do cuidador de neurodivergentes através de ferramentas de gestão de informações coletadas durante o decorrer do dia e com a equipe multidisciplinar e médica que atende a pessoa neurodiversa.  Além disso, a plataforma servirá de ferramenta que auxiliam as pessoas com TDHA ou outros transtornos no cumprimento de tarefas e organização do tempo.
 
 
 ## Justificativa
