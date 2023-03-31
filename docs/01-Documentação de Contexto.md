@@ -7,7 +7,7 @@
 
  Apesar do termo neurodiversidade estar cada vez mais reconhecido no cenário mundial, os desafios da inclusão de pessoas atípicas vão muito além do mercado de trabalho. São enormes as dificuldades que pessoas neurodivergentes enfrentam no seu dia a dia. 
 
- Segundo Araujo (2021), existem diversos fatores que dificultam a inclusão social efetiva dessas pessoas na sociedade, dentre eles o estigma social, o acesso à educação especializada e inclusiva, serviços médicos de qualidade voltados para tratamentos específicos e a acessibilidade ao transporte e locomoção. Importante destacar que o problema torna-se ainda maior em famílias em desvantagem social e econômica. 
+ Segundo Araujo (2021), existem diversos fatores que dificultam a inclusão social efetiva dessas pessoas na sociedade, dentre eles o estigma social, o acesso à educação especializada e inclusiva, serviços médicos de qualidade voltados para tratamentos específicos e a acessibilidade ao transporte e locomoção. Importante destacar que o problema torna-se ainda maior em famílias em desvantagem socioeconômica. 
 
  Dentro do contexto familiar, os responsáveis e cuidadores de pessoas neurodivergentes também são vítimas da inacessibilidade, uma vez que são diretamente afetados pelos fatores supracitados. Outrossim, a rotina dessas famílias, que não se enquadram no modelo tradicional de família nuclear, muitas vezes é intensa, repleta de diferentes tipos de rotinas médicas e de tratamentos terapêuticos farmacológicos, gerando uma sobrecarga emocional e física ocasionada pela ausência de meios facilitadores ao exercício da parentalidade (CAMILO et. al, 2020). 
 
@@ -22,7 +22,14 @@
 
 ## Objetivos
  
-O objetivo geral desse trabalho é a criação de uma plataforma de gerenciamento de tarefas e informações das pessoas neurodiversas. Uma plataforma com ferramentas de monitoramento dos aspectos globais da qualidade de vida dessas pessoas. Uma ferramenta que facilita o dia-a-dia do cuidador de neurodivergentes através de ferramentas de gestão de informações coletadas durante o decorrer do dia e com a equipe multidisciplinar e médica que atende a pessoa neurodiversa.  Além disso, a plataforma servirá de ferramenta que auxiliam as pessoas com TDHA ou outros transtornos no cumprimento de tarefas e organização do tempo.
+O objetivo geral desse trabalho é a criação de uma plataforma de gerenciamento de tarefas e organização pessoal voltada para o público neurodivergente, que apresente ferramentas de uso fácil e intuitivo para que tanto pessoas neuroatípicas, como seus respectivos cuidadores ou responsáveis, tenham acesso à opções de agenda e calendário mais especificas às suas necessidades.
+
+Como objetivos específicos temos:
+
+* Melhorar a qualidade de vida de pessoas diagnosticadas com transtornos de neurodesenvolvimento na criação de soluções que atendam à necessidades específicas de organização de rotina e tratamento terapêutico e medicamentoso.
+* Facilitar o dia-a-dia de responsáveis ou cuidadores de pessoas neurodivergentes, por meio de ferramentas que contemplem as obrigações relativas ao exercício de seus papéis.
+* Possibilitar melhor otimização de tempo, auto-gerenciamento e autonomia para pessoas neuroatípicas.
+* Permitir que tanto pessoas neurodivrgentes como seus cuidadores e responsáveis possam documentar seu dia-a-dia, destacando elementos que são pertinentes às suas condições. 
 
 
 ## Justificativa
