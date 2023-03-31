@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 As especificações mais exatas em relação ao desenvolvimento da aplicação, principalmente no que diz respeito ao perfil dos usuários visados, suas expectativas e como atendê-las, foram elaboradas a partir da realização de uma pesquisa de campo, com a aplicação de um formulário de questões através da plataforma Google Forms, cujo público alvo foram pessoas neurodivergentes e pessoas responsáveis por indivíduos inclusos nesse grupo.
 
 Foram colhidas informações de vinte e sete participantes através da pesquisa consolidada. O levantamento dessas informações permitiu ao grupo a idealização de dois tipos distintos de personas e suas respectivas histórias de usuários.
@@ -42,11 +40,11 @@ Conforme as vivências, dificuldades e desejos identificados a partir da pesquis
 |Felipe Ribeiro  | registrar mudanças de humor           | para monitorar os sintomas das mudanças de humor e comunicar ao terapeuta e ao médico.|
 |Felipe Ribeiro |acessar a plataforma tanto pelo desktop como pelo celular | utilizar o tempo disponível entre uma atividade e outra para atualizar os dados. |
 |Danielle Barbosa | anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica |para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe|
-|Danielle Barbosa      |controlar diariamente os aspectos globais da paciente (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da paciente, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica da paciente|
-|Danielle Barbosa  |usufruir de uma aplicação que possuam funções específicas para o monitoramento que deseja realizar|customizar ferramentas de gestão de organização de acordo com as necessidades da pessoa por quem sou responsável|
-|Danielle Barbosa      |ter uma aplicação específica para minhas necessidades de cuidadora que tenha funções de agenda| para facilitar o manuseio e fluxo de informações conforme os compromissos do paciente.|
-|Danielle Barbosa  |poder fazer pesquisa através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
-|Danielle Barbosa       |ter acesso a gráficos de desempenho dos aspectos monitorados|apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento|
+|Danielle Barbosa      |controlar diariamente os aspectos globais da paciente (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica|
+|Danielle Barbosa  |poder inserir planos de intervenção fornecidos pela equipe multidisciplinar|estimular minha criança a partir do plano e monitorar sua evolução|
+|Danielle Barbosa      |ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mão de uma pessoa neuroatípica|para customizar ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
+|Danielle Barbosa  |poder fazer pesquisas sobre as informações diárias de comportamento da minha filha através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
+|Danielle Barbosa       |ter acesso a gráficos de desempenho dos aspectos globais monitorados|apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento|
 
 
 ## Requisitos
@@ -57,13 +55,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas;| ALTA| 
+|RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|ALTA| 
 |RF-002|Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas;|ALTA|
-|RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;| MÉDIA |
+|RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;|MÉDIA|
 |RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
 |RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
-|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;| MÉDIA |
+|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
 |RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
+|RF-008|O sistema deve permitir a criação de planos de intervenção dentro do calendário, que permita categorizar a área multidisciplinar, informar objetivos ou descrição das intervenções e definir metas com tempo estimado para cumprir.|MÉDIA|
 
 
 
