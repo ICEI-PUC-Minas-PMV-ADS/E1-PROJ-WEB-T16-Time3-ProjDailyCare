@@ -72,8 +72,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário | MÉDIA | 
+|RNF-002| Deve ter bom contraste entre os elemetos da tela |  MEDIA |
+|RNF-003| Deve estar em conformidade com as diretrizes de acessibilidade a D.V. (suporte para leitores de tela e texto descritivo de imagens) |BAIXA|
+|RNF-004| Deve ser responsivo para adaptar em diferentes dispositivos e tamanho de telas | ALTA |
+|RNF-005| Deve ser compatível para os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge), proporcionando experiência semelhante ao usuário |ALTA|
+|RNF-006| O sistema deve sinalizar o usuário quando alguma operação está demorando mais que o comum. O tempo de resposta não deve ultrapassar 15 segundos. |MEDIA|
+|RNF-007| Deve tratar ao usuário erros inerentes à aplicação (conexão, memória local, memória do provedor, etc) |MEDIA|
+|RNF-008| Deve processar requisições do usuário em no máximo 3s |MEDIA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
