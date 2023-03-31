@@ -102,7 +102,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
+|01| O projeto deverá ser entregue até o final do semestre, não podendo extrapolar a data de 25/06/2023 |
 |02| O projeto deverá ser desenvolvido utilizando as tecnologias e ferramentas mais recentes de Desenvolvimento Web |
 |03| A equipe não poderá delegar ou subcontratar o desenvolvimento do trabalho para terceiros |
 
