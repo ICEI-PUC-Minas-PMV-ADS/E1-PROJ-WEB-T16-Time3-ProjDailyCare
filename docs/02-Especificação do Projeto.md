@@ -40,7 +40,7 @@ Conforme as vivências, dificuldades e desejos identificados a partir da pesquis
 |Felipe Ribeiro  | registrar mudanças de humor           | para monitorar os sintomas das mudanças de humor e comunicar ao terapeuta e ao médico.|
 |Felipe Ribeiro |acessar a plataforma tanto pelo desktop como pelo celular | utilizar o tempo disponível entre uma atividade e outra para atualizar os dados. |
 |Danielle Barbosa | anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica |para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe|
-|Danielle Barbosa      |controlar diariamente os aspectos globais da paciente (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica|
+|Danielle Barbosa      |controlar diariamente os aspectos globais da filha (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica|
 |Danielle Barbosa  |poder inserir planos de intervenção fornecidos pela equipe multidisciplinar|estimular minha criança a partir do plano e monitorar sua evolução|
 |Danielle Barbosa      |ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mão de uma pessoa neuroatípica|para customizar ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
 |Danielle Barbosa  |poder fazer pesquisas sobre as informações diárias de comportamento da minha filha através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
