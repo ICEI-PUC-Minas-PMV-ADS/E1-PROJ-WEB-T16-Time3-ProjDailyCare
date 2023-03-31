@@ -7,7 +7,7 @@ Foram colhidas informações de vinte e sete participantes através da pesquisa 
 ## Personas
 As personas criadas a partir da pesquisa supracitada encontram-se descritas a seguir:
 
-|![daniele](https://user-images.githubusercontent.com/127430454/228533303-68a82164-8264-454f-96da-b41c71f78c32.png)|Danielle|
+|![daniele](https://user-images.githubusercontent.com/127430454/228533303-68a82164-8264-454f-96da-b41c71f78c32.png)|Danielle Barbosa|
 |------|-----------------------------------------|
 |**Idade:** | 41 |
 |**Ocupação:**| Mãe e dona de casa de uma criança de 03 anos de idade portadora de TEA.|
