@@ -80,7 +80,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007| Deve tratar ao usuário erros inerentes à aplicação (conexão, memória local, memória do provedor, etc) |MEDIA|
 |RNF-008| Deve processar requisições do usuário em no máximo 3s |MEDIA|
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
@@ -105,7 +104,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| O projeto deverá ser desenvolvido utilizando as tecnologias e ferramentas mais recentes de Desenvolvimento Web |
 |03| A equipe não poderá delegar ou subcontratar o desenvolvimento do trabalho para terceiros |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
