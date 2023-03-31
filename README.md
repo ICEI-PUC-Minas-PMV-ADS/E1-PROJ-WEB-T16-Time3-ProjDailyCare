@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 1º Semestre
 
-  Uma aplicação web que irá ajudar pacientes neurodivergentes e cuidadores de pacientes neurodivergentes com gerenciamento de tarefas, controle de horários de medicamentos e resgistros de aspectos globais.
+  Uma plataforma de gerenciamento e organização pessoal ajudará pessoas neurodivergentes, bem como seus respectivos cuidadores ou responsáveis, no gerenciamento de tarefas, controle de medicação e resgistros de aspectos globais.
 
 ## Integrantes
 
