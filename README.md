@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 1º Semestre
 
-  Uma plataforma de gerenciamento pessoal voltada para pessoas neurodivergentes, bem como aos seus respectivos cuidadores ou responsáveis, que atende à necessidades específicas de organização tarefas e compromissos, controle de medicação e resgistros de aspectos globais.
+  Uma plataforma de gerenciamento pessoal voltada para pessoas neurodivergentes, bem como aos seus respectivos cuidadores ou responsáveis, que atende à necessidades de organização tarefas e compromissos, controle de medicação e resgistros de aspectos globais.
 
 ## Integrantes
 
