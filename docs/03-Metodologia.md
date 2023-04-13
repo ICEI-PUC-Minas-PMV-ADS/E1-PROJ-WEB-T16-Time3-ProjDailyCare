@@ -1,77 +1,70 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia contempla as definições de organização, priorização, gerenciamento da equipe e das tarefas, bem comoo as ferramentas utilizadas para a desenvoltura do projeto.  As descrições específicas sobre as escolhas do grupo se dividem em definição dos papeis desempenhados pela equipe de trabalho, listagem das ferramentas utilizadas e descrições específicas do processo realizado, orientadas pela definição do <em>Product Backlog</em>, a partir da metodologia ágil Scrum, que prevê a organização a partir de sprints.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+## Equipe de Trabalho
+O projeto orienta-se por meio de metodologias ágeis, desta forma, o Scrum é utilizado como base para a definição de papéis dentro da equipe, que organiza-se da seguinte forma:
 
-## Controle de Versão
+- **Product Owner:** Andreia Cristina Bera
+- **Scrum Master:** Débora Alexia C. Silva
+- **Developers:**
+    - Arthur Zebral de Castro Koehne
+    - Carolina Morais Rabelo
+    - Laila Suelen Martins Costa
+    - Pedro Arthur Silva Santos
 
-A ferramenta de controle de versão adotada no projeto foi o
+
+## Ferramentas
+As ferramentas utilizadas no projeto são:
+
+- **Controle de Versão:** A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+foi utilizado para hospedagem do repositório. O projeto segue a seguinte convenção para o nome de branches:
 
-O projeto segue a seguinte convenção para o nome de branches:
+   `main`: versão estável já testada do software<br>
+   `unstable`: versão já testada do software, porém instável<br>
+   `testing`: versão em testes do software<br>
+   `dev`: versão de desenvolvimento do software<br>
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
+    Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+   `documentation`: melhorias ou acréscimos à documentação<br>
+   `bug`: uma funcionalidade encontra-se com problemas<br>
+   `enhancement`: uma funcionalidade precisa ser melhorada<br>
+   `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- **Editor de Código:** Foi escolhido o [Visual Studio Code](https://code.visualstudio.com/), dada a a possibilidade de integração com o sistema de repositório do código fonte.
 
-## Gerenciamento de Projeto
 
-### Divisão de Papéis
+- **Criação de <em>User Flow</em> e <em>Wireframe</em>:** Foi determinada a ferramenta [Marvel](https://marvelapp.com/) por melhor compreender as necessidades de nossa solução.
 
-Apresente a divisão de papéis entre os membros do grupo.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- **Gerenciamento do Projeto**: A fim de centralizar as informações sobre o projeto, foi utilizado o [GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1) para a criação de um quadro no modelo Kanban. 
 
-### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+- **Comunicação:** Utilizou-se os aplicativos [Microsoft Teams](https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:JYqqHMA-705z01V5n8kpeZTrU33PPFyJm1hMFNnMI681@thread.tacv2&ctx=channel) para reuniões da equipe e [WhatsApp](https://web.whatsapp.com/) para comunicações por texto. 
 
-### Ferramentas
 
-As ferramentas empregadas no projeto são:
+## Processo
+Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o processo de desenvolvimento se deu a partir da definição do Product Backlog e do planejamento e realização de Sprints, conforme descrito a seguir. 
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+### Product Backlog
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+### Sprint 1
+Ocorreu no período correspondente entre 09/03/2023 e 02/04/2023.<br>
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+**1. Planejamento**
+
+Priorizou-se a redação dos elementos compreendidos como Documentação de Contexto até o dia 19/03/2023 e, do item de Especificação do Projeto, até o dia 31/03/2023, junto à realização de reuniões semanais para alinhamentos e redistribuição de tarefas. 
+
+O item Documentação de Comentação de Contexo desdobrou-se ainda nas seções Introdução, Problemas, Objetivos, Justificativa e Esoecificação de Público Alvo.
+
+O elemento Especificação de Projeto dividiu-se na criação de Personas e Histórias de Usuário e na definição de Requisitos Funcionais e Não Funcionais e de Restrições.
+
+Previu-se a entrega integral dos itens para a data de 02/04/2023, junto à uma apresentação de slides a respeito da solução. 
+
+**2. Execução**
+
