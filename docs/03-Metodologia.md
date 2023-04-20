@@ -64,11 +64,11 @@ A organização objetiva do BackLog, bem como a divisão e distribuição dos re
 
 | Sprint | Período  | Itens | Status |
 |--------|-------------|---------------------------------------------|-----------|
-|Sprint 1|09/03 a 02/04| * Introdução<br> * Problemas<br> * Objetivos<br> * Justificativa<br> * Especificação do Público Alvo<br> * Personas<br> * Histórias de Usuário<br> * Requisitos Funcionais e Não Funcionais<br> * Restrições| Done |
-|Sprint 2|03/04 a 23/04| * Estruturação da Equipe<br> * Definição de Ferramentas<br> * Estruturação do Processo<br> * User Flow<br> * Interface - HomePage<br> * Interface - Tela de Login<br> * Interface - Calendário<br> * Interface - Tela de Anotações<br> * Interface - Tela de Dados Médicos<br> * Interface - Tela de Notificações | In Progress |
-|Sprint 3|24/04 a 14/05| * Template Padrão do Site<br> * Checklist dos Requisitos Funcionais e Não Funcionais a serem implementados<br> * Solução com requisitos priorizados em desenvolvimento<br> * Desenvolvimento da Homepage<br> * Programação de funcionalidades| To Do |
-|Sprint 4|15/05 a 11/06| * Programação das demais funcionalidades<br> * Plano de Testes de Software<br> * Registro de Testes de Software | To Do |
-|Sprint 5|12/06 a 25/06| * Integração de funcionalidades<br> * Hospedagem da Solução<br> * Implantação da Solução<br> * Desenvolvimento da apresentação<br> * Vídeo de apresentação da solução | To Do |
+|Sprint 1|09/03 a 02/04| **Documentação de Contexto**<br> * Introdução<br> * Problemas<br> * Objetivos<br> * Justificativa<br> * Especificação do Público Alvo<br> **Especificação do Projeto**<br>* Personas<br> * Histórias de Usuário<br> * Requisitos Funcionais e Não Funcionais<br> * Restrições| Done |
+|Sprint 2|03/04 a 23/04| **Metodologia**<br> * Estruturação da Equipe<br> * Definição de Ferramentas<br> * Estruturação do Processo<br>**Projeto de Interface**<br> * User Flow<br> * Interface - HomePage<br> * Interface - Tela de Login<br> * Interface - Calendário<br> * Interface - Tela de Anotações<br> * Interface - Tela de Dados Médicos<br> * Interface - Tela de Notificações | In Progress |
+|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**<br>* Checklist dos Requisitos Funcionais e Não Funcionais a serem implementados<br> * Solução com requisitos priorizados em desenvolvimento<br> * Desenvolvimento da Homepage<br>| To Do |
+|Sprint 4|15/05 a 11/06| **Programação das demais funcionalidades**<br> **Plano de Testes de Software**<br> **Registro de Testes de Software** | To Do |
+|Sprint 5|12/06 a 25/06| **Implantação da Solução**<br> * Integração de funcionalidades<br> * Hospedagem da Solução<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
 
 
 ### Sprint 1
@@ -111,3 +111,44 @@ As evidências relativas aos itens entregues nessa sprint se encontram nesse mes
 - [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
 - [Questionário - Google Forms](https://forms.gle/BxSYtFkoTfSoWAX47) e [Resultados](https://docs.google.com/spreadsheets/d/1FCC5IKlKbxzKNqrhX_hOuEqWELrnLgdW53fJmeGDfRA/edit?usp=sharing)
 
+
+### Sprint 2
+
+Prevista para o período correspondente entre 03/04 a 23/04.
+
+**1. Planejamento**
+
+A reunião da referida Sprint e seus respectivos planos, organização e divisão de tarefas ocorreu em 03/04/2023. A partir da realização, definiu-se como os principais itens entregáveis a Metodologia e o Projeto de Interface, obtendo-se a seguinte atualização no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
+
+![Gerenciamento do Projeto DailyCare](https://user-images.githubusercontent.com/112430045/233465267-fa9935c5-2be6-469e-a0cb-335ecc283949.png)
+
+O presente item, Metodologia foi desenvolvido por Débora Alexia e desdobrou-se nos seguintes subitens:
+
+-  **Equipe de trabalho**
+-  **Ferramentas**
+-  **Processo**
+    - Product Backlog
+    - Sprint X
+    - Planejamento
+    - Execução
+    - Evidências
+
+O item Projeto de Inteface dividiu-se entre os demais membros da equipe de acordo com os seguintes elementos:
+
+- **User Flow:** Carolina Morais
+- **Interface - HomePage**: Arthur Zebral
+- **Interface - Tela de Login:** Arthur Zebral
+- **Interface - Calendário:** Andreia Bera e Laila Martins
+- **Interface - Tela de Anotações:** Pedro Arthur
+- **Interface - Tela de Dados Médicos:** Andreia Bera e Laila Martins
+- **Interface - Tela de Notificações:** Pedro Arthur
+
+Previu-se a entrega integral dos itens para a data de 23/04/2023.
+
+**2. Execução**
+
+Aguardando finalização da Sprint.
+
+**3. Evidências**
+
+Aguardando finalização da Sprint.
