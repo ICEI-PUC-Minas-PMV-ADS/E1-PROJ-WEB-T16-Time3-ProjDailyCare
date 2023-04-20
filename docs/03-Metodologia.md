@@ -49,7 +49,7 @@ etiquetas:
 
 
 ## Processo
-Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o processo de desenvolvimento se deu a partir da definição do Product Backlog e do planejamento e realização de Sprints, conforme descrito a seguir. 
+Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o processo de desenvolvimento se dá a partir da definição do Product Backlog e do planejamento e realização de 05 (cinco) Sprints, conforme descrito a seguir. 
 
 A organização objetiva do BackLog, bem como a divisão e distribuição dos respectivos itens, se dá a partir do Quadro de Tarefas denominado [Gerenciamento do Projeto DailyCare](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), semelhante ao Kanban, através da ferramenta GitHub Project, encontrando-se hospedado nesse mesmo repositório. A estruturação do quadro se dá a partir das seguintes colunas:
 
@@ -122,7 +122,7 @@ A reunião da referida Sprint e seus respectivos planos, organização e divisã
 
 ![Gerenciamento do Projeto DailyCare](https://user-images.githubusercontent.com/112430045/233465267-fa9935c5-2be6-469e-a0cb-335ecc283949.png)
 
-O presente item, Metodologia foi desenvolvido por Débora Alexia e desdobrou-se nos seguintes subitens:
+O item Metodologia foi desenvolvido por Débora Alexia e desdobrou-se nos seguintes subitens:
 
 -  **Equipe de trabalho**
 -  **Ferramentas**
@@ -144,6 +144,57 @@ O item Projeto de Inteface dividiu-se entre os demais membros da equipe de acord
 - **Interface - Tela de Notificações:** Pedro Arthur
 
 Previu-se a entrega integral dos itens para a data de 23/04/2023.
+
+**2. Execução**
+
+Aguardando finalização da Sprint.
+
+**3. Evidências**
+
+Aguardando finalização da Sprint.
+
+
+### Sprint 3
+
+Prevista para o período correspondente entre 24/04 a 14/05.
+
+**1. Planejamento**
+
+Principais itens entregáveis: Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer ao critério de pelo menos 6 funcionalidades.
+
+**2. Execução**
+
+Aguardando finalização da Sprint.
+
+**3. Evidências**
+
+Aguardando finalização da Sprint.
+
+
+### Sprint 4
+
+Prevista para o período correspondente entre 15/05 a 11/06.
+
+**1. Planejamento**
+
+Principais itens entregáveis: Programação das demais funcionalidades, Plano de Testes de Software e Registro de Testes de Software.
+
+**2. Execução**
+
+Aguardando finalização da Sprint.
+
+**3. Evidências**
+
+Aguardando finalização da Sprint.
+
+
+### Sprint 5
+
+Prevista para o período correspondente entre 12/06 a 25/06.
+
+**1. Planejamento**
+
+Principais itens entregáveis: Implantação da Solução, Apresentação do Projeto e Vídeo de de Demonstração da Solução.
 
 **2. Execução**
 
