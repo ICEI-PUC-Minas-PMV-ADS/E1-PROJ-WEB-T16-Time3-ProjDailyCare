@@ -53,6 +53,16 @@ Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o p
 
 ### Product Backlog
 
+
+| Sprint | Período  | Itens | Status |
+|--------|-------------|---------------------------------------------|-----------|
+|Sprint 1|09/03 a 02/04| * Introdução<br> * Problemas<br> * Objetivos<br> * Justificativa<br> * Especificação do Público Alvo<br> * Personas<br> * Histórias de Usuário<br> * Requisitos Funcionais e Não Funcionais<br> * Restrições| Done |
+|Sprint 2|03/04 a 23/04| * Estruturação da Equipe<br> * Definição de Ferramentas<br> * Estruturação do Processo<br> * User Flow<br> * Interface - HomePage<br> * Interface - Tela de Login<br> * Interface - Calendário<br> * Interface - Tela de Anotações<br> * Interface - Tela de Dados Médicos<br> * Interface - Tela de Notificações | In Progress |
+|Sprint 3|24/04 a 14/05| * Template Padrão do Site<br> * Checklist dos Requisitos Funcionais e Não Funcionais a serem implementados<br> * Solução com requisitos priorizados em desenvolvimento<br> * Desenvolvimento da Homepage<br> * Programação de funcionalidades| To Do |
+|Sprint 4|15/05 a 11/06| * Programação das demais funcionalidades<br> * Plano de Testes de Software<br> * Registro de Testes de Software | To Do |
+|Sprint 5|12/06 a 25/06| * Integração de funcionalidades<br> * Hospedagem da Solução<br> * Implantação da Solução<br> * Desenvolvimento da apresentação<br> * Vídeo de apresentação da solução | To Do |
+
+
 ### Sprint 1
 Ocorreu no período correspondente entre 09/03/2023 e 02/04/2023.<br>
 
