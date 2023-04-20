@@ -51,6 +51,14 @@ etiquetas:
 ## Processo
 Dada a orientação do projeto a partir da metodologia ágil <em>Scrum</em>, o processo de desenvolvimento se deu a partir da definição do Product Backlog e do planejamento e realização de Sprints, conforme descrito a seguir. 
 
+A organização objetiva do BackLog, bem como a divisão e distribuição dos respectivos itens, se dá a partir do Quadro de Tarefas denominado [Gerenciamento do Projeto DailyCare](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), semelhante ao Kanban, através da ferramenta GitHub Project, encontrando-se hospedado nesse mesmo repositório. A estruturação do quadro se dá a partir das seguintes colunas:
+
+- **Backlog:** contém todos itens do backlog do produto que ainda serão abordados nas próximas sprints.
+- **To Do:** contém os itens que serão revisados e realizados na sprint atual. 
+- **In Progress:** diz respeito aos itens que estão em desenvolvimento.
+- **In Review:** itens que já foram desenvolvidos, mas precisam de revisão e validação de outros integrantes da equipe.
+- **Done:** itens já desenvolvidos, revisados, validados e entregues.
+
 ### Product Backlog
 
 
@@ -68,13 +76,38 @@ Ocorreu no período correspondente entre 09/03/2023 e 02/04/2023.<br>
 
 **1. Planejamento**
 
-Priorizou-se a redação dos elementos compreendidos como Documentação de Contexto até o dia 19/03/2023 e, do item de Especificação do Projeto, até o dia 31/03/2023, junto à realização de reuniões semanais para alinhamentos e redistribuição de tarefas. 
+Priorizou-se a redação dos elementos compreendidos como Documentação de Contexto e Especificação do Projeto, até o dia 31/03/2023, junto à realização de reuniões semanais para alinhamentos e redistribuição de tarefas. 
 
-O item Documentação de Comentação de Contexo desdobrou-se ainda nas seções Introdução, Problemas, Objetivos, Justificativa e Esoecificação de Público Alvo.
+O item Documentação de Comentação de Contexo desdobrou-se ainda nas seções Introdução, Problemas, Objetivos, Justificativa e Esoecificação de Público Alvo. A estrutura da documentação, nesse processo, foi realizada por Andreia Bera e Carolina Morais. A pesquisa bibliográfica foi realizada por Pedro Arthur e Laila Martins. A revisão, edição e atualização do texto foi feita por Débora Alexia.
 
-O elemento Especificação de Projeto dividiu-se na criação de Personas e Histórias de Usuário e na definição de Requisitos Funcionais e Não Funcionais e de Restrições.
+O elemento Especificação de Projeto dividiu-se em sub-itens que foram divididos entre os membros da equipe da seguinte maneira:
 
-Previu-se a entrega integral dos itens para a data de 02/04/2023, junto à uma apresentação de slides a respeito da solução. 
+- **Persona Danielle Barbosa e respectivas histórias de usuário:** Arthur Zebral, Andreia Bera e Débora Alexia
+- **Persona Felipe Ribeiro e respectivas histórias de usuário:** Laila, Carolina e Pedro Arthur
+- **Requisitos Funcionais:** Carolina e Laila
+- **Requisitos Não Funcionais:** Andreia e Pedro Arthur
+- **Apresentação em Slides do Projeto:** Débora Alexia
+
+Previu-se a entrega integral dos itens para a data de 02/04/2023.
 
 **2. Execução**
+
+A execução da Documentação de Contexto se deu por meio de pesquisa bibliográfica em materiais de saúde e relativo à políticas públicas e realidade social de pessoas neurodivergentes. Obteve-ve, assim, argumentos e pesquisas que fortaleceram a necessidade da criação de uma solução tecnológica voltada para esse público, dada a confirmação de que a acessibilidade é um tema emergente. 
+
+A Especificação do Projeto teve como cerne de desenvolvimento a realização de um [questionário](https://forms.gle/BxSYtFkoTfSoWAX47), através do Google Forms, voltado para o público alvo: pessoas neurodivergentes e cuidadores ou responsáveis de pessoas enquadradas nesse grupo. Os [resultados](https://docs.google.com/spreadsheets/d/1FCC5IKlKbxzKNqrhX_hOuEqWELrnLgdW53fJmeGDfRA/edit?usp=sharing) da pesquisa aplicada foram de encontro com o objetivo do Projeto e as respostas retornaram correspondência em relação às necessidades que busca-se atender. 
+
+Ademais, o questionário foi utilizado como base para a criação das personas e suas respectivas histórias de usuário, pois através desde pode-se identificar as principais dificuldades e necessidades desse público no que diz respeito à organização pessoal. 
+
+A apresentação realizada conseguiu abordar todos os pontos necessários dos itens entregáveis da primeira sprint e rendeu observações gratificantes em relação à objetividade e à demonstração de resultados de pesquisa através de dados porcentuais e gráficos. Um ponto negativo em relação à apresentação se deu na extrapolação do tempo pré-definido de 10 minutos, ainda que tenha ultrapassado pouco do tempo limite.
+
+Em retorspectiva da primeira sprint, conclui-se uma entrega satisfatória, que conseguiu abordar com exatidão os itens especificados e contou com uma boa divisão de tarefas e trabalho em equipe. 
+
+
+**3. Evidências**
+
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório. Os recursos extras utilizados também serão listados a seguir.
+
+- [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)
+- [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
+- [Questionário - Google Forms](https://forms.gle/BxSYtFkoTfSoWAX47) e [Resultados](https://docs.google.com/spreadsheets/d/1FCC5IKlKbxzKNqrhX_hOuEqWELrnLgdW53fJmeGDfRA/edit?usp=sharing)
 
