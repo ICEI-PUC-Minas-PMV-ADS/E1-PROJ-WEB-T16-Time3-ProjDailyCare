@@ -20,20 +20,7 @@ As ferramentas utilizadas no projeto são:
 
 - **Controle de Versão:** A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório. O projeto segue a seguinte convenção para o nome de branches:
-
-   `main`: versão estável já testada do software<br>
-   `unstable`: versão já testada do software, porém instável<br>
-   `testing`: versão em testes do software<br>
-   `dev`: versão de desenvolvimento do software<br>
-
-    Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-   `documentation`: melhorias ou acréscimos à documentação<br>
-   `bug`: uma funcionalidade encontra-se com problemas<br>
-   `enhancement`: uma funcionalidade precisa ser melhorada<br>
-   `feature`: uma nova funcionalidade precisa ser introduzida
+foi utilizado para hospedagem do repositório. 
 
 
 - **Editor de Código:** Foi escolhido o [Visual Studio Code](https://code.visualstudio.com/), dada a a possibilidade de integração com o sistema de repositório do código fonte.
@@ -64,11 +51,11 @@ A organização objetiva do BackLog, bem como a divisão e distribuição dos re
 
 | Sprint | Período  | Itens | Status |
 |--------|-------------|---------------------------------------------|-----------|
-|Sprint 1|09/03 a 02/04| **Documentação de Contexto**<br> * Introdução<br> * Problemas<br> * Objetivos<br> * Justificativa<br> * Especificação do Público Alvo<br> **Especificação do Projeto**<br>* Personas<br> * Histórias de Usuário<br> * Requisitos Funcionais e Não Funcionais<br> * Restrições| Done |
-|Sprint 2|03/04 a 23/04| **Metodologia**<br> * Estruturação da Equipe<br> * Definição de Ferramentas<br> * Estruturação do Processo<br>**Projeto de Interface**<br> * User Flow<br> * Interface - HomePage<br> * Interface - Tela de Login<br> * Interface - Calendário<br> * Interface - Tela de Anotações<br> * Interface - Tela de Dados Médicos<br> * Interface - Tela de Notificações | In Progress |
-|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**<br>* Checklist dos Requisitos Funcionais e Não Funcionais a serem implementados<br> * Solução com requisitos priorizados em desenvolvimento<br> * Desenvolvimento da Homepage<br>| To Do |
+|Sprint 1|09/03 a 02/04| **Documentação de Contexto**<br> **Especificação do Projeto**<br> | Done |
+|Sprint 2|03/04 a 23/04| **Metodologia**<br>**Projeto de Interface** | In Progress |
+|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**| To Do |
 |Sprint 4|15/05 a 11/06| **Programação das demais funcionalidades**<br> **Plano de Testes de Software**<br> **Registro de Testes de Software** | To Do |
-|Sprint 5|12/06 a 25/06| **Implantação da Solução**<br> * Integração de funcionalidades<br> * Hospedagem da Solução<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
+|Sprint 5|12/06 a 25/06| **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
 
 
 ### Sprint 1
