@@ -90,7 +90,7 @@ As evidências relativas aos itens entregues nessa sprint se encontram nesse mes
 - [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)
 - [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
 - [Questionário - Google Forms](https://forms.gle/BxSYtFkoTfSoWAX47) e [Resultados](https://docs.google.com/spreadsheets/d/1FCC5IKlKbxzKNqrhX_hOuEqWELrnLgdW53fJmeGDfRA/edit?usp=sharing)
-- [Apresebtação de Slides]https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/E1-PROJ-WEB-T16-Time3-ProjDailyCare.pdf
+- [Apresebtação de Slides](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/E1-PROJ-WEB-T16-Time3-ProjDailyCare.pdf)
 
 
 ### Sprint 2
