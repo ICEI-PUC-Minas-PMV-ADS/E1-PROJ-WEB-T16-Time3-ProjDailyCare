@@ -103,6 +103,11 @@ A reunião da referida Sprint e seus respectivos planos, organização e divisã
 
 ![Gerenciamento do Projeto DailyCare](https://user-images.githubusercontent.com/112430045/233465267-fa9935c5-2be6-469e-a0cb-335ecc283949.png)
 
+A visualização do Quadro também pode ser filtrada por <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva: 
+
+![Sprint 1](https://user-images.githubusercontent.com/112430045/233516561-2ee84005-13f3-48c2-90d7-ae9206036baa.png)
+
+
 O item Metodologia foi desenvolvido por Débora Alexia e desdobrou-se nos seguintes subitens:
 
 -  **Equipe de trabalho**
@@ -143,6 +148,8 @@ Prevista para o período correspondente entre 24/04 a 14/05.
 
 Principais itens entregáveis: Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer ao critério de pelo menos 6 funcionalidades.
 
+![image](https://user-images.githubusercontent.com/112430045/233516642-a5b2e3fb-9e17-4afe-a367-4684c0dd72e2.png)
+
 **2. Execução**
 
 Aguardando finalização da Sprint.
@@ -160,6 +167,9 @@ Prevista para o período correspondente entre 15/05 a 11/06.
 
 Principais itens entregáveis: Programação das demais funcionalidades, Plano de Testes de Software e Registro de Testes de Software.
 
+![image](https://user-images.githubusercontent.com/112430045/233516822-743e65bd-20ac-4336-9446-75b839bb6512.png)
+
+
 **2. Execução**
 
 Aguardando finalização da Sprint.
@@ -176,6 +186,8 @@ Prevista para o período correspondente entre 12/06 a 25/06.
 **1. Planejamento**
 
 Principais itens entregáveis: Implantação da Solução, Apresentação do Projeto e Vídeo de de Demonstração da Solução.
+
+![image](https://user-images.githubusercontent.com/112430045/233517241-1caaa3e1-2d2a-46a3-92c0-798e055045d6.png)
 
 **2. Execução**
 
