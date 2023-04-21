@@ -18,21 +18,14 @@ O projeto orienta-se por meio de metodologias ágeis, desta forma, o Scrum é ut
 ## Ferramentas
 As ferramentas utilizadas no projeto são:
 
-- **Controle de Versão:** A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório. 
-
-
-- **Editor de Código:** Foi escolhido o [Visual Studio Code](https://code.visualstudio.com/), dada a a possibilidade de integração com o sistema de repositório do código fonte.
-
-
-- **Criação de <em>User Flow</em> e <em>Wireframe</em>:** Foi determinada a ferramenta [Marvel](https://marvelapp.com/) por melhor compreender as necessidades de nossa solução.
-
-
-- **Gerenciamento do Projeto**: A fim de centralizar as informações sobre o projeto, foi utilizado o [GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1) para a criação de um quadro no modelo Kanban. 
-
-
-- **Comunicação:** Utilizou-se os aplicativos [Microsoft Teams](https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:JYqqHMA-705z01V5n8kpeZTrU33PPFyJm1hMFNnMI681@thread.tacv2&ctx=channel) para reuniões da equipe e [WhatsApp](https://web.whatsapp.com/) para comunicações por texto. 
+|Objetivo|Ferramentas|
+|----------------------|--------------------------------------------------|
+|**Controle de Versão**|[Git](https://git-scm.com/)|
+|**Hospedagem do Repositório**|[Github](https://github.com)|
+|**Editor de Código**|[Visual Studio Code](https://code.visualstudio.com/)|
+|**Criação de <em>User Flow</em> e <em>Wireframe</em>**|[Marvel](https://marvelapp.com/)|
+|**Gerenciamento do Projeto**|[GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1)|
+|**Comunicação:**|[Microsoft Teams](https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:JYqqHMA-705z01V5n8kpeZTrU33PPFyJm1hMFNnMI681@thread.tacv2&ctx=channel) e [WhatsApp](https://web.whatsapp.com/)| 
 
 
 ## Processo
@@ -97,6 +90,7 @@ As evidências relativas aos itens entregues nessa sprint se encontram nesse mes
 - [Documentação de Contexto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md)
 - [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)
 - [Questionário - Google Forms](https://forms.gle/BxSYtFkoTfSoWAX47) e [Resultados](https://docs.google.com/spreadsheets/d/1FCC5IKlKbxzKNqrhX_hOuEqWELrnLgdW53fJmeGDfRA/edit?usp=sharing)
+- [Apresebtação de Slides]https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/E1-PROJ-WEB-T16-Time3-ProjDailyCare.pdf
 
 
 ### Sprint 2
