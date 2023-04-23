@@ -1,11 +1,6 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
@@ -21,16 +16,27 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/Homepage.png)
+Assim como apresentado através do fluxograma de páginas na seção User Flow, as telas do programa podem ser "divididas" em 3 seções.
+
+> - Cabeçalho: Local onde são dispostos o logo da marca, barra de pesquisa e uma aplicação adicional.
+> - Barra lateral: Apresenta os elementos de navegação para as funcionalidades.
+> - Conteúdo: Apresenta o conteúdo da tela em questão.
+
+## Tela-Login
+
+A tela de login será a tela onde o usuário irá se identificar através de Usuário e Senha para usufruir das funcionalidades do Daily Care.
+
 ![Exemplo de Tela de Login](img/Login.png)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+## Tela-Homepage
+
+A tela de homepage apresenta as principais funcionalidades à disposição do usuário, entre elas: notificações; anotações; calendário; dados médicos. Assim como os ícones clicáveis das funcionalidades, a homepage também mostrará informações úteis como o engajamento do usuário, as tarefas a serem realizadas no dia, novas mensagens e o desempenho do usuário no cumprimento de suas tarefas.
+A tela de homepage é dividida em 3 seções:
+
+> - Onde se encontra uma barra de pesquisa onde o usuário poderá digitar palavras-chave no intuito de encontrar algo no dispositivo de gerenciamneto pessoal; um ícone de relógio, o qual servirá como um dispositivo de controle de horas dormidas.
+> - Onde se encontram os ícones clicáveis das funcionalidades.
+> - Onde se encontra as informações relevantes mais recentes tais como: tarefas a serem realizadas no dia; novas mensagens; desempenho; engajamento do usuário.
+
+![Exemplo de Wireframe](img/Homepage.png)
+
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
