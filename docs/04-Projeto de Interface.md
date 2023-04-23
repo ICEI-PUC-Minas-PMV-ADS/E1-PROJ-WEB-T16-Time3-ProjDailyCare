@@ -18,7 +18,7 @@ Assim como apresentado através do fluxograma de páginas na seção User Flow, 
 
 A tela de login será a tela onde o usuário irá se identificar através de Usuário e Senha para usufruir das funcionalidades do Daily Care.
 
-![Exemplo de Tela de Login](img/Login.png)
+![login atualizado](https://user-images.githubusercontent.com/124836743/233818230-ecdfc633-a0ff-43c2-bf80-2f99618422ac.png)
 
 ## Tela-Homepage
 
@@ -29,6 +29,7 @@ A tela de homepage é dividida em 3 seções:
 > - Onde se encontram os ícones clicáveis das funcionalidades.
 > - Onde se encontra as informações relevantes mais recentes tais como: tarefas a serem realizadas no dia; novas mensagens; desempenho; engajamento do usuário.
 
-![Exemplo de Wireframe](img/Homepage.png)
+![homepage atualizado](https://user-images.githubusercontent.com/124836743/233818322-a6870c85-5f97-4961-8251-c50bbe12cda8.png)
+
 
  
