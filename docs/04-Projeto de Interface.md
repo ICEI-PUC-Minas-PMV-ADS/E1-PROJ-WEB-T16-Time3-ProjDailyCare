@@ -40,5 +40,28 @@ A tela de homepage é dividida em 3 seções:
 
 ![homepage atualizado](https://user-images.githubusercontent.com/124836743/233818322-a6870c85-5f97-4961-8251-c50bbe12cda8.png)
 
+## Tela-Notificações
 
+A tela de notificações apresenta ao usuário notificações pertinentes à lembretes e feedbacks terapêuticos.
+
+![notificações 1](https://user-images.githubusercontent.com/124836743/233847841-206d47d2-a03f-47ac-98ed-b275f8fe36be.png)
+
+## Tela-Anotações
  
+A tela de anotações disponibilizará ao usuário uma plataforma para anotar tudo o que ele achar relevante. Haverá duas categorias de anotações: observações do dia-a-dia; 
+
+![anotações 2](https://user-images.githubusercontent.com/124836743/233847980-9c04d84a-c678-485a-931e-9b824aa11e83.png)
+
+## Tela-Calendário
+
+Tela a qual apresenta um calendário para a organização pessoal e horários de medicamentos. O calendário possibilitará ao usuário que o mesmo anote suas atividades diárias dentro de cada data, para propósitos de organização. Haverá uma aba lateral localizada à direita da tela onde ficará localizado clicáveis pertinentes à compromissos agendados, programação de alarme, agendamento de medicamentos e lembretes.
+
+![calendário 3](https://user-images.githubusercontent.com/124836743/233848585-1199c38c-f93c-4bfb-8e8a-d177acd4f13c.png)
+
+## Tela-Dados Médicos
+
+Tela responsável por armazenar dados pertinentes para a evolução organizacional do usuário. Essa tela será a responsável por apresentar os aspectos gerais do paciente através de gráficos, notas e dados acerca do paciente. Aspectos tais como, mídia,arquivos, gráficos de desempenho, notas e observações e anotações da equipe multidisciplinar se encontrarão nessa tela. A tela de dados médicos será responsável por "alimentar" a aba de "desempenho" na tela de homepage. LOgo, essa tela será de extrema importância para a análise da evolução do usuário/paciente.
+
+![dados médicos 4](https://user-images.githubusercontent.com/124836743/233849242-80184c46-b4c0-4c1c-8f6b-9992c041cf34.png)
+
+
