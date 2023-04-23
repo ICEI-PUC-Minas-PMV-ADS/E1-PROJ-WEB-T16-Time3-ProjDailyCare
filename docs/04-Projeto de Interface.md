@@ -60,7 +60,7 @@ Tela que apresenta um calendário para a organização pessoal e horários de me
 
 ## Tela-Dados Médicos
 
-Tela responsável por armazenar dados pertinentes para a evolução organizacional do usuário. Essa tela será a responsável por apresentar os aspectos gerais do paciente através de gráficos, notas e dados acerca do paciente. Aspectos tais como: mídia, arquivos, gráficos de desempenho, notas e observações da equipe multidisciplinar se encontrarão nessa tela. A tela de dados médicos será responsável por "alimentar" a aba de "desempenho" na tela de homepage. LOgo, essa tela será de extrema importância para a análise da evolução do usuário/paciente.
+Tela responsável por armazenar dados pertinentes para a evolução organizacional do usuário. Essa tela será a responsável por apresentar os aspectos gerais do paciente através de gráficos, notas e dados acerca do paciente. Aspectos tais como: mídia, arquivos, gráficos de desempenho, notas e observações da equipe multidisciplinar se encontrarão nessa tela. A tela de dados médicos será responsável por "alimentar" a aba de "desempenho" na tela de homepage. Logo, essa tela será de extrema importância para a análise da evolução do usuário/paciente.
 
 ![dados médicos 4](https://user-images.githubusercontent.com/124836743/233849242-80184c46-b4c0-4c1c-8f6b-9992c041cf34.png)
 
