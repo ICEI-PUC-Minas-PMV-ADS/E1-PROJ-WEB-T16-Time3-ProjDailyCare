@@ -4,6 +4,15 @@
 
 ## User Flow
 
+Através do User Flow, podemos identificar o caminho percorrido na interface das telas, um pequeno fluxograma ligando as possibilidades de interação para o usuário escolher o caminho desejado. Dentre eles, temos:
+
+> - Tela de Login: Através de dados, como login e senha de usuário, é encaminhado para a tela e Home.
+> - Tela de Home: Além de mostrar dados de destaque, mostra o caminho para as telas de notificações, anotações, calendário, dados médicos e o ícone de saída.
+> - Tela de Notificações: A partir de tela home, podemos entrar na tela de notificações.
+> - Tela de Anotações: A partir de tela home, podemos entrar na tela de anotações.
+> - Tela de Calendário: A partir de tela home, podemos entrar na tela de Calendário.
+> - Tela de Dados Médicos: A partir de tela home, podemos entrar na tela de Dados Médicos.
+
 ![overview](https://user-images.githubusercontent.com/124836743/233817810-51b4d6de-2168-4990-b7b1-042bec7e2f64.png)
 
 ## Wireframes
