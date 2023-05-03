@@ -10,12 +10,12 @@
 
 ## Integrantes
 
-* Andreia Cristina Bera
 * Arthur Zebral de Castro Koehne
 * Carolina Morais Rabelo
 * Débora Alexia C. Silva
 * Laila Suelen Martins Costa
 * Pedro Arthur Silva Santos
+* Raphael Henrique Silva Diniz
 
 ## Orientador
 
