@@ -170,9 +170,13 @@ A reunião da referida Sprint e seus respectivos planos, organização e divisã
 |RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
 |RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
 
-A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo Quadro de Tarefas:
+A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d63ef005-eff9-4b9e-ad7e-f4425a84a26b)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/94534918-0f96-4b0c-ab71-9aa5a23857eb)
+
+A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
 
 
 **2. Execução**
