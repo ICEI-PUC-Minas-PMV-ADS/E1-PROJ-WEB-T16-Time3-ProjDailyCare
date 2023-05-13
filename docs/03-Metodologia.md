@@ -6,13 +6,13 @@ A metodologia contempla as definições de organização, priorização, gerenci
 ## Equipe de Trabalho
 O projeto orienta-se por meio de metodologias ágeis, desta forma, o Scrum é utilizado como base para a definição de papéis dentro da equipe, que organiza-se da seguinte forma:
 
-- **Product Owner:** Andreia Cristina Bera
+- **Product Owner:** Carolina Morais Rabelo
 - **Scrum Master:** Débora Alexia C. Silva
 - **Developers:**
     - Arthur Zebral de Castro Koehne
-    - Carolina Morais Rabelo
     - Laila Suelen Martins Costa
     - Pedro Arthur Silva Santos
+    - Raphael Henrique Silva Diniz
 
 
 ## Ferramentas
@@ -133,11 +133,24 @@ Previu-se a entrega integral dos itens para a data de 23/04/2023.
 
 **2. Execução**
 
-Aguardando finalização da Sprint.
+Na execução da Metodologia houve certa dificuldade em atingir as expectativas do orientador, dada a sugestão de mudança à estrutura inicial apresentada pelo projeto. O referido item, principalmente no que tange aos desdobramentos do sub-item "Processo", passou por diversas atualizações, a fim de reduzir informações desnecessárias, bem como modificações visuais em relação ao [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1).
+
+Em relação ao Projeto de Interface, após as divisões das tasks supracitadas, as telas foram desenvolvidas na [Marvel](https://marvelapp.com/), aplicação anteriormente prevista. A equipe percebeu o grande desafio de trabalhar em soluções visuais a partir das ideias e problemas documentados. O processo de adaptação à ferramenta foi mais longo que o esperado, devido a falta de contato anterior, mas os resultados, qual sejam, o fluxo de usuário e os wireframes das telas, foram melhores que o esperado.
+
+A retrospectiva se deu de duas formas: a primeira, em uma reunião posterior à entrega de itens, no dia 25/04/2023, aonde coube o grupo falar sobre frustrações e expectativas em relação aos resultados obtidos com o projeto até então. Concluiu-se, a partir dessa revisão, uma entrega satisfatória na medida das limitações no grupo, mas, ao mesmo tempo, um sentimento de insegurança que tomou a equipe. 
+
+A segunda, foi através de uma breve apresentação dos resutados da Sprint junto às turmas 15 e 16 do curso de Análise e Desenvolvimento de Sistemas, durante o encontro assíncrono do dia 04/05/2023.
+
+Durante a semana após a entrega, o grupo enfrentou a saída de um importante integrante, idealizador das razões centrais do projeto, Andreia Bera. Houve comoção e movimentação para o preenchimento da nova vaga.
+
 
 **3. Evidências**
 
-Aguardando finalização da Sprint.
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
+
+- [Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/03-Metodologia.md)
+- [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/04-Projeto%20de%20Interface.md)
+- [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1)
 
 
 ### Sprint 3
