@@ -159,9 +159,21 @@ Prevista para o período correspondente entre 24/04 a 14/05.
 
 **1. Planejamento**
 
-Principais itens entregáveis: Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer ao critério de pelo menos 6 funcionalidades.
+A reunião da referida Sprint e seus respectivos planos, organização e divisão de tarefas ocorreu em 26/04/2023. A partir da realização, definiu-se como os principais itens entregáveis o Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer às prioridas definidas nos Requisitos Funcionais apresentados na Especificação de Projeto: 
 
-![image](https://user-images.githubusercontent.com/112430045/233516642-a5b2e3fb-9e17-4afe-a367-4684c0dd72e2.png)
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|ALTA| 
+|RF-002|Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas;|ALTA|
+|RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
+|RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
+|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
+|RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
+
+A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo Quadro de Tarefas:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d63ef005-eff9-4b9e-ad7e-f4425a84a26b)
+
 
 **2. Execução**
 
