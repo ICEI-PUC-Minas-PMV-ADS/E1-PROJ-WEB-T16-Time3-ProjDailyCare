@@ -45,8 +45,8 @@ A organização objetiva do BackLog, bem como a divisão e distribuição dos re
 | Sprint | Período  | Itens | Status |
 |--------|-------------|---------------------------------------------|-----------|
 |Sprint 1|09/03 a 02/04| **Documentação de Contexto**<br> **Especificação do Projeto**<br> | Done |
-|Sprint 2|03/04 a 23/04| **Metodologia**<br>**Projeto de Interface** | In Progress |
-|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**| To Do |
+|Sprint 2|03/04 a 23/04| **Metodologia**<br>**Projeto de Interface** | Done |
+|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**| In Progress |
 |Sprint 4|15/05 a 11/06| **Programação das demais funcionalidades**<br> **Plano de Testes de Software**<br> **Registro de Testes de Software** | To Do |
 |Sprint 5|12/06 a 25/06| **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
 
