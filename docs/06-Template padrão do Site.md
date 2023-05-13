@@ -30,6 +30,6 @@ O template criado está disponível na [pasta src](https://github.com/ICEI-PUC-M
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/0319458f-479d-4121-8a0f-1121f7290afd)
 
 ## Dados Médicos
-- Tela que exibe itens preenchíveis de Apesctos Globais do usuário, bem como pontuar numericamente a intensidade destes.
+- Tela que exibe itens preenchíveis de Aspesctos Globais do usuário, bem como pontuar numericamente a intensidade destes.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/986caf89-399e-4e41-a980-96552e949d7b)
