@@ -205,7 +205,7 @@ ul li:hover a {
 }
 
 @media (max-width: 830px) {
-    span {
+    .menu span {
         display: none;
     }
 }
