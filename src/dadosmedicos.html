@@ -25,8 +25,8 @@
                     <input type="text" class="pesquisa-texto" placeholder="Pesquisar">
                     <a href="#" class="icone-lupa"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
-                <a href="#" class="icone-usuario"><i class="fa-solid fa-user"></i></a>
-                <a href="#" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></a>
+                    <span onclick="redirecionarTelaEdicao()" class="icone-usuario"><i class="fa-solid fa-user"></i></span>
+                    <span onclick="saida()" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></span>
             </div>
         </div>
     </header>
@@ -42,8 +42,7 @@
                     </li>
                     <li><a href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a>
                     </li>
-                    <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados
-                                médicos</span></a></li>
+                    <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
                 </ul>
             </div>
             <!-- Conteúdo -->
@@ -139,6 +138,15 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
         <script type="text/javascript"  src="dadosmedicos.js"> </script>
+        <script>
+            function saida() {
+                localStorage.removeItem('usuarioLogado');
+                window.location.href = window.location.origin + "/src/login/login.html";
+            }
+            function redirecionarTelaEdicao() {
+                window.location.href = window.location.origin + "/src/usuario/edicao/edicao.html";
+            }
+        </script>
 </body>
 
 </html>

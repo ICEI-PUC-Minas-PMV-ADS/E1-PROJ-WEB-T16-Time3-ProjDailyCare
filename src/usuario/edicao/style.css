@@ -12,9 +12,34 @@
 
 .form_grupo{
     padding-bottom: 15px;
+    color: #395B64;
+    font-weight: bolder;
+}
+.radio-label{
+    color: black;
+    font-weight: lighter;
+}
+.form-label{
+    color: black;
+    font-weight:lighter;
 }
 
-.botao-cadastro{
+.btn {
+    background-color: #395B64;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    
 
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #A5C9CA;
+    color: #395B64;
 
 }

@@ -1,9 +1,44 @@
 .container{
+    color: #395B64;
     border-radius: 7px;
     padding: 40px;
+    padding-left: 10%;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     margin-top: 40px;
+    font-weight: bold;
 }
+.conteudo{
+    font-size: 35px;
+}
+
 .row {
     height: 100%;
+}
+
+.radio-label{
+    color: black;
+    font-weight: lighter;
+}
+.form-label{
+    color: black;
+    font-weight: lighter;
+}
+
+.btn {
+    background-color: #395B64;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #A5C9CA;
+    color: #395B64;
+
 }

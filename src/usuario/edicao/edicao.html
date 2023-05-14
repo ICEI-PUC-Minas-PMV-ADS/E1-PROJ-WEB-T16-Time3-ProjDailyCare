@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
-    <title>Edição</title>
+    <title>Dados do Usuário</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./../../style.css">
     <link rel="stylesheet" href="style.css">
@@ -24,8 +24,8 @@
                     <input type="text" class="pesquisa-texto" placeholder="Pesquisar">
                     <a href="#" class="icone-lupa"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
-                    <a href="#" class="icone-usuario"><i class="fa-solid fa-user"></i></a>
-                    <a href="#" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></a>
+                    <span onclick="redirecionarTelaEdicao()" class="icone-usuario"><i class="fa-solid fa-user"></i></span>
+                    <span onclick="saida()" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></span>
             </div>
         </div>
     </header>
@@ -35,48 +35,48 @@
           <!-- Menu -->
           <div class="col-3 menu">
                 <ul>
-                    <li><a href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
-                    <li><a href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
-                    <li><a href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
-                    <li><a href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
-                    <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
+                    <li><a name="link" href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
+                    <li><a name="link" href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
+                    <li><a name="link" href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
+                    <li><a name="link" href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
+                    <li><a name="link" href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
                 </ul>
           </div>
             <!-- Formulário -->
             <div class="col-9 formulario">
-                <p class="conteudo">Edição</p>
+                <p class="conteudo">Dados do Usuário</p>
                 <div class="container_form">
-                <form class="form" action="#" method="post">
+                <form class="form" onsubmit="event.preventDefault(); salvarEdicaoUsuario();">
                 
                     <!-- Nome -->
                     <div class="form_grupo">
-                        <label for="inputText3" class="col-sm-2 col-form-label">Nome</label>
+                        <label class="col-sm-2 col-form-label">Nome</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputText3">
+                            <input type="text" class="form-control" id="inputNome">
                         </div>
                     </div>
                 
                     <!-- Email -->
                     <div class="form_grupo">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <label class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                          <input type="email" class="form-control" id="inputEmail3">
+                          <input type="email" class="form-control" id="inputEmail">
                         </div>
                     </div>
         
                     <!-- Senha -->
                     <div class="form_grupo">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+                        <label class="col-sm-2 col-form-label">Senha</label>
                         <div class="col-sm-10">
-                          <input type="password" class="form-control" id="inputPassword3">
+                          <input type="password" class="form-control" id="inputPassword">
                         </div>
                     </div>
         
                     <!-- Data de nascimento -->
                     <div class="form_grupo">
-                        <label for="datanascimento" class="form_label">Data de Nascimento</label>
+                        <label class="form_label">Data de Nascimento</label>
                         <div class="col-sm-10">
-                            <input type="date" name="datanascimento" class="form-control" id="datanascimento" placeholder="Data de Nascimento" required>
+                            <input type="date" name="datanascimento" class="form-control" id="dataNascimento" placeholder="Data de Nascimento" required>
                         </div>
                     </div>        
         
@@ -84,7 +84,7 @@
                     <div class="form_grupo">
                             <label for="estadocivil" class="text">Estado civil</label>
                             <div class="col-sm-10">
-                                <select class="form-select" aria-label="Default select example">
+                                <select id="estadoCivil" class="form-select" aria-label="Default select example">
                                     <option selected disabled>Selecione</option>
                                     <option value="1">Solteiro(a)</option>
                                     <option value="2">Casado(a)</option>
@@ -99,11 +99,11 @@
                         <span class="legenda">Sexo:</span>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
-                            <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+                            <label for="masculino" class="radio-label form-label"> <span class="radio_new_btn"></span> Masculino</label>
                         </div>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
-                            <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label>
+                            <label for="feminino" class="radio-label form-label pb-3"> <span class="radio_new_btn"></span> Feminino</label>
                         </div>
                     </div>
                 
@@ -111,21 +111,20 @@
                     <div class="form_grupo">
                         <span class="legenda"> Qual o seu aspecto: Neurodivergente, cuidador/os dois:</span>
                         <div class="check-btn">
-                            <input type="checkbox" class="form_new_input" id="html5" name="aprender" value="html5">
-                            <label for="html5" class="form_label check_label"> <span class="check_new_btn"></span> Neurodivergente</label>
+                            <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Neurodivergente">
+                            <label class="form-label check-label"> <span class="check_new_btn"></span> Neurodivergente</label>
                         </div>
                         <div class="check-btn">
-                            <input type="checkbox" class="form_new_input" id="css3" name="aprender" value="css3">
-                            <label for="css3" class="form_label check_label"><span class="check_new_btn"></span> Cuidador</label>
+                            <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Cuidador">
+                            <label class="form-label check-label"><span class="check_new_btn"></span> Cuidador</label>
                         </div>
                         <div class="check-btn">
-                            <input type="checkbox" class="form_new_input" id="jquery" name="aprender" value="jquery">
-                            <label for="jquery" class="form_label check_label"><span class="check_new_btn"></span> Os dois</label>
+                            <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Os dois">
+                            <label class="form-label check-label pb-3"><span class="check_new_btn"></span> Os dois</label>
                         </div>
                         <!-- Botao confirmacao -->
                         <div class="submit botao-cadastro">
-                            <input type="hidden" name="acao" value="enviar">
-                            <button type="submit" name="Submit" class="submit_btn" >Cadastrar</button>
+                            <button type="submit" class="btn p-3">Salvar</button>
                         </div>
                     </div>
                 </form>
@@ -135,6 +134,7 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script type="text/javascript"  src="scripts.js"> </script>
 </body>
 </html>
 

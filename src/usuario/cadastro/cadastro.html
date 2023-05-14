@@ -40,12 +40,12 @@
                     <div class="form_grupo">
                         <label class="col-sm-2 col-form-label">Senha</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3">
+                            <input type="password" class="form-control" id="inputPassword">
                         </div>
                     </div>
         
                     <!-- Data de nascimento -->
-                    <div class="form_grupo">
+                    <div class="form_grupo pt-3">
                         <label class="form_label">Data de Nascimento</label>
                         <div class="col-sm-10">
                             <input type="date" name="datanascimento" class="form-control" id="dataNascimento" placeholder="Data de Nascimento" required>
@@ -53,7 +53,7 @@
                     </div>        
         
                     <!-- Estado civil -->
-                    <div class="form_grupo">
+                    <div class="form_grupo pt-3">
                             <label for="estadocivil" class="text">Estado civil</label>
                             <div class="col-sm-10">
                                 <select id="estadoCivil" class="form-select" aria-label="Default select example">
@@ -65,17 +65,17 @@
                                 </select>
                             </div>
                     </div>
-        
+                   
                     <!-- Seleciona sexo -->
-                    <div class="form_grupo">
+                    <div class="form_grupo pt-3">
                         <span class="legenda">Sexo:</span>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
-                            <label for="masculino" class="radio_label form_label"> <span class="radio_new_btn"></span> Masculino</label>
+                            <label for="masculino" class="radio-label form-label"> <span class="radio_new_btn"></span> Masculino</label>
                         </div>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
-                            <label for="feminino" class="radio_label form_label"> <span class="radio_new_btn"></span> Feminino</label>
+                            <label for="feminino" class="radio-label form-label pb-3"> <span class="radio_new_btn"></span> Feminino</label>
                         </div>
                     </div>
                 
@@ -84,20 +84,19 @@
                         <span class="legenda"> Qual o seu aspecto: Neurodivergente, cuidador/os dois:</span>
                         <div class="check-btn">
                             <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Neurodivergente">
-                            <label class="form_label check_label"> <span class="check_new_btn"></span> Neurodivergente</label>
+                            <label class="form-label check-label"> <span class="check_new_btn"></span> Neurodivergente</label>
                         </div>
                         <div class="check-btn">
                             <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Cuidador">
-                            <label class="form_label check_label"><span class="check_new_btn"></span> Cuidador</label>
+                            <label class="form-label check-label"><span class="check_new_btn"></span> Cuidador</label>
                         </div>
                         <div class="check-btn">
                             <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Os dois">
-                            <label class="form_label check_label"><span class="check_new_btn"></span> Os dois</label>
+                            <label class="form-label check-label pb-3"><span class="check_new_btn"></span> Os dois</label>
                         </div>
                         <!-- Botao confirmacao -->
                         <div class="submit botao-cadastro">
-                            <input type="hidden" name="acao" value="enviar">
-                            <button type="submit" name="Submit" class="submit_btn" >Cadastrar</button>
+                            <button type="submit" class="btn p-3">Cadastrar</button>
                         </div>
                     </div>
                 </form>

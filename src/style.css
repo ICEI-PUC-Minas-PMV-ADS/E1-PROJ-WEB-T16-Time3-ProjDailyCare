@@ -95,6 +95,7 @@ header>div div:last-child {
     font-size: 30px;
     background: #395B64;
     color: #F6F6F6;
+    cursor: pointer;
 }
 
 .icone-saida {
@@ -107,6 +108,7 @@ header>div div:last-child {
     align-items: center;
     justify-content: center;
     transition: .6s;
+    cursor: pointer;
 }
 
 .icone-saida:hover {

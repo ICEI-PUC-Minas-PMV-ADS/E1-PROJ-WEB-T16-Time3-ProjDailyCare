@@ -4,11 +4,11 @@ function cadastro() {
     // Colhendo todos os valores dos elementos presentes no formulário
     var nome = document.getElementById('inputNome').value;
     var email = document.getElementById('inputEmail').value;
-    var senha = document.getElementById('inputPassword3').value;
+    var senha = document.getElementById('inputPassword').value;
     var dataNascimento = document.getElementById('dataNascimento').value;
     var estadoCivil = document.getElementById('estadoCivil').value;
     
-    var sexos = document.querySelectorAll('input[name="sexo"');
+    var sexos = document.querySelectorAll('input[name="sexo"]');
     var sexoSelecionado = '';
     for (let i = 0; i < sexos.length; i++) {
         if (sexos[i].checked){
@@ -16,7 +16,7 @@ function cadastro() {
         }
     }
 
-    var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"');
+    var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"]');
     var aspectoGlobalSelecionados = [];
     for (let i= 0; i < aspectoGlobal.length; i++) {
         if (aspectoGlobal[i].checked){
@@ -31,9 +31,8 @@ function cadastro() {
         senha: senha,
         data: dataNascimento,
         estadoCivil: estadoCivil,
-        sexo: sexos,
-        aspectoGlobal: aspectoGlobal,
-
+        sexo: sexoSelecionado,
+        aspectoGlobal: aspectoGlobalSelecionados,
     }
 
     // Colher os usuários salvos no localStorage
