@@ -90,18 +90,44 @@ Essa tela apresenta um calendário interativo e permite ao usuário adicionar ev
 
 ## Dados Médicos
 
-Escrever uma descrição semelhente ao do template Portal de Notícias. Veja um exemplo da tela a seguir:
+Essa tela apresenta 5 listas de opções onde o usuário poderá marcar até uma alternativa. Os dados pertinentes a essa tela se referem à aspectos emocionais. alimentares, de foco, de engajamento e de tolerância. Essa tela faz-se de extrema importância para o acompanhamento do paciente ao longo do tempo e no intuito de mensurar seu progresso.
 
-colocar aqui um print da tela completa
+![tela dados medicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/4946d29a-b386-405a-bd14-c20742be1db1)
+
 
 ### Requisitos Atendidos
 - RF-004
 
 ### Artefatos da Funcionalidade
-- exemplo no template portal de noticias
+- dadosmedicos.html
+- dadosmedicos.js
+- style.css
 
 ### Estrutura de Dados
-exemplo no template portal de noticias
 
+```
+function salvarLocalStorage() {
+    localStorage.removeItem('dadosNeuroDivergentes');
+    let data = localStorage.getItem('dadosNeuroDivergentes');
+    alert(data);
+    let dataJSON= JSON.parse(data);
+    if (dataJSON == null) {
+        dataJSON = {"dados":[]};
+    }
+    let dadosPaciente = {}
+    dadosPaciente.humor = document.getElementById("humor_formulario").value;
+    dadosPaciente.atencao = document.getElementById("atencao_formulario").value;
+    dadosPaciente.atencao = document.getElementById("alimentacao_formulario").value;
+    dadosPaciente.atencao = document.getElementById("engajamento_formulario").value;
+    dadosPaciente.atencao = document.getElementById("tolerancia_formulario").value;
+
+    dataJSON.dados.push(dadosPaciente);
+    alert(dataJSON.dados);
+    let dadosAtualizados = JSON.stringify(dataJSON);
+    alert(dadosAtualizados);
+    localStorage.setItem('dadosNeuroDivergentes', dadosAtualizados);
+}
+
+```
 
 
