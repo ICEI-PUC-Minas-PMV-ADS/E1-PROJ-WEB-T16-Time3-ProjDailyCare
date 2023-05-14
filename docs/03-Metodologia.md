@@ -6,13 +6,13 @@ A metodologia contempla as definições de organização, priorização, gerenci
 ## Equipe de Trabalho
 O projeto orienta-se por meio de metodologias ágeis, desta forma, o Scrum é utilizado como base para a definição de papéis dentro da equipe, que organiza-se da seguinte forma:
 
-- **Product Owner:** Andreia Cristina Bera
+- **Product Owner:** Carolina Morais Rabelo
 - **Scrum Master:** Débora Alexia C. Silva
 - **Developers:**
     - Arthur Zebral de Castro Koehne
-    - Carolina Morais Rabelo
     - Laila Suelen Martins Costa
     - Pedro Arthur Silva Santos
+    - Raphael Henrique Silva Diniz
 
 
 ## Ferramentas
@@ -45,8 +45,8 @@ A organização objetiva do BackLog, bem como a divisão e distribuição dos re
 | Sprint | Período  | Itens | Status |
 |--------|-------------|---------------------------------------------|-----------|
 |Sprint 1|09/03 a 02/04| **Documentação de Contexto**<br> **Especificação do Projeto**<br> | Done |
-|Sprint 2|03/04 a 23/04| **Metodologia**<br>**Projeto de Interface** | In Progress |
-|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**| To Do |
+|Sprint 2|03/04 a 23/04| **Metodologia**<br>**Projeto de Interface** | Done |
+|Sprint 3|24/04 a 14/05| **Template Padrão do Site**<br> **Programação das Funcionalidades**| In Progress |
 |Sprint 4|15/05 a 11/06| **Programação das demais funcionalidades**<br> **Plano de Testes de Software**<br> **Registro de Testes de Software** | To Do |
 |Sprint 5|12/06 a 25/06| **Implantação da Solução**<br> **Desenvolvimento da apresentação**<br> **Vídeo de apresentação da solução** | To Do |
 
@@ -133,11 +133,24 @@ Previu-se a entrega integral dos itens para a data de 23/04/2023.
 
 **2. Execução**
 
-Aguardando finalização da Sprint.
+Na execução da Metodologia houve certa dificuldade em atingir as expectativas do orientador, dada a sugestão de mudança à estrutura inicial apresentada pelo projeto. O referido item, principalmente no que tange aos desdobramentos do sub-item "Processo", passou por diversas atualizações, a fim de reduzir informações desnecessárias, bem como modificações visuais em relação ao [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1).
+
+Em relação ao Projeto de Interface, após as divisões das tasks supracitadas, as telas foram desenvolvidas na [Marvel](https://marvelapp.com/), aplicação anteriormente prevista. A equipe percebeu o grande desafio de trabalhar em soluções visuais a partir das ideias e problemas documentados. O processo de adaptação à ferramenta foi mais longo que o esperado, devido a falta de contato anterior, mas os resultados, qual sejam, o fluxo de usuário e os wireframes das telas, foram melhores que o esperado.
+
+A retrospectiva se deu de duas formas: a primeira, em uma reunião posterior à entrega de itens, no dia 25/04/2023, aonde coube o grupo falar sobre frustrações e expectativas em relação aos resultados obtidos com o projeto até então. Concluiu-se, a partir dessa revisão, uma entrega satisfatória na medida das limitações no grupo, mas, ao mesmo tempo, um sentimento de insegurança que tomou a equipe. 
+
+A segunda, foi através de uma breve apresentação dos resutados da Sprint junto às turmas 15 e 16 do curso de Análise e Desenvolvimento de Sistemas, durante o encontro assíncrono do dia 04/05/2023.
+
+Durante a semana após a entrega, o grupo enfrentou a saída de um importante integrante, idealizador das razões centrais do projeto, Andreia Bera. Houve comoção e movimentação para o preenchimento da nova vaga.
+
 
 **3. Evidências**
 
-Aguardando finalização da Sprint.
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
+
+- [Metodologia](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/03-Metodologia.md)
+- [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/04-Projeto%20de%20Interface.md)
+- [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1)
 
 
 ### Sprint 3
@@ -146,9 +159,25 @@ Prevista para o período correspondente entre 24/04 a 14/05.
 
 **1. Planejamento**
 
-Principais itens entregáveis: Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer ao critério de pelo menos 6 funcionalidades.
+A reunião da referida Sprint e seus respectivos planos, organização e divisão de tarefas ocorreu em 26/04/2023. A partir da realização, definiu-se como os principais itens entregáveis o Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer às prioridas definidas nos Requisitos Funcionais apresentados na Especificação de Projeto: 
 
-![image](https://user-images.githubusercontent.com/112430045/233516642-a5b2e3fb-9e17-4afe-a367-4684c0dd72e2.png)
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|ALTA| 
+|RF-002|Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas;|ALTA|
+|RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
+|RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
+|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
+|RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
+
+A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d63ef005-eff9-4b9e-ad7e-f4425a84a26b)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/94534918-0f96-4b0c-ab71-9aa5a23857eb)
+
+A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
+
 
 **2. Execução**
 
