@@ -312,6 +312,13 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 - anotacoes.css
 - anotacoes.js
 
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, abra o arquivo *anotacoes.html*.
+
 ## Calendário
 
 Essa tela apresenta um calendário interativo e permite ao usuário adicionar eventos ou compromissos. Utiliza técnicas de dinamicidade baseada em AJAX, para acrescentar os elementos de interatividade e melhorar a interface e demais elementos visuais da funcionalidade. Segue uma imagem da tela:
@@ -339,6 +346,13 @@ Essa tela apresenta um calendário interativo e permite ao usuário adicionar ev
     }
 ]
 ```
+
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, abra o arquivo *calendario.html*.
 
 ## Dados Médicos
 
@@ -372,6 +386,8 @@ function salvarLocalStorage() {
     dadosPaciente.atencao = document.getElementById("alimentacao_formulario").value;
     dadosPaciente.atencao = document.getElementById("engajamento_formulario").value;
     dadosPaciente.atencao = document.getElementById("tolerancia_formulario").value;
+    
+   
 
     dataJSON.dados.push(dadosPaciente);
     alert(dataJSON.dados);
@@ -381,5 +397,11 @@ function salvarLocalStorage() {
 }
 
 ```
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, abra o arquivo *dadosmedicos.html*.
 
 
