@@ -309,8 +309,8 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 
 ### Artefatos da Funcionalidade
 - anotacoes.html
-- anotacoes.css
-- anotacoes.js
+- style-anotacoes.css
+- script-anotacoes.js
 
 ### Instruções de Acesso
 
@@ -387,8 +387,6 @@ function salvarLocalStorage() {
     dadosPaciente.atencao = document.getElementById("engajamento_formulario").value;
     dadosPaciente.atencao = document.getElementById("tolerancia_formulario").value;
     
-   
-
     dataJSON.dados.push(dadosPaciente);
     alert(dataJSON.dados);
     let dadosAtualizados = JSON.stringify(dataJSON);
