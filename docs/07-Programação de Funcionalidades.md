@@ -91,8 +91,8 @@ Tela em que o usuário realiza o cadastro com os seguntes dados: nome, email, se
 
 ### Artefatos da Funcionalidade
 - cadastro.html
--style.css
--scripts.js
+- style.css
+- scripts.js
 
 ### Estrutura de Dados
 ```
@@ -166,8 +166,8 @@ Tela em que o usuário pode modificar os dados inseridos na tela de cadastro.
 
 ### Artefatos da Funcionalidade
 - edicao.html
--style.css
--scripts.js
+- style.css
+- scripts.js
 
 ### Estrutura de Dados
 ```
