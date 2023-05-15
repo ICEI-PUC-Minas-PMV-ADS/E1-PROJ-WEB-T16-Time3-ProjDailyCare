@@ -1,5 +1,3 @@
-<script>
-
 const addBox = document.querySelector(".add-box"),
 popupBox = document.querySelector(".popup-box"),
 popupTitle = popupBox.querySelector("header p"),
@@ -111,5 +109,3 @@ const lapis = document.querySelector('#lapis');
 lapis.addEventListener('click', () => {
   console.log('Click!');
 });
-
-</script>
