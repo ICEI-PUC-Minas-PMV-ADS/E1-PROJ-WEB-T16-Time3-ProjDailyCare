@@ -9,10 +9,22 @@ O template criado está disponível na [pasta src](https://github.com/ICEI-PUC-M
 ## Tela de Login
 - Tela que exibe a possibilidade de login ou de novo cadastro de usuário.
 
+![WhatsApp Image 2023-05-14 at 14 41 54](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a298f6a1-10e1-4226-a91b-556f85bcb7b4)
+
+## Tela de Cadastro
+- Tela que possui dados cadastrais preenchíveis para a criação de novo usuário e efetiva a utilização da aplicação.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d1a59e6b-e027-4420-a9eb-ff8c2f3f7aa7)
+
 ## HomePage
 - Tela que abrange todas as visualizações iniciais do site, as notificações relativas à data de login e o nível de engajamento do usuário.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e4717192-202e-4ff8-8ad2-33a5af059b3b)
+
+## Tela de Dados de Usuário
+- Tela acessada a partir do ícone de usuário, que permite a visualização dos dados cadastrados.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/7a5b3eba-afec-49ab-bf71-dceab24e3cf4)
 
 ## Notificações
 - Tela que contém todas as notificações não visualizadas pelo usuário, relativas à compromissos, medicamentos e horários de sono.
