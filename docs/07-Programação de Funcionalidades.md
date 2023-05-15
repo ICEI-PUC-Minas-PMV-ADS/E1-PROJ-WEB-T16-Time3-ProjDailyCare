@@ -10,13 +10,10 @@ Tendo em vista que o sistema ainda não possui ambiente de hospedagem, as **Inst
 - Descompacte o arquivo em uma pasta específica;
 - Abra o arquivo index.htm.
 
-## Tela de Login
-
-Tela de login, onde contem os campos de email e senha, se preenchidos corretamente, clicando no botão acessar é encaminhado a tela Home, clicando no botão novo acesso, é direcionado a tela de cadastro.
+## Login
+Contém os campos de email e senha que, se preenchidos corretamente, permitem o encaminhamento à tela Home. Ademais, através do botão "novo acesso", realiza o direcionamento à "Tela de Cadastro".
 
 ![Tela de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/9348e3b9-c1b4-4423-b4c4-b8dde5813486)
-
-
 
 ### Requisitos Atendidos
 - RF-001
@@ -73,12 +70,11 @@ function novoAcessoRedirecionar() {
 }
 ```
 
-## Tela de Cadastro
+## Cadastro
 
-Tela em que o usuário realiza o cadastro com os seguntes dados: nome, email, senha, data de nascimento, estado civil, sexo e qual aspecto neurodivergente o usuario se encontra.
+Tela que permite ao usuário realizar o cadastro através do preenchimento dos seguntes dados: nome, email, senha, data de nascimento, estado civil, sexo e em qual aspecto neurodivergente o usuario se encontra.
 
 ![Tela de Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/9ed3f489-2786-4aeb-a0b0-a997fa568905)
-
 
 ### Requisitos Atendidos
 - RF-001
@@ -154,15 +150,20 @@ function cadastro() {
 }
 ```
 
-## Tela de Dados do usuário
+## Dados do usuário
 
-Tela em que o usuário pode modificar os dados inseridos na tela de cadastro.
+Permite ao usuário a modificação dos dados inseridos na tela de cadastro.
 
 ![Tela de Dados do Usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/893bd4bd-348f-4ece-a871-ea039bda0516)
 
-
 ### Requisitos Atendidos
-
+- RF-001
+- RF-002
+- RF-003
+- RF-004
+- RF-005
+- RF-006
+- RF-007
 
 ### Artefatos da Funcionalidade
 - edicao.html
@@ -302,7 +303,6 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 
 ![anotacoes tela](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/a982a824-3b55-461f-91c1-2f7181b7206f)
 
-
 ### Requisitos Atendidos
 - RF-002
 
@@ -310,7 +310,6 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 - anotacoes.html
 - anotacoes.css
 - anotacoes.js
-
 
 ## Calendário
 
@@ -342,13 +341,13 @@ Essa tela apresenta um calendário interativo e permite ao usuário adicionar ev
 
 ## Dados Médicos
 
-Essa tela apresenta 5 listas de opções onde o usuário poderá marcar até uma alternativa. Os dados pertinentes a essa tela se referem à aspectos emocionais. alimentares, de foco, de engajamento e de tolerância. Essa tela faz-se de extrema importância para o acompanhamento do paciente ao longo do tempo e no intuito de mensurar seu progresso.
+Essa tela apresenta cinco listas de opções onde o usuário poderá marcar até uma alternativa. Os dados pertinentes a essa tela se referem à aspectos emocionais. alimentares, de foco, de engajamento e de tolerância. Essa tela faz-se de extrema importância para o acompanhamento do paciente ao longo do tempo e no intuito de mensurar seu progresso.
 
 ![tela dados medicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/4946d29a-b386-405a-bd14-c20742be1db1)
 
-
 ### Requisitos Atendidos
 - RF-004
+- RF-002
 
 ### Artefatos da Funcionalidade
 - dadosmedicos.html
