@@ -47,15 +47,18 @@ exemplo no template portal de noticias
 
 ## Anotações
 
-Escrever uma descrição semelhente ao do template Portal de Notícias. Segue um exemplo da tela.
+Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre sessões terapêuticas e relatórios de equipes multidisciplinares.
 
-colocar aqui um print da tela completa
+![anotacoes tela](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/a982a824-3b55-461f-91c1-2f7181b7206f)
+
 
 ### Requisitos Atendidos
 - RF-002
 
 ### Artefatos da Funcionalidade
-- exemplo no template portal de noticias
+- anotacoes.html
+- anotacoes.css
+- anotacoes.js
 
 ### Estrutura de Dados
 exemplo no template portal de noticias
