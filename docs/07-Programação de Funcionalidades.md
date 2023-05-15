@@ -60,8 +60,6 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 - anotacoes.css
 - anotacoes.js
 
-### Estrutura de Dados
-exemplo no template portal de noticias
 
 ## Calendário
 
