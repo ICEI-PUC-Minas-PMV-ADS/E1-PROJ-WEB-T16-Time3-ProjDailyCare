@@ -4,12 +4,6 @@
 
 As Telas desenvolvidas para as funcionalidades do sistema priorizadas na Sprint 3 serão apresentadas nesta seção, bem como os requisitos funcionais à estas correspondentes, os artefatos criados e orientações de acesso.
 
-Tendo em vista que o sistema ainda não possui ambiente de hospedagem, as **Instruções de Acesso** para todas as funcionalidades e telas a seguir são as mesmas:
-
-- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
-- Descompacte o arquivo em uma pasta específica;
-- Abra o arquivo index.htm.
-
 ## Login
 Contém os campos de email e senha que, se preenchidos corretamente, permitem o encaminhamento à tela Home. Ademais, através do botão "novo acesso", realiza o direcionamento à "Tela de Cadastro".
 
@@ -69,6 +63,13 @@ function novoAcessoRedirecionar() {
     window.location.href = window.location.origin + "/src/usuario/cadastro/cadastro.html";
 }
 ```
+
+### Instruções de acesso
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, entre na pasta *login*;
+- Abra o arquivo *login.html*.
 
 ## Cadastro
 
@@ -149,6 +150,15 @@ function cadastro() {
     window.location.href = window.location.origin + "/src/login/login.html";
 }
 ```
+
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, entre na pasta *usuario*;
+- Entre na pasta *cadastro*;
+- Abra o arquivo *cadastro.html*.
 
 ## Dados do usuário
 
@@ -279,23 +289,14 @@ function atualizandoOrigemLinksMenu() {
 }
 atualizandoOrigemLinksMenu();
 ```
+### Instruções de Acesso
 
-## Notificações
-
-Escrever uma descrição semelhente ao do template Portal de Notícias. A seguir, uma visualização em imagem da tela:
-
-colocar aqui um print da tela completa
-
-### Requisitos Atendidos
-- RF-001
-- RF-005
-- RF-006
-
-### Artefatos da Funcionalidade
-- exemplo no template portal de noticias
-
-### Estrutura de Dados
-exemplo no template portal de noticias
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, entre na pasta *usuario*;
+- Entre na pasta *edicao*;
+- Abra o arquivo *edicao.html*.
 
 ## Anotações
 
