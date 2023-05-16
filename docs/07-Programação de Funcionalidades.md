@@ -1,7 +1,5 @@
 # Programação de Funcionalidades
 
-*ORIENTAÇÕES: Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.Para cada requisito funcional, pode ser entregue um artefato desse tipo. Esse trecho será excluido depois, mas as partes a seguir, não.*
-
 As Telas desenvolvidas para as funcionalidades do sistema priorizadas na Sprint 3 serão apresentadas nesta seção, bem como os requisitos funcionais à estas correspondentes, os artefatos criados e orientações de acesso.
 
 ## Login
