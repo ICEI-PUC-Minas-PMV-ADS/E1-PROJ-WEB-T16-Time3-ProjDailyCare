@@ -52,5 +52,5 @@ function cadastro() {
 
     // Finalizando cadastro
     alert('Finalizando cadastro');
-    window.location.href = window.location.origin + "/src/login/login.html";
+    window.location.href = window.location.origin + "/login/login.html";
 }

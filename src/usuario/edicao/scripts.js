@@ -30,7 +30,7 @@ function recuperarDadosUsuario() {
     }
     else {
         alert('Usuário logado não encontrado!');
-        window.location.href = window.location.origin + "/src/login/login.html";
+        window.location.href = window.location.origin + "/login/login.html";
     }
     
    
@@ -89,10 +89,10 @@ function salvarEdicaoUsuario() {
 
 function saida() {
     localStorage.removeItem('usuarioLogado');
-    window.location.href = window.location.origin + "/src/login/login.html";
+    window.location.href = window.location.origin + "/login/login.html";
 }
 function redirecionarTelaEdicao() {
-    window.location.href = window.location.origin + "/src/usuario/edicao/edicao.html";
+    window.location.href = window.location.origin + "/usuario/edicao/edicao.html";
 }
 
 function atualizandoOrigemLinksMenu() {
@@ -100,7 +100,7 @@ function atualizandoOrigemLinksMenu() {
     for (let i = 0; i < links.length; i++) {
         var link = links[i];
         var href = link.getAttribute('href');
-        link.setAttribute('href', `${window.location.origin}/src/${href}`);
+        link.setAttribute('href', `${window.location.origin}/${href}`);
     }
 }
 atualizandoOrigemLinksMenu();
