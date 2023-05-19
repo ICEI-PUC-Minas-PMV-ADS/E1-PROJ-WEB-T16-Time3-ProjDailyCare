@@ -22,7 +22,7 @@ function login(){
             senha: senha,
         }
         localStorage.setItem('usuarioLogado', JSON.stringify(usuarioLogado));
-        window.location.href = window.location.origin + "/src/index.html";
+        window.location.href = window.location.origin + "/index.html";
     }
     else{
         alert('Email ou senha incorretos.');
@@ -32,5 +32,5 @@ function login(){
 }
 
 function novoAcessoRedirecionar() {
-    window.location.href = window.location.origin + "/src/usuario/cadastro/cadastro.html";
+    window.location.href = window.location.origin + "/usuario/cadastro/cadastro.html";
 }
