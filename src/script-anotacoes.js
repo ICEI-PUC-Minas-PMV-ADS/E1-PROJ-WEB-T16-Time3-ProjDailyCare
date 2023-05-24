@@ -103,9 +103,3 @@ addBtn.addEventListener("click", e => {
         closeIcon.click();
     }
 });
-
-const lapis = document.querySelector('#lapis');
-
-lapis.addEventListener('click', () => {
-  console.log('Click!');
-});
