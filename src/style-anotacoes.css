@@ -34,16 +34,16 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .caixa-pesquisa{
-position: relative;
-left: 440px;
-background-color: #395B64;
-height: 20px;
-padding: 10px;
-border-radius: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-box-sizing: content-box;
+  position: relative;
+  left: 720px;
+  background-color: #395B64;
+  height: 20px;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: content-box;  
 
 
 }
@@ -80,17 +80,17 @@ box-sizing: content-box;
 }
 
 .icone-usuario{
-    position: relative;
-    left: 800px;
-    color: #395B64;
-    font-size: 25px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .6s;
+  position: relative;
+  left: 760px;
+  color: #395B64;
+  font-size: 25px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .6s;
 
 }
 
@@ -101,17 +101,17 @@ box-sizing: content-box;
 }
 
 .icone-saida{
-    position: relative;
-    left: 700px;
-    color: #395B64;
-    font-size: 25px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .6s;
+  position: relative;
+  left: 800px;
+  color: #395B64;
+  font-size: 25px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .6s;
 }
 
 .icone-saida:hover{
