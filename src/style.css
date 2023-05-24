@@ -166,6 +166,8 @@ ul li:hover a {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .texto_dados_medicos {
     font-size: 17px;
     margin-left: 15px;
@@ -205,6 +207,18 @@ ul li:hover a {
     margin-left: 850px;
     margin-top: 10px;
 }
+
+.col-9 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 200;
+    color: #395B64;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #e1e2e4;
+  }
 
 @media (max-width: 830px) {
     .menu span {
