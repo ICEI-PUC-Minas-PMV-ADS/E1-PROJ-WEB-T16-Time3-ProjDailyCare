@@ -208,7 +208,7 @@ ul li:hover a {
     margin-top: 10px;
 }
 
-/*.col-9 {
+.minha-classe {
     text-align: center;
     font-size: 23px;
     font-weight: 200;
@@ -218,7 +218,7 @@ ul li:hover a {
 
 body{
     background: #e1e2e4;
-  }*/
+  }
 
 @media (max-width: 830px) {
     .menu span {
