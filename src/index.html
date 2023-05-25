@@ -60,16 +60,37 @@
 
                 <script>
                     const ctx = document.getElementById('grafico');
+                    
+                    let dadosGrafico = JSON.parse(localStorage.getItem('dadosNeuroDivergentes'));
+                    
+                    let datasMilisegundos = dadosGrafico.dados.map(a => a.dataAmostra);
+                    // let datasMilisegundos = dadosGrafico.dados.map(a => a.dataAmostra);
+
+                    let datasFormatadas = datasMilisegundos.map(a => new Date(a).toLocaleString('pt-BR'))
+                    // alert(datasFormatadas)
 
                     new Chart(ctx, {
-                        type: 'bar',
+                        type: 'line',
                         data: {
-                            labels: ['Atenção', 'Alimentação', 'Engajamento', 'Tolerãncia'],
+                            labels: datasFormatadas,
                             datasets: [{
-                                label: 'Pontos acumulados da úlima semana',
-                                data: [70, 19, 3, 5, 2, 3],
+                                label: 'Atenção',
+                                data: dadosGrafico.dados.map(a => a.atencao),
                                 borderWidth: 1
-                            }]
+                            },{
+                                label: 'Alimentação',
+                                data: dadosGrafico.dados.map(a => a.alimentacao),
+                                borderWidth: 1
+                            },{
+                                label: 'Engajamento',
+                                data: dadosGrafico.dados.map(a => a.engajamento),
+                                borderWidth: 1
+                            },{
+                                label: 'Tolerância',
+                                data: dadosGrafico.dados.map(a => a.tolerancia),
+                                borderWidth: 1
+                            }
+                        ]
                         },
                         options: {
                             scales: {
