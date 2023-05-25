@@ -185,7 +185,7 @@ ul li:hover a{
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: #e1e2e4;
+  background: #dcdddf85;
 }
 ::selection{
   color: #fff;
@@ -319,7 +319,7 @@ position: relative;
   margin-bottom: 0;
 }
 .menu li:hover{
-  background: #f5f5f5;
+  background: #f5f1f100;
 }
 .menu li i{
   padding-right: 8px;
