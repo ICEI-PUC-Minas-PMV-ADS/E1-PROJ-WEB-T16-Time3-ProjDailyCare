@@ -216,9 +216,9 @@ ul li:hover a {
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+/*body{
     background: #e1e2e4;
-  }
+  }*/
 
 @media (max-width: 830px) {
     .menu span {
