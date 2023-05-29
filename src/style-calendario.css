@@ -134,7 +134,6 @@ main {
 
 
 .menu {
-    min-height: 100vh;
     background-color: #395B64;
 
 }
@@ -156,7 +155,15 @@ ul {
     border-top: 1px solid rgba(255, 255, 255, .1);
     border-bottom: 1px solid black;
     transition: .4s;
+}
 
+.menu ul {
+  display: flex;
+}
+
+@media (min-width: 768px) { 
+  .menu ul
+  {display: block;}
 }
 
 ul li:hover a {
@@ -176,23 +183,33 @@ ul li:hover a {
     font-family: 'Montserrat', sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 768px) { 
+    .main
+    {flex-direction: row;}
+}
+
 body {
   position: relative;
   min-height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
   background-color: #e2e1dc;
 }
 .container {
   position: relative;
-  width: max-content;
+  width: 100%;
   min-height: 850px;
   margin: 0 auto;
   padding: 5px;
   color: #fff;
   display: flex;
+  gap: 20px;
 
   border-radius: 10px;
   background-color: #395B64;
