@@ -519,10 +519,15 @@ body {
 .appointments .appointment:hover::after {
   display: flex;
 }
-.add-appointment {
+
+.floating-actions {
   position: absolute;
   bottom: 30px;
   right: 30px;
+  display: flex;
+  gap: 5px;
+}
+.floating-actions button {
   width: 40px;
   height: 40px;
   display: flex;
@@ -536,10 +541,10 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
-.add-appointment:hover {
+.floating-actions button:hover {
   opacity: 1;
 }
-.add-appointment i {
+.floating-actions button i {
   pointer-events: none;
 }
 .appointments .no-appointment {
@@ -646,6 +651,22 @@ body {
 .add-appointment-footer .add-appointment-button:hover {
   background-color: transparent;
   color: var(--primary-clr);
+}
+
+.add-med-wrapper {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  width: 90%;
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translateX(-50%);
+  transition: max-height 0.5s ease;
+}
+.add-med-wrapper.active {
+  max-height: 300px;
 }
 
 @media screen and (max-width: 830px) {

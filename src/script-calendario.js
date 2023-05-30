@@ -10,10 +10,13 @@ const calendar = document.querySelector(".calendar"),
   appointmentsContainer = document.querySelector(".appointments"),
   addAppointmentButton = document.querySelector(".add-appointment"),
   addAppointmentWrapper = document.querySelector(".add-appointment-wrapper "),
-  addAppointmentCloseButton = document.querySelector(".close "),
+  addAppointmentCloseButton = document.querySelector(".add-appointment-wrapper .close "),
   addAppointmentTitle = document.querySelector(".appointment-name "),
   addAppointmentTime = document.querySelector(".appointment-time "),
-  addAppointmentSubmit = document.querySelector(".add-appointment-button ");
+  addAppointmentSubmit = document.querySelector(".add-appointment-button "),
+  addMedButton = document.querySelector(".add-med"),
+  addMedWrapper = document.querySelector(".add-med-wrapper"),
+  addMedCloseButton = document.querySelector(".add-med-wrapper .close ");
 
 let todayDate = new Date();
 let dayActive;
@@ -173,6 +176,15 @@ document.addEventListener("click", (e) => {
   if (e.target !== addAppointmentButton && !addAppointmentWrapper.contains(e.target)) {
     addAppointmentWrapper.classList.remove("active");
   }
+});
+
+// activate the add med screen
+addMedButton.addEventListener("click", () => {
+  addMedWrapper.classList.toggle("active");
+});
+
+addMedCloseButton.addEventListener("click", () => {
+  addMedWrapper.classList.remove("active");
 });
 
 // allow only time in the appointment time
