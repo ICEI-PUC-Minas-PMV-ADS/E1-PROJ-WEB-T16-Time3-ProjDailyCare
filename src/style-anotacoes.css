@@ -17,7 +17,7 @@ a {
 
 header{
 background-color: #A5C9CA;
-padding: 6px 20px;
+padding: 6px 50px;
 }
 
 header > div div:last-child {
@@ -191,24 +191,53 @@ body{
   color: #fff;
   background: #618cf8;
 }
-.wrapper{
-  position: relative;
-  top: -100px;
-  right: 50px;
-  left: 300px;
-  margin: 80px;
+.wrapper {
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(auto-fill, 265px);
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
 }
-.wrapper li{
+
+.wrapper li {
   height: 250px;
   list-style: none;
   border-radius: 5px;
   padding: 15px 20px 20px;
   background: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
+    margin: 10px;
+  }
+}
+
 .add-box, .icon, .bottom-content, 
 .popup, header, .settings .menu li{
   display: flex;
@@ -459,10 +488,6 @@ body {
 
 .container {
   position: relative;
-  height: -550px;
-  top: -90px;
-  left: -58px;
-  max-width: 480px;
   width: 100%;
   border-radius: 8px;
   padding: 25px;
