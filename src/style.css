@@ -204,8 +204,8 @@ ul li:hover a {
     background-color: #395B64;
     border-radius: 13px;
     border-style: none;
-    margin-left: 850px;
-    margin-top: 10px;
+    /*margin-left: 850px;*/
+    margin-top: 20px;
 }
 
 .minha-classe {
