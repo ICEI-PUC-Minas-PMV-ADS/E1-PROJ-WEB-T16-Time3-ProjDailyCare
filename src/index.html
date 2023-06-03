@@ -76,24 +76,33 @@
             alert('Você ainda não possui dados registrados.')
         }
         else {
-            let humorGrafico =
+            let dadosHumor = dadosGrafico.dados.map(dadosPaciente => dadosPaciente.humor)
+            let quantidadeAlegre = dadosHumor.filter(x => x === "Alegre").length;
+            let quantidadeCansado = dadosHumor.filter(x => x === "Cansado").length;
+            let quantidadeApatico = dadosHumor.filter(x => x === "Apático").length;
+            let quantidadeTriste = dadosHumor.filter(x => x === "Triste").length;
+            let quantidadeIrritado = dadosHumor.filter(x => x === "Irritado").length;
+            let quantidadeConfuso = dadosHumor.filter(x => x === "Confuso").length;
+            let quantidadeDisperso = dadosHumor.filter(x => x === "Disperso").length;
+            let quantidadeDissociativo = dadosHumor.filter(x => x === "Dissociativo").length;
 
+            let humorGrafico =
                 new Chart(ctx2, {
                     type: 'doughnut',
                     data: {
                         labels: [
                             'Alegre',
+                            'Cansado',
                             'Apático',
                             'Triste',
                             'Irritado',
-                            'Cansado',
                             'Confuso',
                             'Disperso',
                             'Dissociativo'
                         ],
                         datasets: [{
-                            label: 'My First Dataset',
-                            data: [1, 1, 2, 1, 2, 1, 1, 1],
+                            label: 'Incidência',
+                            data: [quantidadeAlegre,quantidadeCansado ,quantidadeApatico ,quantidadeTriste ,quantidadeIrritado ,quantidadeConfuso ,quantidadeDisperso ,quantidadeDissociativo ],
                             backgroundColor: [
                                 'rgb(255, 99, 132)',
                                 'rgb(54, 162, 235)',

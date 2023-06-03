@@ -22,6 +22,7 @@ function salvarLocalStorage() {
     // alert(dadosAtualizados);
     // alert(new Date(dadosPaciente.dataAmostra).toLocaleString('pt-BR'))
     alert("Dados salvos com sucesso!")
+     
 }
 
 
