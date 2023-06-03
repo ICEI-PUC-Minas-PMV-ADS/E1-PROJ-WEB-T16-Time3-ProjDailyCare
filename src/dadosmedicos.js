@@ -1,11 +1,13 @@
 function salvarLocalStorage() {
-    // localStorage.removeItem('dadosNeuroDivergentes');
+    //localStorage.removeItem('dadosNeuroDivergentes');
+     
     let data = localStorage.getItem('dadosNeuroDivergentes');
     // alert(data);
     let dataJSON= JSON.parse(data);
     if (dataJSON == null) {
         dataJSON = {"dados":[]};
     }
+   
     let dadosPaciente = {}
     dadosPaciente.humor = document.getElementById("humor_formulario").value;
     dadosPaciente.atencao = document.getElementById("atencao_formulario").value;

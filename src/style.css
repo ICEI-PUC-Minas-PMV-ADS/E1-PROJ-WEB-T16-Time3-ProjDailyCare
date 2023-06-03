@@ -216,6 +216,20 @@ ul li:hover a {
     font-family: 'Montserrat', sans-serif;
 }
 
+.flexboxGraficos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chartBox {
+    width: 50%;
+    padding: 10px;
+    min-height: 350px;
+    min-width: 240px;
+
+}
+
 /*body{
     background: #e1e2e4;
   }*/
