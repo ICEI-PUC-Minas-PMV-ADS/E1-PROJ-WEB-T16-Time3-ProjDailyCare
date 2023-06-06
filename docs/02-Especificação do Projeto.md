@@ -60,9 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;|MÉDIA|
 |RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
 |RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
-|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
-|RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
-|RF-008|O sistema deve permitir a criação de planos de intervenção dentro do calendário, que permita categorizar a área multidisciplinar, informar objetivos ou descrição das intervenções e definir metas com tempo estimado para cumprir.|MÉDIA|
+|RF-006|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
 
 
 
