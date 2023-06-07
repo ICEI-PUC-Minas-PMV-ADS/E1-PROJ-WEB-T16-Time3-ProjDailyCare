@@ -18,6 +18,9 @@ function recuperarDadosUsuario() {
         document.getElementById('estadoCivil').value = dadosUsuario.estadoCivil;
         var sexo = document.querySelector(`input[name="sexo"][value="${dadosUsuario.sexo}"]`);
         sexo.checked = true;
+        var selectMedicamentos = $('#medicamentos');
+        selectMedicamentos.val(medicamentosSelecionados);
+        selectMedicamentos.selectpicker('refresh');
     
         if (dadosUsuario.aspectoGlobal.length){
             var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"]');
@@ -104,3 +107,183 @@ function atualizandoOrigemLinksMenu() {
     }
 }
 atualizandoOrigemLinksMenu();
+
+$('.selectpicker').selectpicker({
+  noneSelectedText: 'Selecione'
+});
+
+var contadorOpcoes = 1;
+var medicamentosSelecionados = [];
+var listaMedicamentos = [];
+var horariosMedicamentos = {}; // Variável para armazenar os horários selecionados
+
+function adicionarOpcao() {
+  var novaOpcao = $('#outra-opcao').val();
+  if (novaOpcao !== '') {
+    var option = $('<option>', {
+      text: novaOpcao,
+      selected: true
+    });
+    $('.selectpicker').append(option);
+    $('.selectpicker').selectpicker('refresh');
+    $('#outra-opcao').val('');
+  }
+}
+
+$(document).ready(function() {
+  recuperarDadosUsuario(); // Recuperar os dados do usuário ao carregar a página
+  recuperarHorarios(); // Recuperar os horários salvos ao carregar a página
+  exibirHorarios(); // Exibir os horários salvos ao carregar a página
+
+   // Atualizar o seletor Selectpicker após a atualização da página
+   $('.selectpicker').selectpicker('refresh');
+  
+});
+
+
+function recuperarHorarios() {
+  var horariosSalvos = localStorage.getItem('horariosMedicamentos');
+  if (horariosSalvos) {
+    horariosMedicamentos = JSON.parse(horariosSalvos);
+    listaMedicamentos = JSON.parse(horariosSalvos);
+  } else {
+    horariosMedicamentos = {}; // Criar um objeto vazio se não houver horários salvos
+    listaMedicamentos = []
+  }
+}
+
+function exibirHorarios() {
+  var divHorarios = $('#horarios');
+  divHorarios.empty(); // Limpar os elementos existentes
+
+  for (var i = 0; i < listaMedicamentos.length; i++) {
+    var horarioObj = listaMedicamentos[i];
+    var novoItem = criarItemHorario(horarioObj.nome, horarioObj.horario);
+    divHorarios.append(novoItem);
+  }
+}
+
+function salvarHorarios() {
+  localStorage.setItem('horariosMedicamentos', JSON.stringify(listaMedicamentos));
+}
+
+function removerItemHorario(nomeMedicamento) {
+  console.log(nomeMedicamento);
+  listaMedicamentos = listaMedicamentos.filter(function(medicamento) {
+    return medicamento.nome !== nomeMedicamento;
+  });
+  salvarHorarios();
+  exibirHorarios();
+}
+
+function criarItemHorario(medicamento, horario) {
+  
+  var novoItem = document.createElement("div");
+  novoItem.className = "horario-item";
+
+  var novoNomeMedicamento = document.createElement("span");
+  novoNomeMedicamento.innerText = medicamento + ': ';
+  novoItem.appendChild(novoNomeMedicamento);
+
+  var novoHorario = document.createElement("span");
+  novoHorario.innerText = horario;
+  novoItem.appendChild(novoHorario);
+
+  var botaoRemover = document.createElement("button");
+  botaoRemover.type = "button";
+  botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
+  botaoRemover.innerText = "X";
+  botaoRemover.setAttribute("onclick", 'removerItemHorario("' + medicamento + '")');
+  novoItem.appendChild(botaoRemover);
+
+  return novoItem;
+}
+
+
+function adicionarMedicamentos() {
+  var medicamentosSelecionadosNovos = $('#medicamentos').val();
+  for (var i = 0; i < medicamentosSelecionadosNovos.length; i++) {
+    var medicamento = medicamentosSelecionadosNovos[i];
+
+    // Verifica se o medicamento já foi selecionado anteriormente
+    if (medicamentosSelecionados.indexOf(medicamento) === -1) {
+      medicamentosSelecionados.push(medicamento);
+
+      if ($('#opcao-' + contadorOpcoes).length === 0) {
+        var listaMedicamentos = document.getElementById("opcoes-lista");
+        var novoItem = document.createElement("li");
+        novoItem.className = "list-group-item";
+        novoItem.id = "opcao-" + contadorOpcoes;
+
+        var novoNomeMedicamento = document.createElement("span");
+        novoNomeMedicamento.innerText = medicamento;
+        novoItem.appendChild(novoNomeMedicamento);
+
+        var novoCampoRelogio = document.createElement("input");
+        novoCampoRelogio.type = "time";
+        novoCampoRelogio.className = "form-control ml-3 relogio mb-3";
+        novoItem.appendChild(novoCampoRelogio);
+
+        var botaoRemover = document.createElement("button");
+        botaoRemover.type = "button";
+        botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-remover";
+        botaoRemover.innerText = "Remover";
+        botaoRemover.setAttribute("onclick", "removerOpcao(" + contadorOpcoes + ")");
+        novoItem.appendChild(botaoRemover);
+
+        listaMedicamentos.appendChild(novoItem);
+
+        contadorOpcoes++;
+        $('.selectpicker').selectpicker('refresh');
+      }
+    }
+  }
+}
+
+function salvarHorariosMedicamentos(){
+  // Obtém a lista pelo ID
+  const lista = document.getElementById('opcoes-lista');
+
+  // Obtém todos os elementos <li> dentro da lista
+  const elementosLi = lista.getElementsByTagName('li');
+
+  // Cria um array para armazenar os valores
+  const valores = [];
+
+  // Percorre os elementos <li>
+  for (let i = 0; i < elementosLi.length; i++) {
+    const elementoLi = elementosLi[i];
+
+    // Obtém o valor do <span> e do <input>
+    const valorSpan = elementoLi.querySelector('span').innerText;
+    const valorInput = elementoLi.querySelector('input').value;
+
+    // Adiciona os valores ao array
+    valores.push({ nome: valorSpan, horario: valorInput });
+  }
+
+  listaMedicamentos = valores;
+
+  salvarHorarios();
+  exibirHorarios();
+
+}
+
+
+function removerOpcao(id) {
+  var elementoRemover = document.getElementById("opcao-" + id);
+  var nomeMedicamento = elementoRemover.getElementsByTagName("span")[0].innerText;
+  medicamentosSelecionados = medicamentosSelecionados.filter(function(medicamento) {
+    return medicamento !== nomeMedicamento;
+  });
+  listaMedicamentos = listaMedicamentos.filter(function(medicamento) {
+    return medicamento.nome !== nomeMedicamento;
+  });
+  salvarHorarios();
+  elementoRemover.remove();
+}
+
+
+
+
+
