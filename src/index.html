@@ -127,7 +127,15 @@
                             ],
                             hoverOffset: 4
                         }]
+                    },
+                    options:{
+                    plugins:{
+                        title:{
+                            display:true,
+                            text: 'Gráfico de Humor'
+                        }
                     }
+                }
                 });
             const ctx = document.getElementById('grafico');
 
@@ -164,6 +172,12 @@
                     ]
                 },
                 options: {
+                    plugins:{
+                        title:{
+                            display:true,
+                            text: 'Gráfico de Dados Médicos'
+                        }
+                    },
                     scales: {
                         y: {
                             max: 10,
