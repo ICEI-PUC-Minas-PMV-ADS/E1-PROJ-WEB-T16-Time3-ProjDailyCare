@@ -26,6 +26,18 @@
 
 }
 
+.compromisso-item{
+    border: 2px solid #395B64;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding: 1% 0 1% 0;
+    text-align: center;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif
+
+}
+
 .btn-excluirMed{
     background-color: #f1453b !important;
     color: #ffffff !important;
@@ -57,4 +69,3 @@
 .horarioSalvo{
     width: 40%;
 }
-
