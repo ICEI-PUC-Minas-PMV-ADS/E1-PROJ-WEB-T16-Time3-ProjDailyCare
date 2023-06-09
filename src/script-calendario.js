@@ -123,6 +123,10 @@ function loadAppointments() {
   }
 }
 
+function updateInternalStorage() {
+  localStorage.setItem('appointments', JSON.stringify(daysWithEvents));
+}
+
 // add "active" on the day
 function addListner() {
   const days = document.querySelectorAll(".day");
@@ -236,7 +240,7 @@ addAppointmentSubmit.addEventListener("click", () => {
       appointments: [newAppointment],
     });
   }
-
+  updateInternalStorage();
   addAppointmentWrapper.classList.remove("active");
   addAppointmentTitle.value = "";
   addAppointmentTime.value = "";
@@ -270,6 +274,7 @@ appointmentsContainer.addEventListener("click", (e) => {
         }
       }
     });
+    updateInternalStorage();
     updateAppointments(dayActive);
   }
 });
