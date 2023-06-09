@@ -30,6 +30,7 @@ body {
   justify-content: center;
   background-color: #e2e1dc;
 }
+
 .container {
   position: relative;
   width: 100%;
@@ -554,4 +555,3 @@ body {
     padding: 20px;
   }
 }
-
