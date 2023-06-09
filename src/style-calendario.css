@@ -157,15 +157,6 @@ ul {
     transition: .4s;
 }
 
-.menu ul {
-  display: flex;
-}
-
-@media (min-width: 768px) { 
-  .menu ul
-  {display: block;}
-}
-
 ul li:hover a {
     padding-left: 50px;
 }
@@ -173,7 +164,6 @@ ul li:hover a {
 .menu ul a i {
     margin-right: 16px;
 }
-
 
 .conteudo {
     text-align: center;
