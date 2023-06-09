@@ -21,10 +21,6 @@
                 <h1 class="titulo">DailyCare</h1>
             </div>
             <div class="col-12 col-md-9 d-flex align-items-center justify-content-end">
-                <div class="caixa-pesquisa">
-                    <input type="text" class="pesquisa-texto" placeholder="Pesquisar">
-                    <a href="#" class="icone-lupa"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div>
                     <span onclick="redirecionarTelaEdicao()" class="icone-usuario"><i class="fa-solid fa-user"></i></span>
                     <span onclick="saida()" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></span>
             </div>
@@ -34,16 +30,21 @@
     <main>
         <div class="row">
             <!-- Menu -->
-            <div class="col-3 menu">
-                <ul>
-                    <li><a href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
-                    <li><a href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
-                    <li><a href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a>
-                    </li>
-                    <li><a href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a>
-                    </li>
-                    <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
-                </ul>
+            <div class="col-3 hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <section class="menu">
+                    <ul>
+                        <li><a href="index.html" style="margin-top: -15%;"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
+                        <li><a href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
+                        <li><a href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
+                        <li><a href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
+                        <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
+                    </ul>
+                </section>
             </div>
             <!-- Conteúdo -->
             <div class="col-9 minha-classe">
@@ -138,6 +139,45 @@
             </div>
         </div>
     </main>
+
+    <!-- Footer -->
+<footer class="" style="background-color: #A5C9CA; color: #395B64;">
+    
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="font-size: 16px;">
+            <div class="me-5 d-none d-lg-block">
+                <span>Conecte-se a nossas redes sociais:</span>
+            </div>
+            <div style="font-size: 18px;">
+                <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    
+        <section class="">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
+                    <h6 class="text-uppercase fw-bold mb-2"><i class="fas fa-gem me-3"></i>Daily Care</h6>
+                    <p>
+                        Somos uma plataforma de gerenciamento de tarefas e organização pessoal que busca atender à demandas de pessoas neurodivergentes ou/e de seus respectivos cuidadores. 
+                    </p>
+            </div>
+        
+            <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-2">
+                
+                    <h6 class="text-uppercase fw-bold mb-2">Contatos:</h6>
+                    <p><i class="fas fa-home me-3"></i> Rua das astromélias, 674, Ouro Preto, MG</p>
+                    <p><i class="fas fa-envelope me-3"></i>contato@dailycare.com</p>
+                    <p><i class="fas fa-phone me-3"></i> (31) 98937 – 4022</p>
+            </div>
+            
+            </div>
+        
+        </section>
+            <div class="text-center p-4" style="background-color: #395B64; color: #ffffff;">
+            © 2023 Copyright
+            </div>
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
