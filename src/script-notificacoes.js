@@ -51,7 +51,7 @@ function exibirCompromissos() {
       botaoRemover.type = "button";
       botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
       botaoRemover.innerText = "X";
-      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + diaObj.title + '")');
+      botaoRemover.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
       novoItem.appendChild(botaoRemover);
     }
    
@@ -62,6 +62,10 @@ function salvarHorarios() {
   localStorage.setItem('horariosMedicamentos', JSON.stringify(horarios));
 }
 
+function salvarCompromissos() {
+  localStorage.setItem('appointments', JSON.stringify(diasComCompromissos));
+}
+
 function removerItemHorario(nomeMedicamento) {
   horarios = horarios.filter(function(medicamento) {
     return medicamento.nome !== nomeMedicamento;
@@ -70,12 +74,22 @@ function removerItemHorario(nomeMedicamento) {
   exibirHorarios();
 }
 
-function removerItemCompromisso(nomeMedicamento) {
-  horarios = horarios.filter(function(medicamento) {
-    return medicamento.nome !== nomeMedicamento;
+function removerItemCompromisso(title, dia, mes, ano) {
+  diasComCompromissos.forEach((diaComCompromisso) => {
+    if (diaComCompromisso.day == dia && diaComCompromisso.month == mes && diaComCompromisso.year == ano) {
+      diaComCompromisso.appointments.forEach((compromisso, index) => {
+        if (compromisso.title === title) {
+          diaComCompromisso.appointments.splice(index, 1);
+        }
+      });
+
+      if (diaComCompromisso.appointments.length === 0) {
+        diasComCompromissos.splice(diasComCompromissos.indexOf(diaComCompromisso), 1);
+      }
+    }
   });
-  salvarHorarios();
-  exibirHorarios();
+  salvarCompromissos();
+  exibirCompromissos();
 }
 
 exibirHorarios();
