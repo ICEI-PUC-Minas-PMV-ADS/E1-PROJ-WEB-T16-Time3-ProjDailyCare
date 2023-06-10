@@ -110,12 +110,12 @@ main {
     left: 15px;
     width: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 11;
     color: #395B64;
   }
   .menu__btn > span,
   .menu__btn > span::before{
-    display: block;
+    display:block;
     position: absolute;
     width: 100%;
     height: 2px;
@@ -141,6 +141,7 @@ main {
     top: 8px;
   }
   .menu {
+    z-index: 10;
     display: block;
     position: relative;
     top: -24px;
