@@ -20,18 +20,31 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 
 ### Testes Ponta a Ponta
 
-|Caso de Teste|CT-01 Criar novas tarefas ou eventos|
+|Caso de Teste|CT-01 Gerenciar tarefas ou eventos|
 |----------------------|-----------------------------------------------------|
-|**Objetivo**|Verificar se as ferramentas de calendário e notificações estão funcionando|
-|**História de Usuário**| Eu, como pessoa neurodivergente, quero gerenciar tarefas importantes para para reduzir a procrastinação e ter mais cautela com os prazos do trabalho|
-|**Requisitos Associados**|RF-001 Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|
-|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser;<br>2) Clicar, no menu, na aba Calendário; <br>3) No espaço que permite inserir data, selecionar àquela em que deseja atribuir uma tarefa e clicar no botão "Ir"; <br>4) Tendo verificado que a data desejada está em destaque no calendário, clicar no ícone de "+";<br>5) Inserir a tarefa no campo "Nome do Campromisso" e selecionar a data no campo "Horário", após, clicar no botão "Adicionar Comprmisso". |
-|**Critérios de Êxito**|* A tarefa/evento criado deve constar na lista de compromissos referentes à data selecionada;<br>* A tarefa/evento criado deve estar visível na lista de notificações na tela Notificações.<br>* As tarefas/eventos criados deverão estar presentes na variável `appointments`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Objetivo**|Verificar se é possível criar tarefas ou eventos e receber as respectivas notificações|
+|**História de Usuário**| * Eu, como pessoa neurodivergente, quero gerenciar tarefas importantes para para reduzir a procrastinação e ter mais cautela com os prazos do trabalho;<br>   * Eu quero ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mãe de uma pessoa neuroatípica para ter acesso a ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
+|**Requisitos Associados**|RF-001 Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser;<br>2) Clicar, no menu, na aba Calendário; <br>3) No espaço que permite inserir data, selecionar àquela em que deseja atribuir uma tarefa e clicar no botão "Ir"; <br>4) Tendo verificado que a data desejada está em destaque no calendário, clicar no ícone de "+";<br>5) Inserir a tarefa no campo "Nome do Campromisso" e selecionar a data no campo "Horário", após, clicar no botão "Adicionar Comprmisso" |
+|**Critérios de Êxito**|* A tarefa/evento criado deve constar na lista de compromissos referentes à data selecionada;<br>* A tarefa/evento criado deve estar visível na lista de notificações na tela Notificações.<br>* As tarefas/eventos criados deverão estar presentes na variável `appointments`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador)|
 |**Tipo de Teste**|Ponta a Ponta|
 |**Técnica Utilizada**|Manual|
 |**Abordagem**|Caixa Preta|
 |**Responsáveis**|Laila Martins|
+<br>
+<br>
 
+|Caso de Teste|CT-02 Registrar Medicações|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se é possível realizar cadastro de medicamentos, ser notificado sobre a medicação e confirmar o uso|
+|**História de Usuário**| Eu, como pessoa neurodivergente, quero registrar medicação diariamente para não perder os horários das medicações e ter confirmação se as tomou ou não.|
+|**Requisitos Associados**|RF-005O O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser;<br>2) Clicar, no ícone de usuário, no cabeçalho, que direcionará para a tela Dados do Usuário;<br>3) No campo "Medicamentos" selecionar os medicamentos que consome, podendo selecionar até todos eles. Havendo necessidade, escrever no campo "Insira outro medicamento" um farmaco que não se encontra na lista e clicar em "adicionar medicamento", podendo realizar a ação mais de uma vez; <br>4) Tendo selecionado os medicamentos, clicar no botão "Adicionar Horário" e selecionar os horários correspondentes a todos os medicamentos listados;<br>5) Clicar no Botão "Salvar Horários"; <br>6) Clicar na aba "Notificações" no menu e visualizar as medicações de uso contínuo; <br>7) Na tela de notificações, tendo realizado a medicação na respectiva data, clicar no ícone de "check" para confirmar o uso.|
+|**Critérios de Êxito**|* Os medicamentos cadastrados devem constar na lista de medicamentos na tela de Dados do Usuário;<br>* Os medicamentos devem poder ser excluídos dos Dados do Usuário a partir do botão de "fechar"; <br>* Os medicamentos devem constar, diariamente, na lista de Horários de Medicamentos, na tela de Notificações.; <br>* Após confirmação do uso, o medicamento confirmado não deve aparecer na tela de Notificações até a data seguinte. <br>* Os medicamentos cadastrados deverão estar presentes na variável `horariosMedicamentos`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador). <br>* Os medicamentos cujo uso foram confirmados deverão estar presentes na variável `medicamentosTomados`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Tipo de Teste**|Ponta a Ponta|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Laila Martins|
 
 
 
