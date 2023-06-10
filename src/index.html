@@ -54,14 +54,17 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 mb-5">
                         <div style="display: flex; justify-content: center; height: 320px;">
-                        <canvas id="grafico"></canvas>
+                            <canvas id="grafico"></canvas>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div style="display: flex; justify-content: center; height: 320px;">
-                        <canvas id="graficoPizza"></canvas>
+                            <canvas id="graficoPizza"></canvas>
                         </div>
                     </div>
+                </div>
+                <div style="display: flex; justify-content: center; height: 320px";>
+                    <p id="mensagem"></p>
                 </div>
 
                 <!--<div class="flexboxGraficos">
@@ -78,14 +81,16 @@
 
         </div>
 
+
         </div>
     </main>
     <script>
         const ctx2 = document.getElementById('graficoPizza');
         let dadosGrafico = JSON.parse(localStorage.getItem('dadosNeuroDivergentes'));
-        
+
         if (dadosGrafico == null) {
-            alert('Você ainda não possui dados registrados.')
+            document.getElementById("mensagem").innerText = "Você ainda não possui dados."
+            //alert('Você ainda não possui dados registrados.')
         }
         else {
             let dadosHumor = dadosGrafico.dados.map(dadosPaciente => dadosPaciente.humor)
@@ -114,7 +119,7 @@
                         ],
                         datasets: [{
                             label: 'Incidência',
-                            data: [quantidadeAlegre,quantidadeCansado ,quantidadeApatico ,quantidadeTriste ,quantidadeIrritado ,quantidadeConfuso ,quantidadeDisperso ,quantidadeDissociativo ],
+                            data: [quantidadeAlegre, quantidadeCansado, quantidadeApatico, quantidadeTriste, quantidadeIrritado, quantidadeConfuso, quantidadeDisperso, quantidadeDissociativo],
                             backgroundColor: [
                                 'rgb(255, 99, 132)',
                                 'rgb(54, 162, 235)',
@@ -128,19 +133,19 @@
                             hoverOffset: 4
                         }]
                     },
-                    options:{
-                    plugins:{
-                        title:{
-                            display:true,
-                            text: 'Gráfico de Humor'
+                    options: {
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Gráfico de Humor'
+                            }
                         }
                     }
-                }
                 });
             const ctx = document.getElementById('grafico');
 
 
-            
+
 
             let datasMilisegundos = dadosGrafico.dados.map(a => a.dataAmostra);
             // let datasMilisegundos = dadosGrafico.dados.map(a => a.dataAmostra);
@@ -172,9 +177,9 @@
                     ]
                 },
                 options: {
-                    plugins:{
-                        title:{
-                            display:true,
+                    plugins: {
+                        title: {
+                            display: true,
                             text: 'Gráfico de Dados Médicos'
                         }
                     },

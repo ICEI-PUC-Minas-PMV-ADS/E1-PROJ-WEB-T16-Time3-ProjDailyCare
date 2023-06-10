@@ -1,5 +1,5 @@
 function salvarLocalStorage() {
-    //localStorage.removeItem('dadosNeuroDivergentes');
+    //localStorage.removeItem('dadosNeuroDivergentes');   
      
     let data = localStorage.getItem('dadosNeuroDivergentes');
     // alert(data);
@@ -21,6 +21,7 @@ function salvarLocalStorage() {
     localStorage.setItem('dadosNeuroDivergentes', dadosAtualizados);
     // alert(dadosAtualizados);
     // alert(new Date(dadosPaciente.dataAmostra).toLocaleString('pt-BR'))
+    
     alert("Dados salvos com sucesso!")
      
 }
