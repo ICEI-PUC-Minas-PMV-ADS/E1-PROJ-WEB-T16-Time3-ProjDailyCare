@@ -17,7 +17,7 @@ a {
 
 header{
 background-color: #A5C9CA;
-padding: 6px 50px;
+padding: 4% 5%;
 }
 
 header > div div:last-child {
@@ -81,7 +81,6 @@ font-family: 'Montserrat', sans-serif;
 
 .icone-usuario{
   position: relative;
-  left: 760px;
   color: #395B64;
   font-size: 25px;
   border-radius: 50%;
@@ -102,7 +101,6 @@ font-family: 'Montserrat', sans-serif;
 
 .icone-saida{
   position: relative;
-  left: 800px;
   color: #395B64;
   font-size: 25px;
   border-radius: 50%;
