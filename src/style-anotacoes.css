@@ -107,8 +107,9 @@ font-family: 'Montserrat', sans-serif;
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
   transition: .6s;
+  justify-content: center;
+ 
 }
 
 .icone-saida:hover{
@@ -237,7 +238,7 @@ body{
 }
 
 .add-box, .icon, .bottom-content, 
-.popup, .settings .menu li{
+.popup,.settings .menu li{
   display: flex;
   align-items: center;
   justify-content: space-between;
