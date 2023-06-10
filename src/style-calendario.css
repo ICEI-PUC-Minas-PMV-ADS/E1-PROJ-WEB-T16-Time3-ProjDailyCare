@@ -4,6 +4,7 @@
   --primary-clr: #458b8d;
 }
 
+
 @media (min-width: 768px) { 
     .main
     {flex-direction: row;}
@@ -16,6 +17,7 @@ body {
   justify-content: center;
   background-color: #e2e1dc;
 }
+
 .container {
   max-width: 100%;
   position: relative;
@@ -540,4 +542,3 @@ body {
     padding: 20px;
   }
 }
-
