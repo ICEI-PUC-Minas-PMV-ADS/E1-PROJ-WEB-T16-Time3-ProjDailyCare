@@ -18,9 +18,9 @@ Escolheu-se àqueles voltados para a melhor eficiência e execução de uma apli
 
 O presente Plano de Testes se realiza a partir de casos de teste, orientados por Tipos de Testes e Requisitos Funcionais e Não-Funcionais documentados na seção [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md) nesse mesmo repositório, abrangendo as Histórias de Usuário e os respectivos objetivos de cada caso.
 
-### Testes Ponta a Ponta
 
-|Caso de Teste|CT-01 Gerenciar tarefas ou eventos|
+
+|Caso de Teste|CT-03 Gerenciar tarefas ou eventos|
 |----------------------|-----------------------------------------------------|
 |**Objetivo**|Verificar se é possível criar tarefas ou eventos e receber as respectivas notificações|
 |**História de Usuário**| * Eu, como pessoa neurodivergente, quero gerenciar tarefas importantes para para reduzir a procrastinação e ter mais cautela com os prazos do trabalho;<br>   * Eu quero ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mãe de uma pessoa neuroatípica para ter acesso a ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha.|
@@ -34,7 +34,7 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 <br>
 
-|Caso de Teste|CT-02 Registrar Medicações|
+|Caso de Teste|CT-04 Registrar Medicações|
 |----------------------|-----------------------------------------------------|
 |**Objetivo**|Verificar se é possível realizar cadastro de medicamentos, ser notificado sobre a medicação e confirmar o uso|
 |**História de Usuário**| Eu, como pessoa neurodivergente, quero registrar medicação diariamente para não perder os horários das medicações e ter confirmação se as tomou ou não.|
@@ -48,7 +48,7 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 <br>
 
-|Caso de Teste|CT-03 Registrar Aspectos Globais|
+|Caso de Teste|CT-05 Registrar Aspectos Globais|
 |----------------------|-----------------------------------------------------|
 |**Objetivo**|Verificar o registro de aspectos de comportamento e os gráficos gerados.|
 |**História de Usuário**| * Eu, como pessoa neurodivergente, quero registrar mudanças de humor, para monitorar os sintomas das mudanças e comunicar ao terapeuta e ao médico.<br>* Eu, como mãe de uma pessoa neurodivergente, quero controlar diariamente os aspectos globais da filha (humor, agitação, engajamento, evacuação, alimentação, etc), para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica. <br>* Eu, como mãe de uma pessoa neurodivergente, quero ter acesso a gráficos de desempenho dos aspectos globais monitorados, para apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento.|
@@ -63,7 +63,19 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 
 
-
+|Caso de Teste|CT-06 Fazer anotações diárias|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar a geração de notas sobre observações terapêuticas vinculadas à datas|
+|**História de Usuário**| * Eu, como mãe de pessoa neurodivergente, quero anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica, para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe; <br>* Eu, como mãe de uma pessoa neurodivergente, quero poder fazer pesquisas sobre as informações diárias de comportamento da minha filha através do histórico produzido, para retomar um assunto abordado pela equipe ou reanalisar um aspecto.|
+|**Requisitos Associados**|RF-002	Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser e fazer o login;<br>2) Clicar na aba Anotações do menu; <br>3) Clicar no ícone de "+" dentro do bloco "Observação Terapêutica"; <br>4) No campo "título", inserir o nome desejado para a anotação e, em "Descrição", escrever o texto desejado; <br>5) Clicar no botão "Add Nota";<br> 6)Para editar uma nota ou deletar uma nota, clicar no ícone "..." na respectiva nota e selecionar a opção desejada.|
+|**Critérios de Êxito**|* Ao adicionar uma nova nota, esta deve gerar um novo bloco com os valores inseridos e a data respectiva de criação;<br>* Ao editar uma nota, o campo de preenchimento de texto deve aparecer novamente e deve conter um botão de "Atualizar Nota"; <br>* Ao deletar uma nota, deve aparecer um `alert` de "Você tem certeza que deseja deletar essa nota?";<br>* As notas criadas deverão estar presentes na variável `notes`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Tipo de Teste**|Ponta a Ponta|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Débora Alexia|
+<br>
+<br>
 
 
 
