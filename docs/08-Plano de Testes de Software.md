@@ -1,19 +1,79 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Esta seção descreve os requisitos funcionais e não funcionais que serão testados, os tipos de testes respectividamente escolhidos, os recursos de hardware e software a serem empregados e o cronograma e evolução dos testes ao longo da Srpint 5.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+## Cronograma
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+## Tipos de Testes
+
+Escolheu-se àqueles voltados para a melhor eficiência e execução de uma aplicação web, utilizando-se de abordagens tanto funcionais (caixa-preta) como estruturais (caixa-branca). Os tipos de teste selecionados foram:
+
+- Teste de Navegabilidade;
+- Teste de Responsividade;
+- Teste de Campos e Páginas;
+- Teste de Compatibilidade;
+- Testes Ponta a Ponta.
+
+## Casos de testes
+
+O presente Plano de Testes se realiza a partir de casos de teste, orientados por Tipos de Testes e Requisitos Funcionais e Não-Funcionais documentados na seção [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md) nesse mesmo repositório, abrangendo as Histórias de Usuário e os respectivos objetivos de cada caso.
+
+### Testes Ponta a Ponta
+
+|Caso de Teste|CT-01 Criar novas tarefas ou eventos|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se as ferramentas de calendário e notificações estão funcionando|
+|**História de Usuário**| Eu, como pessoa neurodivergente, quero gerenciar tarefas importantes para para reduzir a procrastinação e ter mais cautela com os prazos do trabalho|
+|**Requisitos Associados**|RF-001 Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser;<br>2) Clicar, no menu, na aba Calendário; <br>3) No espaço que permite inserir data, selecionar àquela em que deseja atribuir uma tarefa e clicar no botão "Ir"; <br>4) Tendo verificado que a data desejada está em destaque no calendário, clicar no ícone de "+";<br>5) Inserir a tarefa no campo "Nome do Campromisso" e selecionar a data no campo "Horário", após, clicar no botão "Adicionar Comprmisso". |
+|**Critérios de Êxito**|* A tarefa/evento criado deve constar na lista de compromissos referentes à data selecionada;<br>* A tarefa/evento criado deve estar visível na lista de notificações na tela Notificações.<br>* As tarefas/eventos criados deverão estar presentes na variável `appointments`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Tipo de Teste**|Ponta a Ponta|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Laila Martins|
+
+
+
+
+
+
+
+
+
+|Caso de Teste|CT-01 Conseguir navegar por todas as telas da aplicação|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se todos os Botões e Ícones da aplicação levam o usuário às telas corretas|
+|**Requisitos Associados**|RNF-001 A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário; <br>RNF-006 O sistema deve sinalizar o usuário quando alguma operação está demorando mais que o comum; <br>RNF-007 Deve tratar ao usuário erros inerentes à aplicação (conexão, memória local, memória do provedor, etc);<br>RNF-008 Deve processar requisições do usuário em no máximo 3s.|
+|**Instruções de Execução**|1) Acessar o documento index.hml através de um browser;<br>2)Clicar no botão de "Novo Acesso"|
+|**Saída Esperada**|blo|
+|**Tipo de Teste**|blible|
+|**Técnica Utilizada**|manual () automática ()|
+|**Abordagem**|Caixa Branca () Caixa Preta ()|
+|**Responsáveis**|fg|
+
+
+
+
+
+|Caso de Teste|CT-01 Acesso a Calendário interativo com opção de criação de criação de eventos|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se o Calendário respeita ordem correta de datas |
+|**Requisitos Associados**|bla|
+|**Instruções de Execução**|bli|
+|**Saída Esperada**|blo|
+|**Tipo de Teste**|blible|
+|**Técnica Utilizada**|manual () automática ()|
+|**Abordagem**|Caixa Branca () Caixa Preta ()|
+|**Responsáveis**|fg|
+
+
+
+
+
+
+
+
+
  
 ## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
