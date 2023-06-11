@@ -79,5 +79,42 @@ A presente seção trás as evidências dos testes realizados a partir dos 9 [Ca
 
 **CONCLUSÃO: A falha principal na edição de dados se dá a partir da alteração dos dados de login. A aplicação não atualiza automaticamente o login com novas informações e passa a considerar o formulário como pertencente a um usuário não mais existente, de forma que as informações alteradas apenas se encontrarão disponíveis a partir de novo login, com as informações que foram editadas na última vez.**
 
+## CT-03 Gerenciar tarefas ou eventos
+
+- **Objetivo:** Verificar se é possível criar tarefas ou eventos e receber as respectivas notificações
+- **Responsável:** Laila Martins
+- **Critérios de Êxito atingidos**:
+  - campo de pesquisa de mês deve aceitar apenas meses válidos e cumprir a busca corretamente; 
+  - tarefa/evento criado deve constar na lista de compromissos referentes à data selecionada;
+  - tarefa/evento criado deve estar visível na lista de notificações na tela Notificações;
+  - tarefas/eventos criados devidamente vinculados à variável  `appointments` no LocalStorage.
+- **Critérios de Êxito NÃO atingidos**:  
+  - a criação de tarefas e eventos apenas será possível mediante preenchimento de todos os campos exigidos;
+
+- **Evidências:**
+ 
+ **Acesso à Tela de Calendário a partir do Menu:**
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/bb9187fa-6b9a-4ca1-8e26-e92fe825403f)
+ 
+ **O campo de redirecionamento à um mês específico não aceita datas inválidas, mas funciona com datas válidas:**
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/6c424a9f-9a59-4900-8bc6-7fc9c2d4f02c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/9320c4f5-143c-4776-a17c-ff5504fab4e9)
+
+ **Botões e campos de adicionar compromisso funcionam corretamente e criam tarefas novas:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/c7c0d72a-e5ec-4960-aebd-1c628a785908)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/3d53491b-76e3-4f46-bb81-666125653bed)
+
+**Os eventos e tarefas criados constam na tela de notificações:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/500dff8a-e653-4132-9923-b17acb4f6990)
+
+**Os eventos e tarefas criados se encontram na variável  `appointments` no LocalStorage:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/7400bb76-adc9-444e-8bb0-5e2579a68b0a)
+
+**FALHA: O calendário permite que eventos sem nome ou sem horários válidos sejam criados:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/fa70edc4-4089-439a-9d82-066908f99ca8)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/43abb829-a44f-4414-bf64-2d40f159a335)
+
+
+
 
 
