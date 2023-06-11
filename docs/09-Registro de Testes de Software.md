@@ -244,13 +244,76 @@ Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compr
 
 ## CT-07 Funcionamento do Menu e dos ícones do Cabeçalho
 
-- **Objetivo:** Verificar a geração de notas sobre observações terapêuticas vinculadas à datas
-- **Responsável:** Débora Alexia
+- **Objetivo:** Funcionamento do Menu e dos ícones do Cabeçalho
+- **Responsável:** Carolina Morais
 - **Critérios de Êxito atingidos**: 
-  - a adição de uma nova nota gera um novo bloco com os valores inseridos e a data respectiva de criação;
-  - a edição de uma nota faz com que o campo de preenchimento de texto apareça novamente e após a seleção do botão "Atualizar Nota", o bloco daquela nota deverá permanecer com a edição realizada;
-  - ao deletar uma nota, deve aparecer um alert de "Você tem certeza que deseja deletar essa nota?";
-  - não deve é possível criar uma nota sem o preenchimento de nenhum dos campos;
-  - as notas criadas deverão estar presentes na variável `notes`, sempre respectivas à sua última edição., que podem ser vistas no Local Storage;
+  - clicar em uma abas do menu deve realizar o direcionamento da página para a tela respectivamente selecionada.
+  - selecionar o ícone de usuário, independente da tela, deve redirecionar a página para a tela de "Dados do Usuário";
+  - selecionar o ícone de saída deve levar o usuário à tela de login;
+
+- **Evidências:**
+
+**Navegabilidade do menu em todas as telas:**
+```
+<section class="menu">
+                        <ul>
+                            <li><a href="index.html" style="margin-top: -15%;"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
+                            <li><a href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
+                            <li><a href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
+                            <li><a href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
+                            <li><a href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+```
+
+**Redirecionamento para a tela "Dados do Usuário" e para a tela de login a partir do ícone de saída, ambos no cabeçalho:**
+```
+<div class="col-12 col-md-9 d-flex align-items-center justify-content-end">
+                    <span onclick="redirecionarTelaEdicao()" class="icone-usuario"><i class="fa-solid fa-user"></i></span>
+                    <span onclick="saida()" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></span>
+                </div>
+            </div>
+```
+
+## CT-08 Utilizar a aplicação em dispositivos móveis
+- **Objetivo:** Verificar o comportamento das telas da aplicação em diferentes tamanhos de telas
+- **Responsável:** Laila Martins
+- **Critérios de Êxito atingidos**: 
+  - Em telas menores que 990 pixels, o Menu deve adota o recurso "sanduíche" e apenas é revelado na tela quando selecionado o respectivo ícone, sobrepondo-se ao conteúdo da tela;
+- **Critérios de Êxito NÃO atingidos**:  
+  - Todos os elementos visuais da aplicação devem adaptar-se à diferentes tamanhos de tela, sem que a alteração das dimensões prejudique o layout e a experiência do usuário. 
+  - Observação: boa parte das telas e seus elementos respeitou esse critério, com a exceção do botão de "fechar" referentes aos Medicamentos e aos Compromissos.
+
+- **Evidências:**
+**Tela de Login:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/9303031d-4caf-4a94-b631-3d64cd9f6e0f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/b4a54783-d6b6-4e67-a712-f81629384d26)
+
+**HomePage e demonstração do Menu Sanduíche:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/7f61c5fd-53ff-4fbe-84af-b3e80c167d37)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/4e3a5d3b-c584-43ef-a8cc-1491ecd0aa9e)
+
+**Tela de Dados do Usuário:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/59edec0e-5c0a-4115-9354-ee20e718c972)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/b7a3acbb-3869-4b31-92cb-6d9618aef64e)
+
+**Tela de Notificações, em que os botões de fechar não estão responsivos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a93f23a6-ff03-4a52-9f35-81661c1bc871)
+
+**Tela de Anotações:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d364adf1-cee5-447e-a9c8-a8b22eb4cf75)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/2c3c0c2c-c5a5-41ad-a61d-aab3cbb55799)
+
+**Tela de Calendário:**
+Observação: não atingimos o potencial da tela em relação ao posicionamento do calendário em relação ao menu sanduíche.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1c91eb0d-5a2c-4fb6-88e7-5fea503233bf)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/dd311917-e43b-421c-9391-fe91b2e39763)
+
+**Tela de Dados Médicos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/27a5a28a-8b7c-417d-bba1-77b127fb7e3e)
+
+
+
 
 
