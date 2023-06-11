@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
     <title>Dados do Usuário</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="./../../style.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,10 +21,6 @@
                 <h1 class="titulo">DailyCare</h1>
             </div>
             <div class="col-12 col-md-9 d-flex align-items-center justify-content-end">
-                <div class="caixa-pesquisa">
-                    <input type="text" class="pesquisa-texto" placeholder="Pesquisar">
-                    <a href="#" class="icone-lupa"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div>
                     <span onclick="redirecionarTelaEdicao()" class="icone-usuario"><i class="fa-solid fa-user"></i></span>
                     <span onclick="saida()" class="icone-saida"><i class="fa-solid fa-share-from-square fa-rotate-180"></i></span>
             </div>
@@ -32,16 +29,23 @@
 
     <main>
         <div class="row">
-          <!-- Menu -->
-          <div class="col-3 menu">
-                <ul>
-                    <li><a name="link" href="index.html"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
-                    <li><a name="link" href="notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
-                    <li><a name="link" href="anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
-                    <li><a name="link" href="calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
-                    <li><a name="link" href="dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
-                </ul>
-          </div>
+                  <!-- Menu -->
+                  <div class="col-1 col-lg-3 hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <section class="menu">
+                        <ul>
+                            <li><a href="/index.html" style="margin-top: -15%;"><i class="fa-solid fa-house"></i> <span>Home</span> </a></li>
+                            <li><a href="/notificacoes.html"><i class="fa-solid fa-bell"></i> <span>Notificações</span></a></li>
+                            <li><a href="/anotacoes.html"><i class="fa-solid fa-pen-to-square"></i><span>Anotações</span></a></li>
+                            <li><a href="/calendario.html"><i class="fa-solid fa-calendar-days"></i><span>Calendário</span></a></li>
+                            <li><a href="/dadosmedicos.html"><i class="fa-solid fa-stethoscope"></i><span>Dados médicos</span></a></li>
+                        </ul>
+                    </section>
+                </div>
             <!-- Formulário -->
             <div class="col-9 formulario">
                 <p class="conteudo">Dados do Usuário</p>
@@ -51,7 +55,7 @@
                     <!-- Nome -->
                     <div class="form_grupo">
                         <label class="col-sm-2 col-form-label">Nome</label>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10 campo">
                             <input type="text" class="form-control" id="inputNome">
                         </div>
                     </div>
@@ -59,7 +63,7 @@
                     <!-- Email -->
                     <div class="form_grupo">
                         <label class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10 campo">
                           <input type="email" class="form-control" id="inputEmail">
                         </div>
                     </div>
@@ -67,7 +71,7 @@
                     <!-- Senha -->
                     <div class="form_grupo">
                         <label class="col-sm-2 col-form-label">Senha</label>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10 campo">
                           <input type="password" class="form-control" id="inputPassword">
                         </div>
                     </div>
@@ -75,7 +79,7 @@
                     <!-- Data de nascimento -->
                     <div class="form_grupo">
                         <label class="form_label">Data de Nascimento</label>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10 campo">
                             <input type="date" name="datanascimento" class="form-control" id="dataNascimento" placeholder="Data de Nascimento" required>
                         </div>
                     </div>        
@@ -83,9 +87,8 @@
                     <!-- Estado civil -->
                     <div class="form_grupo">
                             <label for="estadocivil" class="text">Estado civil</label>
-                            <div class="col-sm-10">
-                                <select id="estadoCivil" class="form-select" aria-label="Default select example">
-                                    <option selected disabled>Selecione</option>
+                            <div class="col-sm-10 campo">
+                                <select id="estadoCivil" class="form-select" aria-label="Selecione">
                                     <option value="1">Solteiro(a)</option>
                                     <option value="2">Casado(a)</option>
                                     <option value="3">Divorciado(a)</option>
@@ -95,15 +98,19 @@
                     </div>
         
                     <!-- Seleciona sexo -->
-                    <div class="form_grupo">
-                        <span class="legenda">Sexo:</span>
+                    <div class="form_grupo pt-3">
+                        <span class="legenda">Gênero:</span>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="masculino" name="sexo" value="Masculino" required="required">
                             <label for="masculino" class="radio-label form-label"> <span class="radio_new_btn"></span> Masculino</label>
                         </div>
                         <div class="radio-btn">
                             <input type="radio" class="form_new_input" id="feminino" name="sexo" value="Feminino" required="required">
-                            <label for="feminino" class="radio-label form-label pb-3"> <span class="radio_new_btn"></span> Feminino</label>
+                            <label for="feminino" class="radio-label form-label"> <span class="radio_new_btn"></span> Feminino</label>
+                        </div>
+                        <div class="radio-btn">
+                            <input type="radio" class="form_new_input" id="outro" name="sexo" value="Outro" required="required">
+                            <label for="outro" class="radio-label form-label pb-3"> <span class="radio_new_btn"></span> Outro</label>
                         </div>
                     </div>
                 
@@ -122,8 +129,47 @@
                             <input type="checkbox" class="form_new_input" name="aspectoGlobal" value="Os dois">
                             <label class="form-label check-label pb-3"><span class="check_new_btn"></span> Os dois</label>
                         </div>
+                        <!-- Medicaçāo -->
+                        <div class="container campo pb-3">
+                          <h3 class="conteudo pb-5">Medicamentos</h3>
+                          <label class="form_label pb-3">Selecione o(s) medicamento(s):</label>
+
+                          <select class="selectpicker" multiple data-live-search="true" id="medicamentos">
+                            <option>Ritalina</option>
+                            <option>Venvanse</option>
+                            <option>Conserta</option>
+                            <option>Risperidona</option>
+                            <option>Quetiapina</option>
+                            <option>Olanzapina</option>
+                            <option>Ziprasidona</option>
+                            <option>Clozapina</option>
+                            <option>Aripiprazol</option>
+                            <option>Neuleptil</option>
+                            <option>Alprazolam</option>
+                            <option>Diazepam</option>
+                            <option>Rivotril</option>
+                            <option>Donaren</option>
+                          </select>
+                      
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control mb-3" id="outra-opcao" placeholder="Insira outro medicamento">
+                          </div>
+                      
+                          <button type="button" class="btn btn-primary" onclick="adicionarOpcao()">Adicionar medicamento</button>
+                          <button type="button" class="btn btn-success add-horario mr-5" onclick="adicionarMedicamentos()">Adicionar horário</button>
+                        </div>
+                        <div class="container campo">
+                          <label class="form_label pb-3 pt-4">Adicione o horário do medicamento:</label>
+
+                          <ul class="list-group" id="opcoes-lista"></ul>
+
+                          <button type="button" class="btn btn-primary bnt-salvarHorario" onclick="salvarHorariosMedicamentos()">Salvar Horário</button>
+
+                          <div id="horarios" class="horarioSalvo"></div>
+
+                        </div>
                         <!-- Botao confirmacao -->
-                        <div class="submit botao-cadastro">
+                        <div class="submit botao-cadastro pt-5">
                             <button type="submit" class="btn p-3">Salvar</button>
                         </div>
                     </div>
@@ -133,8 +179,53 @@
         </div>
     </main>
 
+    <!-- Footer -->
+<footer class="" style="background-color: #A5C9CA; color: #395B64;">
+    
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="font-size: 16px;">
+            <div class="me-5 d-none d-lg-block">
+                <span>Conecte-se a nossas redes sociais:</span>
+            </div>
+            <div style="font-size: 18px;">
+                <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    
+        <section class="">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
+                    <h6 class="text-uppercase fw-bold mb-2"><i class="fas fa-gem me-3"></i>Daily Care</h6>
+                    <p>
+                        Somos uma plataforma de gerenciamento de tarefas e organização pessoal que busca atender à demandas de pessoas neurodivergentes ou/e de seus respectivos cuidadores. 
+                    </p>
+            </div>
+        
+            <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-2">
+                
+                    <h6 class="text-uppercase fw-bold mb-2">Contatos:</h6>
+                    <p><i class="fas fa-home me-3"></i> Rua das astromélias, 674, Ouro Preto, MG</p>
+                    <p><i class="fas fa-envelope me-3"></i>contato@dailycare.com</p>
+                    <p><i class="fas fa-phone me-3"></i> (31) 98937 – 4022</p>
+            </div>
+            
+            </div>
+        
+        </section>
+            <div class="text-center p-4" style="background-color: #395B64; color: #ffffff;">
+            © 2023 Copyright
+            </div>
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script type="text/javascript"  src="scripts.js"> </script>
+      
 </body>
 </html>
+
+
 

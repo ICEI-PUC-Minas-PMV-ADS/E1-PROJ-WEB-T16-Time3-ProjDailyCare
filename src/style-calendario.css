@@ -1,42 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 :root {
   --primary-clr: #458b8d;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-/* nice scroll bar */
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-track {
-  background: #f5f5f5;
-  border-radius: 50px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--primary-clr);
-  border-radius: 50px;
+
+
+@media (min-width: 768px) { 
+    .main
+    {flex-direction: row;}
 }
 
 body {
   position: relative;
   min-height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
   background-color: #e2e1dc;
 }
+
 .container {
+  max-width: 100%;
   position: relative;
-  width: 1200px;
+  width: 100%;
   min-height: 850px;
-  margin: 0 auto;
   padding: 5px;
   color: #fff;
   display: flex;
+  gap: 20px;
 
   border-radius: 10px;
   background-color: #395B64;
@@ -346,10 +336,15 @@ body {
 .appointments .appointment:hover::after {
   display: flex;
 }
-.add-appointment {
+
+.floating-actions {
   position: absolute;
   bottom: 30px;
   right: 30px;
+  display: flex;
+  gap: 5px;
+}
+.floating-actions button {
   width: 40px;
   height: 40px;
   display: flex;
@@ -363,10 +358,10 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
-.add-appointment:hover {
+.floating-actions button:hover {
   opacity: 1;
 }
-.add-appointment i {
+.floating-actions button i {
   pointer-events: none;
 }
 .appointments .no-appointment {
@@ -475,13 +470,28 @@ body {
   color: var(--primary-clr);
 }
 
-@media screen and (max-width: 1000px) {
+.add-med-wrapper {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  width: 90%;
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translateX(-50%);
+  transition: max-height 0.5s ease;
+}
+.add-med-wrapper.active {
+  max-height: 300px;
+}
+
+@media screen and (max-width: 830px) {
   body {
     align-items: flex-start;
     justify-content: flex-start;
   }
   .container {
-    min-height: 100vh;
     flex-direction: column;
     border-radius: 0;
   }
