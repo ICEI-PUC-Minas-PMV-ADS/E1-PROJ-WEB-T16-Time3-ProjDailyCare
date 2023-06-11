@@ -75,14 +75,14 @@ body{
 .add-box .icon{
   height: 78px;
   width: 78px;
-  color: #88ABFF;
+  color: #63adaf;
   font-size: 40px;
   border-radius: 50%;
   justify-content: center;
-  border: 2px dashed #88ABFF;
+  border: 2px dashed #317b7e;
 }
 .add-box p{
-  color: #88ABFF;
+  color: #348c91;
   font-weight: 500;
   margin-top: 20px;
 }
