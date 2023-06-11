@@ -56,9 +56,9 @@
                     <div style="display: flex; justify-content: center;">
                         <p id="mensagem"></p>
                         </div>
-                    <div class="row">
+                    <div id="container-graficos" class="row">
                         <div class="col-12 col-lg-6 mb-5">
-                            <div style="display: flex; justify-content: center;">
+                            <div style="display: flex; justify-content: center; height: 320px;">
                                 <canvas id="grafico"></canvas>
                             </div>
                         </div>
@@ -124,7 +124,8 @@
         let dadosGrafico = JSON.parse(localStorage.getItem('dadosNeuroDivergentes'));
         
         if (dadosGrafico == null) {
-            document.getElementById("mensagem").innerText = "Você ainda não possui dados."
+            document.getElementById("mensagem").innerText = "Você ainda não possui dados."; 
+            document.getElementById("container-graficos").classList.add("ocultar-graficos");
         }
         else {
             let dadosHumor = dadosGrafico.dados.map(dadosPaciente => dadosPaciente.humor)

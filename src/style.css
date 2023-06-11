@@ -228,6 +228,11 @@ ul li:hover a {
     margin: 5%;
     
 }
+
+.ocultar-graficos{
+    display: none;
+}
+
 .imginicio{
     border-radius: 5%;
 }
