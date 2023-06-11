@@ -36,9 +36,14 @@ function exibirHorarios() {
       listaHorarios.appendChild(novoItem);
       var botaoRemover = document.createElement("button");
       botaoRemover.type = "button";
-      botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-      botaoRemover.innerText = "X";
-      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + horarioObj.nome + '")');
+      botaoRemover.className = "ml-3 mb-3 btn-excluirMed";
+    
+      var iconeRemover = document.createElement("span");
+      iconeRemover.className = "bi bi-check-circle-fill";
+    
+      botaoRemover.appendChild(iconeRemover);
+      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + medicamento + '")');
+    
       novoItem.appendChild(botaoRemover);
     }
   }
