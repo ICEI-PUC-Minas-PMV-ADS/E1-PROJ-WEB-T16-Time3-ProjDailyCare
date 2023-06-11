@@ -105,6 +105,20 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 
 
+|Caso de Teste|CT-07 Funcionamento do Menu e dos ícones do Cabeçalho|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar a navegabilidade por todas as telas da aplicação|
+|**Requisitos Associados**|RNF-001 A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário; <br>RNF-006 O sistema deve sinalizar o usuário quando alguma operação está demorando mais que o comum; <br>RNF-007 Deve tratar ao usuário erros inerentes à aplicação (conexão, memória local, memória do provedor, etc);<br>RNF-008 Deve processar requisições do usuário em no máximo 3s.|
+|**Instruções de Execução**|1) Acessar o documento index.hml através de um browser e fazer login;<br>2) Selecionar a aba de "Notificações";<br>3) Na tela de Notificações, selecionar a aba de "Dados Médicos";<br>4) Na tela de Dados Médicos, selecionar a aba de "Calendário";<br>5) Na tela de Dados Médicos, selecionar a aba de "Anotações";<br>6) Na tela de Anotações, selecionar o ícone de usuário, no canto superior direito; <br>7) Na tela de Dados do Usuário, selecionar a aba "Home" do menu; <br>8) Na tela Home, selecionar o ícone de saída, no canto superior direito.<br>9) Na tela de Login, após preencher os campos corretamente, clicar em "Acessar".|
+|**Critérios de Êxito**|* Todas as vezes que se clicar em uma aba do menu, esta deve direcionar a página para a tela respectivamente selecionada. <br>* Ao selecionar o ícone de usuário, independente da tela, a página deve ser redirecionada para a tela de "Dados do Usuário";<br> * Ao selecionar o ícone de saída, a página deve levar o usuário à tela de login; <br>* Ao clicar no botão "Acessar", na tela de login, a página deve ser redireciionada para a HomePage.|
+|**Tipo de Teste**|Navegabilidade|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Carolina Morais|
+<br>
+<br>
+
+
 
 |Caso de Teste|CT-01 Conseguir navegar por todas as telas da aplicação|
 |----------------------|-----------------------------------------------------|
