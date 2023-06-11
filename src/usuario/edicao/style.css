@@ -74,6 +74,7 @@
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
+
 }
 
 .btn-remover:hover {
@@ -84,17 +85,17 @@
 }
 
 .btn-excluirMed{
-    background-color: #f1453b;
-    color: #ffffff;;
-    font-size: 14px;
+    background: none;
+    color: #f1453b;
+    font-size: 16px;
     font-weight: 600;
-    border-radius: 50%!important;
+    border: none;
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 3% 0 0 !important;
     text-align: center;
     width: 5%;
-    padding: 0%;
+    padding-right: 15%;
     float: right;
     
 }
@@ -115,11 +116,12 @@
 
 .horarioSalvo{
     padding-top: 5%;
-    width: 50%;
+    width: 300px;
 
 }
 
 .horario-item{
+    width: 200px;
     border: 2px solid #395B64;
     border-radius: 20px;
     margin-bottom: 2%;

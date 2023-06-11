@@ -82,7 +82,6 @@ function exibirCompromissos() {
       botaoRemover.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
       novoItem.appendChild(botaoRemover);
     }
-   
   }
 }
 
