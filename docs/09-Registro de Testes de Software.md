@@ -335,6 +335,13 @@ Observação: não atingimos o potencial da tela em relação ao posicionamento 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e100af48-aed2-4113-9274-3ed7fa59b326)
 
 # Avaliação:
+O desenvolvimento de um sistema deve estar diretamente atrelado à prática de testes, uma vez que é através desta que se faz possível a integração adequada dos componentes e a percepção contínua de defeitos que podem prejudicar o funcionamento adequado e a usabilidade do sistema. Um software que não passa por testes a cada incremento está fadado a acumular defeitos que poderiam ser previnidos.
 
+Isto posto, muito embora o Plano de Testes apenas tenha sido elaborado apenas na Sprint 4 do presente projeto, o ato de testar vem sendo contínuo desde o início das etapas de desenvolvimento. Isto por que, para muito além do que aqui foi documentado, as reuniões semanais e comunicação constantes da equipe de desenvolvedores, incluiam eu seu escopo a revisão de código dos colegas de equipe e a criação e simulação de cenários para que cada um dos programadores observassem o comportamento das funcionalidades e avaliasse defeitos e melhorias. 
 
+Através da prática constante de teste, o software desenvolvido pelo grupo passou por constantes alterações durante as últimas duas prints, registradas a partir dos versionamentos dos códigos e voltadas, principalmente, para o objetivo principal de criar uma aplicação responsiva, funcional e acessível.
+
+Apesar do contínuo esforço da equipe, a criação de casos de teste e posterior execução do que foi proposto, apresentou novas falhas, que até então não haviam sido percebidas. Nota-se, assim, a importância da documentação de testes atrelada a objetivos específicos, pois de outra forma, os erros apontados nessa etapa poderiam não ser percebidos.
+
+A respeito dessas novas descobertas, o time entende que algumas das falhas apontadas decorrem da limitação de recursos de desenvolvimento à ferramentas de front=end, uma vez que vem desenvolvimento uma aplicação em que a manipulação de dados de usuário é essencial. A respeito das demais falhas, relacionadas à validação de campos, responsividade e experiência do usuário, a equipe se prepõe a encontrar soluções de melhoria para o que aqui foi demonstrado.
 
