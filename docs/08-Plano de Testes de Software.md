@@ -4,16 +4,6 @@ Esta seção descreve os requisitos funcionais e não funcionais que serão test
 
 ## Cronograma
 
-## Tipos de Testes
-
-Escolheu-se àqueles voltados para a melhor eficiência e execução de uma aplicação web, utilizando-se de abordagens tanto funcionais (caixa-preta) como estruturais (caixa-branca). Os tipos de teste selecionados foram:
-
-- Teste de Navegabilidade;
-- Teste de Responsividade;
-- Teste de Campos e Páginas;
-- Teste de Compatibilidade;
-- Testes Ponta a Ponta.
-
 ## Casos de testes
 
 O presente Plano de Testes se realiza a partir de casos de teste, orientados por Tipos de Testes e Requisitos Funcionais e Não-Funcionais documentados na seção [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md) nesse mesmo repositório, abrangendo as Histórias de Usuário e os respectivos objetivos de cada caso.
@@ -118,31 +108,18 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 <br>
 
-
-
-|Caso de Teste|CT-01 Conseguir navegar por todas as telas da aplicação|
+|Caso de Teste|CT-08 Utilizar a aplicação em dispositivos móveis|
 |----------------------|-----------------------------------------------------|
-|**Objetivo**|Verificar se todos os Botões e Ícones da aplicação levam o usuário às telas corretas|
-|**Requisitos Associados**|RNF-001 A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário; <br>RNF-006 O sistema deve sinalizar o usuário quando alguma operação está demorando mais que o comum; <br>RNF-007 Deve tratar ao usuário erros inerentes à aplicação (conexão, memória local, memória do provedor, etc);<br>RNF-008 Deve processar requisições do usuário em no máximo 3s.|
-|**Instruções de Execução**|1) Acessar o documento index.hml através de um browser;<br>2)Clicar no botão de "Novo Acesso"|
-|**Saída Esperada**|blo|
-|**Tipo de Teste**|blible|
-|**Técnica Utilizada**|manual () automática ()|
-|**Abordagem**|Caixa Branca () Caixa Preta ()|
-|**Responsáveis**|fg|
-
-
-
-
-
-
-
-
-
-
-
-
-
+|**Objetivo**|Verificar o comportamento das telas da aplicação em diferentes tamanhos de telas|
+|**Requisitos Associados**|RNF-001	A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário;<br>RNF-002 Deve ter bom contraste entre os elemetos da tela;<br>RNF-004	Deve ser responsivo para adaptar em diferentes dispositivos e tamanho de telas;<br>RNF-005	Deve ser compatível para os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge), proporcionando experiência semelhante ao usuário.|
+|**Instruções de Execução**|1) Acessar o documento index.hml através de um browser e fazer login;<br>2) No recurso "Ferramentas do Desenvolvedor" disponível no navegador, clicar na ferramenta Toggle Device Toolbar, no canto superior esquerdo;<br>3) Com a atualização da página, selecionar, no item Dimensão, a opção "Responsiva;<br>3) Navegar entre as telas e mudar, manualmente, as dimensões, através das ferramentas dispostas no monitor, em quantas telas ou quantas vezes forem necessárias.;<br>4) No item Dimensão, escolher ainda, posteriormente, as opções "Pixel 5", "Ipad Air" e "Nest Hub" e, para cada vez que selecionar uma das opções, navegar novamente entre as telas.|
+|**Critérios de Êxito**|* Em telas menores que 990 pixels, o Menu deve adotar o recurso "sanduíche" e apenas ser revelado tela quando selecionado o respectivo ícone, sobrepondo-se ao conteúdo da tela;<br> * Todos os elementos visuais da aplicação devem adaptar-se à diferentes tamanhos de tela, sem que a alteração das dimensões prejudique o layout e a experiência do usuário.|
+|**Tipo de Teste**|Responsividade|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Laila Martins|
+<br>
+<br>
  
 ## Ferramentas de Testes (Opcional)
 
