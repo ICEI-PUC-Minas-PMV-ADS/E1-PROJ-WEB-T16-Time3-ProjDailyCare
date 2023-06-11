@@ -53,6 +53,9 @@
                     <p class="conteudo">DailyCare</p>
                     <p class="inicial"> Soluções atípicas para o cuidado com sua rotina</p>
                     <p class="saudacao">Bem vindo à sua jornada de organização pessoal!</p>
+                    <div style="display: flex; justify-content: center;">
+                        <p id="mensagem"></p>
+                        </div>
                     <div class="row">
                         <div class="col-12 col-lg-6 mb-5">
                             <div style="display: flex; justify-content: center; height: 320px;">
@@ -65,12 +68,14 @@
                                 <canvas id="graficoPizza"></canvas>
                             </div>
                         </div>
+                        
                     </div>
 
                             <div style="display: flex; justify-content: center; height: 320px;">
                                 <img class="imginicio mb-5 mt-5" src="/images/cabeca.jpeg" >
                             </div>
                 </div>
+                
             </div>
         </main>
 
@@ -119,7 +124,7 @@
         let dadosGrafico = JSON.parse(localStorage.getItem('dadosNeuroDivergentes'));
         
         if (dadosGrafico == null) {
-            alert('Você ainda não possui dados registrados.')
+            document.getElementById("mensagem").innerText = "Você ainda não possui dados."
         }
         else {
             let dadosHumor = dadosGrafico.dados.map(dadosPaciente => dadosPaciente.humor)
