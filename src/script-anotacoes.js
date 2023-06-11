@@ -62,7 +62,7 @@ function showMenu(elem) {
 }
 
 function deleteNote(noteId) {
-    let confirmDel = confirm("Are you sure you want to delete this note?");
+    let confirmDel = confirm("Tem certeza que deseja excluir?");
     if(!confirmDel) return;
     notes.splice(noteId, 1);
     localStorage.setItem("notes", JSON.stringify(notes));
