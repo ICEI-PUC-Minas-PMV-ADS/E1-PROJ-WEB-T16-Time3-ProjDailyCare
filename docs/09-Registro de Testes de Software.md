@@ -295,23 +295,23 @@ Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compr
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/4e3a5d3b-c584-43ef-a8cc-1491ecd0aa9e)
 
 **Tela de Dados do Usuário:**
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/59edec0e-5c0a-4115-9354-ee20e718c972)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/bbb5c114-b236-4d3d-b80e-f81b7d51f857)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/b7a3acbb-3869-4b31-92cb-6d9618aef64e)
 
 **Tela de Notificações, em que os botões de fechar não estão responsivos:**
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a93f23a6-ff03-4a52-9f35-81661c1bc871)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/69f16225-9d29-467e-8fb2-2135023d6d25)
 
 **Tela de Anotações:**
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d364adf1-cee5-447e-a9c8-a8b22eb4cf75)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/2c3c0c2c-c5a5-41ad-a61d-aab3cbb55799)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/cb46e124-90b2-4e4d-a133-0f7b69e8e27b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a85aa6f8-22b0-4cbb-b8a4-09e5be968ac3)
 
 **Tela de Calendário:**
 Observação: não atingimos o potencial da tela em relação ao posicionamento do calendário em relação ao menu sanduíche.
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1c91eb0d-5a2c-4fb6-88e7-5fea503233bf)
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/dd311917-e43b-421c-9391-fe91b2e39763)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/00abf6e1-3017-4407-9fc3-463cd04ca9ad)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/94bca90c-56b6-4761-a1dd-2adb60444055)
 
 **Tela de Dados Médicos:**
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/27a5a28a-8b7c-417d-bba1-77b127fb7e3e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/257654ee-a22f-4187-9109-74462cd8c0a2)
 
 
 
