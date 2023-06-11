@@ -114,7 +114,111 @@ A presente seção trás as evidências dos testes realizados a partir dos 9 [Ca
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/fa70edc4-4089-439a-9d82-066908f99ca8)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/43abb829-a44f-4414-bf64-2d40f159a335)
 
+## CT-04 Registrar Medicações
+
+- **Objetivo:** Verificar se é possível realizar cadastro de medicamentos, ser notificado sobre a medicação e confirmar o uso
+- **Responsável:** Arthur Zebral
+- **Critérios de Êxito atingidos**: 
+  - os medicamentos cadastrados devem constar na lista de medicamentos na tela de Dados do Usuário;
+  - os medicamentos devem poder ser excluídos dos Dados do Usuário a partir do botão de "remover" ou do ícone de "fechar";
+  - os medicamentos devem constar, diariamente, na lista de Horários de Medicamentos, na tela de Notificações;
+  - após confirmação do uso, o medicamento confirmado não deve aparecer na tela de Notificações até a data seguinte;
+  - os medicamentos cadastrados deverão estar presentes na variável `horariosMedicamentos`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador);
+  - os medicamentos cujo uso foram confirmados deverão estar presentes na variável `medicamentosTomados`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador);
+- **Critérios de Êxito NÃO atingidos**:  
+  - o cadastro dos medicamentos só deverá ser realizado com inserção de horários válidos;
+
+- **Evidências:**
+
+**Campo de Medicamentos acessado a partir da tela de Dados do Usuário:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1ce9e5f4-8ccd-461e-a3a5-2384636d7bd8)
+
+**Possibilidade de selecionar mais de um medicamento:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a425e1af-538b-413d-83af-07779ff741ff)
+
+**Inserir outro medicamento e obter como resultado a inserção e seleção dele na lista:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/79704d82-e5c3-4c2d-842a-325fcb2c5b6b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/07234662-9dc4-4be7-89b9-0199eff1ecc0)
+
+**Funcionamento do campo de adicionar horários:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/94267241-d7d1-4b84-a1fc-dfec9383f633)
+
+**Após a seleção do botão "Salvar Horários" os medicamentos são adicionados à tela de Dados do Usuário:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/abadcb14-7cd2-4d45-ac0c-a11b8a505f89)
+
+**A aplicação permite a edição dos medicamentos, permitindo ao usuário adicionar novos ou remover àqueles já adicionados:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/fe278e7e-a691-4337-bc91-6f1de99caa0f)
+
+**Os medicamentos salvos ficam vinculados à variável `horariosMedicamentos`:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/28d57275-558c-495f-b30a-0fb3fcda0b12)
+
+**Os medicamentos salvos aparecem na tela de notificações:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a435545f-0dfd-4c69-8af5-ffe17e75ffe7)
+
+**O ato de fechar o medicamento na tela de Notificações confirma o uso da notificação, pois vincula à confirmação à variável `medicamentosTomados`:**
+Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compreensão do usuário, deveria haver um ícone de "check".
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/579b9af5-1505-4f3a-84d8-72aa704fa36a)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/f6037c12-2680-4e40-8d3a-594aaae612d5)
 
 
+**FALHA: O sistema permite a adição de medicamentos sem a seleção de um horário válido:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d3899318-a16c-41b0-b959-d0247ae36a70)
+
+## CT-05 Registrar Aspectos Globais
+
+- **Objetivo:** Verificar o registro de aspectos de comportamento e os gráficos gerados
+- **Responsável:** Carolina Morais
+- **Critérios de Êxito atingidos**: 
+  - ao enviar os dados preenchidos, deve aparcer o alert "Dados Salvos com Sucesso";
+  - todos os registros diários de aspectos globais devem constar nos gráficos da HomePage e modificá-los a partir do acréscimo de novas informações;
+  - a ausência de valores de Dados Médicos no perfil do usuário deve fazer com que a tela Home exiba a mensagem "Você ainda não possui dados";
+  - os valores inseridos diariamente deverão estar presentes na variável `dadosNeurodivergentes`;
+  
+- **Critérios de Êxito NÃO atingidos**:  
+  -  os dados somente serão enviados após o preenchimento de todos os campos;
+  -  deverá haver a opção de escrever em texto um humor não identificado na lsita disponível;
+
+- **Evidências:**
+
+**Enquanto não houver valores de aspectos globais inseridos, a home exibe a mensagem "Você ainda não possui dados":**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1a57d45f-eaf8-4085-b54a-005f864803df)
+
+**Acesso à tela através do menu:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1a420415-251a-4f48-8f1c-6d0863086752)
+
+**Edição dos valores dos campos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/bfa87492-5d7a-4104-a14d-8df563e33f75)
+
+**Confirmação de envio dos dados através de um `alert`:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/f6708fc6-6e9b-4d86-8c8c-ac5463d59cdf)
+
+**Criação de gráficos baseada nos valores inseridos e alteradas por estes:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/491682d0-5018-4acd-a77d-07a585e31c58)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/5f17513c-0cd2-4dee-9df0-534a2dc85a16)
+
+**Os dados salvos são vinculados à variável `dadosNeurodivergentes`:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/66f6f9a1-bf14-42ee-aaba-e61f6f90d4b7)
+
+**FALHA: os dados são enviados mesmo sem preenchimentos de campo, constando valores vazios:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/c942f2c4-bb4f-42af-9058-bb498a0d341f)
+
+**FALHA: existe uma lista limitada de opções de humor que não permite a inserção de novos elementos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/0febec30-eaa8-470b-a9b1-246ee0a9f9b5)
+
+## CT-06 Registrar Aspectos Globais
+
+- **Objetivo:** Verificar o registro de aspectos de comportamento e os gráficos gerados
+- **Responsável:** Carolina Morais
+- **Critérios de Êxito atingidos**: 
+  - ao enviar os dados preenchidos, deve aparcer o alert "Dados Salvos com Sucesso";
+  - todos os registros diários de aspectos globais devem constar nos gráficos da HomePage e modificá-los a partir do acréscimo de novas informações;
+  - os valores inseridos diariamente deverão estar presentes na variável dadosNeurodivergentes;
+  - a ausência de valores de Dados Médicos no perfil do usuário deve fazer com que a tela Home exiba a mensagem "Você ainda não possui dados";
+  
+- **Critérios de Êxito NÃO atingidos**:  
+  -  os dados somente serão enviados após o preenchimento de todos os campos;
+  -  deverá haver a opção de escrever em texto um humor não identificado na lsita disponível;
+
+- **Evidências:**
 
 
