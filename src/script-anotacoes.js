@@ -76,8 +76,8 @@ function updateNote(noteId, title, filterDesc) {
     addBox.click();
     titleTag.value = title;
     descTag.value = description;
-    popupTitle.innerText = "Update a Note";
-    addBtn.innerText = "Update Note";
+    popupTitle.innerText = "Atualizar nota";
+    addBtn.innerText = "Add nota";
 }
 
 addBtn.addEventListener("click", e => {
