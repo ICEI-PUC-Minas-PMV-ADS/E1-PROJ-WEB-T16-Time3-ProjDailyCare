@@ -62,7 +62,7 @@ function showMenu(elem) {
 }
 
 function deleteNote(noteId) {
-    let confirmDel = confirm("Are you sure you want to delete this note?");
+    let confirmDel = confirm("Você tem certeza que deseja deletar nota?");
     if(!confirmDel) return;
     notes.splice(noteId, 1);
     localStorage.setItem("notes", JSON.stringify(notes));
@@ -76,8 +76,8 @@ function updateNote(noteId, title, filterDesc) {
     addBox.click();
     titleTag.value = title;
     descTag.value = description;
-    popupTitle.innerText = "Update a Note";
-    addBtn.innerText = "Update Note";
+    popupTitle.innerText = "Atualizar nota";
+    addBtn.innerText = "Atualizar";
 }
 
 addBtn.addEventListener("click", e => {

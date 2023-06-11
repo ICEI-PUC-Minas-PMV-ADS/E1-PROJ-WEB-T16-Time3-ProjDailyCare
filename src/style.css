@@ -302,6 +302,12 @@ footer {
     font-size: 14px;
   }
 
+  #mensagem {
+    font-size: 35px;
+    font-style: oblique;
+    margin-top: 50px;
+  }
+
 
 @media (min-width: 990px) {
     .menu__btn {
