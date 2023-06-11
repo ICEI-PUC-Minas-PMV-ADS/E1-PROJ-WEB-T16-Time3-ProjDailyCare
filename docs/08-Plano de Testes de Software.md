@@ -2,8 +2,6 @@
 
 Esta seção descreve os requisitos funcionais e não funcionais que serão testados, os tipos de testes respectividamente escolhidos, os recursos de hardware e software a serem empregados e o cronograma e evolução dos testes ao longo da Srpint 5.
 
-## Cronograma
-
 ## Casos de testes
 
 O presente Plano de Testes se realiza a partir de casos de teste, orientados por Tipos de Testes e Requisitos Funcionais e Não-Funcionais documentados na seção [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md) nesse mesmo repositório, abrangendo as Histórias de Usuário e os respectivos objetivos de cada caso.
@@ -42,7 +40,7 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 |**Objetivo**|Verificar se é possível criar tarefas ou eventos e receber as respectivas notificações|
 |**História de Usuário**| * Eu, como pessoa neurodivergente, quero gerenciar tarefas importantes para para reduzir a procrastinação e ter mais cautela com os prazos do trabalho;<br>   * Eu quero ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mãe de uma pessoa neuroatípica para ter acesso a ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha.|
 |**Requisitos Associados**|RF-001 Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações|
-|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser e fazer login;<br>2) Clicar, no menu, na aba Calendário; <br>3) No espaço que permite inserir data, selecionar àquela em que deseja atribuir uma tarefa e clicar no botão "Ir"; <br>4) Tendo verificado que a data desejada está em destaque no calendário, clicar no ícone de "+";<br>5) Inserir a tarefa no campo "Nome do Campromisso" e selecionar a data no campo "Horário", após, clicar no botão "Adicionar Comprmisso" |
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser e fazer login;<br>2) Clicar, no menu, na aba Calendário; <br>3) No espaço que permite inserir mês e ano, inserir àquele em que deseja selecionar um dia e clicar no botão "Ir" e, após, selecionar a data desejada no mês escolhido; <br>4) Tendo verificado que a data desejada está em destaque no calendário, clicar no ícone de "+";<br>5) Inserir a tarefa no campo "Nome do Campromisso" e selecionar a data no campo "Horário", após, clicar no botão "Adicionar Comprmisso" |
 |**Critérios de Êxito**|* A tarefa/evento criado deve constar na lista de compromissos referentes à data selecionada;<br>* A tarefa/evento criado deve estar visível na lista de notificações na tela Notificações.<br>* As tarefas/eventos criados deverão estar presentes na variável `appointments`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
 |**Tipo de Teste**|Ponta a Ponta|
 |**Técnica Utilizada**|Manual|
@@ -121,5 +119,16 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 <br>
  
-## Ferramentas de Testes (Opcional)
+|Caso de Teste|CT-09 Validação de campos na tela de login|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se os campos que exigem valores específicos realizam a validação|
+|**Requisitos Associados**|RNF-001	A plataforma deve ter interface clean, intuitiva e de fácil manuseio pelo usuário;<br>RNF-005	Deve ser compatível para os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge), proporcionando experiência semelhante ao usuário.|
+|**Instruções de Execução**|1) Acessar o documento index.hml através de um browser e inserir um texto sem caracteres especiais no campo e-mail e clicar em "acessar";<br>2) Tentar realizar o procedimento novamente, inserindo um e-mail válido no campo respectivo, mas não inserindo nenhum valor no campo "senha";<br>3) Ainda na tela de login, tentar realizar o procedimento novamente, mas com e-mail e senha não cadastrados anteriormente;<br>4)Por fim, inserir, nos campos "e-mail" e "senha" informações de usuário já cadastradas e clicar em "acessar";|
+|**Critérios de Êxito**|* Ao tentar realizar o login sem utilizar-se de um texto de e-mail padrão, deve aparecer um `alert` que solicita a inclusão de valor que contenha o formato "texto@texto";<br>* Ao tentar realizar o procedimento inserindo um e-mail válido, mas nenhum valor no campo "senha", deve aparecer um `alert` que solicita o preenchimento do campo e, o mesmo deverá acontecer se a tentativa for feita inserindo valores no campo "senha" e nenhum valor no campo "email";<br>* Ao realizar o procedimento inserindo valores não cadastrados anteriormente, deve aparecer um `alert` informando "E-mail ou senha incorretos";<br>* Ao tentar acessar a aplicação com e-mail e senhas já cadastrados, a página deve ser redirecionada automaticamente para a HomePage.|
+|**Tipo de Teste**|Campos e Páginas|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Arthur Zebral|
+<br>
+<br>
 
