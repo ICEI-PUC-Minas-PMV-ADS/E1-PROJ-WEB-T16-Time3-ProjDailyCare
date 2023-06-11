@@ -205,20 +205,52 @@ Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compr
 **FALHA: existe uma lista limitada de opções de humor que não permite a inserção de novos elementos:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/0febec30-eaa8-470b-a9b1-246ee0a9f9b5)
 
-## CT-06 Registrar Aspectos Globais
+## CT-06 Fazer anotações diárias
 
-- **Objetivo:** Verificar o registro de aspectos de comportamento e os gráficos gerados
-- **Responsável:** Carolina Morais
+- **Objetivo:** Verificar a geração de notas sobre observações terapêuticas vinculadas à datas
+- **Responsável:** Débora Alexia
 - **Critérios de Êxito atingidos**: 
-  - ao enviar os dados preenchidos, deve aparcer o alert "Dados Salvos com Sucesso";
-  - todos os registros diários de aspectos globais devem constar nos gráficos da HomePage e modificá-los a partir do acréscimo de novas informações;
-  - os valores inseridos diariamente deverão estar presentes na variável dadosNeurodivergentes;
-  - a ausência de valores de Dados Médicos no perfil do usuário deve fazer com que a tela Home exiba a mensagem "Você ainda não possui dados";
-  
-- **Critérios de Êxito NÃO atingidos**:  
-  -  os dados somente serão enviados após o preenchimento de todos os campos;
-  -  deverá haver a opção de escrever em texto um humor não identificado na lsita disponível;
+  - a adição de uma nova nota gera um novo bloco com os valores inseridos e a data respectiva de criação;
+  - a edição de uma nota faz com que o campo de preenchimento de texto apareça novamente e após a seleção do botão "Atualizar Nota", o bloco daquela nota deverá permanecer com a edição realizada;
+  - ao deletar uma nota, deve aparecer um alert de "Você tem certeza que deseja deletar essa nota?";
+  - não deve é possível criar uma nota sem o preenchimento de nenhum dos campos;
+  - as notas criadas deverão estar presentes na variável `notes`, sempre respectivas à sua última edição., que podem ser vistas no Local Storage;
+
 
 - **Evidências:**
+
+**Campo de adição de nova nota a partir do ícone de "+" em Observação Terapêutica:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/cd5c95bb-330b-4a65-9de9-cdec4c0881e8)
+
+**Adição de nova nota, com título e descrição inseridas e informações sobre a data de criação:"
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/2b5c449b-4dae-4e45-b65b-e6b20af51a22)
+
+**Adição uma nota sem texto na descrição e outra sem título, mas nenhuma nota completamente vazia:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/301db1db-9af5-4126-abea-142163f14411)
+
+**Possibilidade de edição de nota:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/3a986fb8-0dc7-4cfe-8cc8-a1336bea5564)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/07fabe72-ccf2-4873-89d4-89b1b7cdcd4e)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/8c273bce-1e26-41dc-b085-319ba2084273)
+
+**Processo de deletar uma nota:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/b29fbcb9-d357-4711-bc74-c86bd30c37c4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/36d8ee0c-a818-476f-9b5b-affbaa92b789)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/3f629974-16b0-4402-97ca-793da270a5ff)
+
+**Notas criadas passam a ficar presentes na variável `notes`, que podem ser vistas no Local Storage, respectivamente à última edição:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/f468536f-ed48-4838-a040-ec955fcc9ead)
+
+
+## CT-07 Funcionamento do Menu e dos ícones do Cabeçalho
+
+- **Objetivo:** Verificar a geração de notas sobre observações terapêuticas vinculadas à datas
+- **Responsável:** Débora Alexia
+- **Critérios de Êxito atingidos**: 
+  - a adição de uma nova nota gera um novo bloco com os valores inseridos e a data respectiva de criação;
+  - a edição de uma nota faz com que o campo de preenchimento de texto apareça novamente e após a seleção do botão "Atualizar Nota", o bloco daquela nota deverá permanecer com a edição realizada;
+  - ao deletar uma nota, deve aparecer um alert de "Você tem certeza que deseja deletar essa nota?";
+  - não deve é possível criar uma nota sem o preenchimento de nenhum dos campos;
+  - as notas criadas deverão estar presentes na variável `notes`, sempre respectivas à sua última edição., que podem ser vistas no Local Storage;
 
 
