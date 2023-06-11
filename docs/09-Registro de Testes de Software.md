@@ -334,7 +334,7 @@ Observação: não atingimos o potencial da tela em relação ao posicionamento 
 **A aplicação não aceita login com dados não pré-cadastrados:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e100af48-aed2-4113-9274-3ed7fa59b326)
 
-# Avaliação:
+# Avaliação
 O desenvolvimento de um sistema deve estar diretamente atrelado à prática de testes, uma vez que é através desta que se faz possível a integração adequada dos componentes e a percepção contínua de defeitos que podem prejudicar o funcionamento adequado e a usabilidade do sistema. Um software que não passa por testes a cada incremento está fadado a acumular defeitos que poderiam ser previnidos.
 
 Isto posto, muito embora o Plano de Testes apenas tenha sido elaborado apenas na Sprint 4 do presente projeto, o ato de testar vem sendo contínuo desde o início das etapas de desenvolvimento. Isto por que, para muito além do que aqui foi documentado, as reuniões semanais e comunicação constantes da equipe de desenvolvedores, incluiam eu seu escopo a revisão de código dos colegas de equipe e a criação e simulação de cenários para que cada um dos programadores observassem o comportamento das funcionalidades e avaliasse defeitos e melhorias. 
