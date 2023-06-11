@@ -15,10 +15,11 @@
 } 
 
 .horario-item{
+    width: 200px;
     border: 2px solid #395B64;
     border-radius: 20px;
     margin-bottom: 2%;
-    padding: 1% 0 1% 0;
+    padding: 2% 0 2% 0;
     text-align: center;
     margin-left: 5%;
     font-weight: bolder;
@@ -38,19 +39,38 @@
 
 }
 
+.btn-remover{
+    background-color: #f1453b;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn-remover:hover {
+    transform: scale(1.05);
+    background-color: #f1453b;
+    color: #ffffff;
+
+}
+
 .btn-excluirMed{
-    background-color: #f1453b !important;
-    color: #ffffff !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    border-radius: 50%!important;
-    transition: all linear 160ms !important;
-    cursor: pointer !important;
+    background: none;
+    color: #f1453b;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: all linear 160ms;
+    cursor: pointer;
     margin: 0 3% 0 0 !important;
-    text-align: center !important;
-    width: 7% !important;
-    padding: 0.5% 0 0.5% 0 !important;
-    float: right !important;
+    text-align: center;
+    width: 5%;
+    padding-right: 15%;
+    float: right;
     
 }
 
@@ -67,5 +87,5 @@
 }
 
 .horarioSalvo{
-    width: 40%;
+        width: 300px;
 }
