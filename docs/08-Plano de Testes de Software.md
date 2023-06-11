@@ -33,6 +33,20 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 <br>
 <br>
 
+|Caso de Teste|CT-02 Editar Dados de Usuário|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se é possível editar os dados fornecidos no cadastro do usuário|
+|**História de Usuário**|Todas as histórias descritas a seguir|
+|**Requisitos Associados**|Todos os requisitos funcionais|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser e realizar o login; <br>2) Selecionar o ícone de usuário no canto superior direito; <br>3) Na tela de Dados de Usuário, editar os campos desejados ou remover algumas das seleções possíveis; <br>4) Concluir a edição ao clicar no botão "Salvar".|
+|**Critérios de Êxito**|* Após realizada as alterações, deverá constar um `alert` de "Dados alterados com sucesso!";<br>* Após a edição, os dados alterados devem permanecer de acordo com a última alteração até que se realiza uma nova edição;<br>* A edição dos campos "email" e "senha" devem implicar em novas informações de login para o respectivo usuário; <br>* As informações editadas de cadastro do usuário deverão estar presentes na variável `dadosUsuario`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Tipo de Teste**|Ponta a Ponta|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Arthur Zebral|
+<br>
+<br>
+
 |Caso de Teste|CT-03 Gerenciar tarefas ou eventos|
 |----------------------|-----------------------------------------------------|
 |**Objetivo**|Verificar se é possível criar tarefas ou eventos e receber as respectivas notificações|
