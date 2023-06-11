@@ -19,6 +19,19 @@ Escolheu-se àqueles voltados para a melhor eficiência e execução de uma apli
 O presente Plano de Testes se realiza a partir de casos de teste, orientados por Tipos de Testes e Requisitos Funcionais e Não-Funcionais documentados na seção [Especificações do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md) nesse mesmo repositório, abrangendo as Histórias de Usuário e os respectivos objetivos de cada caso.
 
 
+|Caso de Teste|CT-01 Fazer cadastro de usuário e Login|
+|----------------------|-----------------------------------------------------|
+|**Objetivo**|Verificar se é possível criar um novo usuário e realizar login na aplicação|
+|**História de Usuário**|Todas as histórias descritas a seguir|
+|**Requisitos Associados**|Todos os requisitos funcionais|
+|**Instruções de Execução**| 1) Acessar o documento index.hml através de um browser e clicar em "Novo Acesso", que levará para a tela de Cadastro de Usuário;<br>2) Preencher todos os campos e selecionar as opções disponíveis; <br>3) Na tela de login, preencher os campos "e-mail" e "senha" com as informações anteriormente cadastradas e clicar em acessar; <br>4) Para voltar à tela de login, clicar no ícone de sair, na extremidade superior direita, em qualquer tela acessada após realizado o login.|
+|**Critérios de Êxito**|* Após realizado o cadastro, deverá constar um `alert` de "Finalizando cadastro";<br>* Após a realização do cadastro, deve haver redirecionamento para a tela de login;<br>* O login não poderá ser realizado a menos que sejam inseridas as informações de "e-mail" e "senha" cadastradas anteriormente pelo usuário. Caso não sejam fornecidas tais informações, deverá aparecer um `alert` de "E-mail ou Senha Incorretos". <br>* As informações de login do usuário, bem como as demais informações fornecidas no cadastro, deverão estar presentes na variável `dadosUsuario`, que podem ser vistas no Local Storage através das ferramentas do Desenvolvedor (recurso do Navegador).|
+|**Tipo de Teste**|Ponta a Ponta|
+|**Técnica Utilizada**|Manual|
+|**Abordagem**|Caixa Preta|
+|**Responsáveis**|Débora Alexia|
+<br>
+<br>
 
 |Caso de Teste|CT-03 Gerenciar tarefas ou eventos|
 |----------------------|-----------------------------------------------------|
@@ -93,17 +106,6 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 
 
 
-
-|Caso de Teste|CT-01 Acesso a Calendário interativo com opção de criação de criação de eventos|
-|----------------------|-----------------------------------------------------|
-|**Objetivo**|Verificar se o Calendário respeita ordem correta de datas |
-|**Requisitos Associados**|bla|
-|**Instruções de Execução**|bli|
-|**Saída Esperada**|blo|
-|**Tipo de Teste**|blible|
-|**Técnica Utilizada**|manual () automática ()|
-|**Abordagem**|Caixa Branca () Caixa Preta ()|
-|**Responsáveis**|fg|
 
 
 
