@@ -313,7 +313,28 @@ Observação: não atingimos o potencial da tela em relação ao posicionamento 
 **Tela de Dados Médicos:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/257654ee-a22f-4187-9109-74462cd8c0a2)
 
+## CT-09 Validação de campos na tela de login
 
+- **Objetivo:** Verificar se os campos que exigem valores específicos realizam a validação
+- **Responsável:** Arthur Zebral
+- **Critérios de Êxito atingidos**: 
+  - ao tentar realizar o login sem utilizar-se de um texto de e-mail padrão, deve aparecer um alert que solicita a inclusão de valor que contenha o formato "texto@texto";
+  - ao tentar realizar o procedimento inserindo um e-mail válido, mas nenhum valor no campo "senha", deve aparecer um alert que solicita o preenchimento do campo e, o mesmo deverá acontecer se a tentativa for feita inserindo valores no campo "senha" e nenhum valor no campo "email";
+  - ao realizar o procedimento inserindo valores não cadastrados anteriormente, deve aparecer um alert informando "E-mail ou senha incorretos";
+  - ao tentar acessar a aplicação com e-mail e senhas já cadastrados, a página deve ser redirecionada automaticamente para a HomePage.
+
+-**Evidências:**
+**O campo de e-mail possui um padrão de valores aceitos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/b4331665-9356-4d82-9ece-39d84a788e56)
+
+**Para realizar o login, os dois campos devem estar preenchidos:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/5b48867f-deec-4571-8c6b-22470747edd0)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/99041845-9d2d-441a-958f-e732a38829b0)
+
+**A aplicação não aceita login com dados não pré-cadastrados:**
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e100af48-aed2-4113-9274-3ed7fa59b326)
+
+# Avaliação:
 
 
 
