@@ -28,35 +28,17 @@
 }
 
 .compromisso-item{
+    width: 200px;
     border: 2px solid #395B64;
+    background-color: #395B64;
+    color:#ffffff;
     border-radius: 20px;
     margin-bottom: 2%;
-    padding: 1% 0 1% 0;
+    padding: 2% 0 2% 0;
     text-align: center;
     margin-left: 5%;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif
-
-}
-
-.btn-remover{
-    background: none;
-    background-color: #f1453b;
-    color: #ffff;
-    font-size: 14px;
-    font-weight: 600;
-    border: none !important;
-    transition: all linear 160ms;
-    cursor: pointer;
-    margin: 0 !important;
-
-}
-
-.btn-remover:hover {
-    background: none;
-    transform: scale(1.05);
-
-
 }
 
 .btn-excluirMed{
@@ -75,10 +57,35 @@
     
 }
 
-
 .btn-excluirMed:hover {
     background: none;
+    transform: scale(1.05);
+    background-color: #f1453b;
+    color: #ffffff;
+}
 
+.btn-fecharCompromisso{
+    background: none;
+    color: #90d9e2;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 3% 0 0 !important;
+    text-align: center;
+    width: 5%;
+    padding-right: 15%;
+    float: right;
+    
+}
+
+
+.btn-fecharCompromisso:hover {
+    background: none;
+    transform: scale(1.05);
+    background-color: #f1453b;
+    color: #ffffff;
 }
 
 .campo{

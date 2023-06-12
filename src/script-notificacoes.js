@@ -42,7 +42,7 @@ function exibirHorarios() {
       iconeRemover.className = "bi bi-check-circle-fill";
     
       botaoRemover.appendChild(iconeRemover);
-      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + medicamento + '")');
+      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + horarioObj.nome + '")');
     
       novoItem.appendChild(botaoRemover);
     }
@@ -80,39 +80,17 @@ function exibirCompromissos() {
       novoItem.innerText = diaDoCompromisso + '/' + mesDoCompromisso + '/' + anoDoCompromisso + ' as ' + compromissoObj.time + ': ' + compromissoObj.title;
       listaCompromissos.appendChild(novoItem);
 
-      var botaoRemover = document.createElement("button");
-      botaoRemover.type = "button";
-      botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-      botaoRemover.innerText = "X";
-      botaoRemover.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
-      novoItem.appendChild(botaoRemover);
-    }
-  }
-}
+      var botaoFechar = document.createElement("button");
+      botaoFechar.type = "button";
+      botaoFechar.className = "ml-3 mb-3 btn-fecharCompromisso";
+      
+      var iconeFechar = document.createElement("span");
+      iconeFechar.className = "bi bi-x-circle-fill";
 
-function exibirCompromissos() {
-  var divCompromissos = $('#lista-compromissos');
-  divCompromissos.empty(); // Limpar os elementos existentes
-  for (var diaComCompromisso in diasComCompromissos) {
-    diaObj = diasComCompromissos[diaComCompromisso];
-    var diaDoCompromisso = diaObj.day;
-    var mesDoCompromisso = diaObj.month;
-    var anoDoCompromisso = diaObj.year;
-    for (var compromisso in diaObj.appointments) {
-      compromissoObj = diaObj.appointments[compromisso];
-      var novoItem = document.createElement("li");
-      novoItem.className = "compromisso-item horarioSalvo form_grupo";
-      novoItem.innerText = diaDoCompromisso + '/' + mesDoCompromisso + '/' + anoDoCompromisso + ' as ' + compromissoObj.time + ': ' + compromissoObj.title;
-      listaCompromissos.appendChild(novoItem);
-
-      var botaoRemover = document.createElement("button");
-      botaoRemover.type = "button";
-      botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-      botaoRemover.innerText = "X";
-      botaoRemover.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
-      novoItem.appendChild(botaoRemover);
+      botaoFechar.appendChild(iconeFechar);
+      botaoFechar.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
+      novoItem.appendChild(botaoFechar);
     }
-   
   }
 }
 

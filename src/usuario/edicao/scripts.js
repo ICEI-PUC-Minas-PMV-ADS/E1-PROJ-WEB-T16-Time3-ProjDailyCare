@@ -194,7 +194,7 @@ function criarItemHorario(medicamento, horario) {
   botaoRemover.className = "ml-3 mb-3 btn-excluirMed";
 
   var iconeRemover = document.createElement("span");
-  iconeRemover.className = "bi bi-check-circle-fill";
+  iconeRemover.className = "bi bi-x-circle-fill";
 
   botaoRemover.appendChild(iconeRemover);
   botaoRemover.setAttribute("onclick", 'removerItemHorario("' + medicamento + '")');
