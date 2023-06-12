@@ -128,7 +128,7 @@ O presente Plano de Testes se realiza a partir de casos de teste, orientados por
 |**Tipo de Teste**|Campos e Páginas|
 |**Técnica Utilizada**|Manual|
 |**Abordagem**|Caixa Preta|
-|**Responsáveis**|Arthur Zebral|
+|**Responsáveis**|Laila Martins|
 <br>
 <br>
 
