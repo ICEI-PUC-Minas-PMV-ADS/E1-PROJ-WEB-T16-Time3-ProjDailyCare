@@ -8,13 +8,11 @@ Contém os campos de email e senha que, se preenchidos corretamente, permitem o 
 ![Tela de login](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/9348e3b9-c1b4-4423-b4c4-b8dde5813486)
 
 ### Requisitos Atendidos
-- RF-001
 - RF-002
 - RF-003
 - RF-004
 - RF-005
 - RF-006
-- RF-007
 
 ### Artefatos da Funcionalidade
 - login.html
@@ -62,6 +60,10 @@ function novoAcessoRedirecionar() {
 }
 ```
 
+### Integrante Responsável pela Tela
+
+- Carolina Morais
+
 ### Instruções de acesso
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
 - Descompacte o arquivo em uma pasta específica;
@@ -82,7 +84,6 @@ Tela que permite ao usuário realizar o cadastro através do preenchimento dos s
 - RF-004
 - RF-005
 - RF-006
-- RF-007
 
 ### Artefatos da Funcionalidade
 - cadastro.html
@@ -148,6 +149,9 @@ function cadastro() {
     window.location.href = window.location.origin + "/src/login/login.html";
 }
 ```
+### Integrante Responsável pela Tela
+
+- Carolina Morais
 
 ### Instruções de Acesso
 
@@ -165,13 +169,9 @@ Permite ao usuário a modificação dos dados inseridos na tela de cadastro.
 ![Tela de Dados do Usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/893bd4bd-348f-4ece-a871-ea039bda0516)
 
 ### Requisitos Atendidos
-- RF-001
 - RF-002
 - RF-003
-- RF-004
 - RF-005
-- RF-006
-- RF-007
 
 ### Artefatos da Funcionalidade
 - edicao.html
@@ -287,6 +287,11 @@ function atualizandoOrigemLinksMenu() {
 }
 atualizandoOrigemLinksMenu();
 ```
+
+### Integrante Responsável pela Tela
+
+- Carolina Morais
+
 ### Instruções de Acesso
 
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
@@ -309,6 +314,10 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 - anotacoes.html
 - style-anotacoes.css
 - script-anotacoes.js
+
+### Integrante Responsável pela Tela
+
+- Laila Martins
 
 ### Instruções de Acesso
 
@@ -345,6 +354,10 @@ Essa tela apresenta um calendário interativo e permite ao usuário adicionar ev
 ]
 ```
 
+### Integrante Responsável pela Tela
+
+- Débora Alexia
+
 ### Instruções de Acesso
 
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
@@ -359,8 +372,8 @@ Essa tela apresenta cinco listas de opções onde o usuário poderá marcar até
 ![tela dados medicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/4946d29a-b386-405a-bd14-c20742be1db1)
 
 ### Requisitos Atendidos
-- RF-004
 - RF-002
+- RF-004
 
 ### Artefatos da Funcionalidade
 - dadosmedicos.html
@@ -393,6 +406,11 @@ function salvarLocalStorage() {
 }
 
 ```
+
+### Integrante Responsável pela Tela
+
+- Arthur Zebral
+
 ### Instruções de Acesso
 
 - Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;

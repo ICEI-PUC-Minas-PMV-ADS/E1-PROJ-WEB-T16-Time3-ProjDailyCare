@@ -36,13 +36,12 @@ Conforme as vivências, dificuldades e desejos identificados a partir da pesquis
 |--------------------|------------------------------------|----------------------------------------|
 |Felipe Ribeiro      | gerenciamento de tarefas importantes|para reduzir a procrastinação e ter mais cautela com os prazos do trabalho.|
 |Felipe Ribeiro  |registrar medicação diariamente        | para não perder os horários das medicações e ter confirmação se as tomou ou não.|
-|Felipe Ribeiro       | registrar de hábitos de sono     | para melhorar e regular o horário de sono |
 |Felipe Ribeiro  | registrar mudanças de humor           | para monitorar os sintomas das mudanças de humor e comunicar ao terapeuta e ao médico.|
 |Felipe Ribeiro |acessar a plataforma tanto pelo desktop como pelo celular | utilizar o tempo disponível entre uma atividade e outra para atualizar os dados. |
 |Danielle Barbosa | anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica |para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe|
 |Danielle Barbosa      |controlar diariamente os aspectos globais da filha (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica|
 |Danielle Barbosa  |poder inserir planos de intervenção fornecidos pela equipe multidisciplinar|estimular minha criança a partir do plano e monitorar sua evolução|
-|Danielle Barbosa      |ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mão de uma pessoa neuroatípica|para customizar ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
+|Danielle Barbosa      |ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mão de uma pessoa neuroatípica|para ter acesso a ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
 |Danielle Barbosa  |poder fazer pesquisas sobre as informações diárias de comportamento da minha filha através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
 |Danielle Barbosa       |ter acesso a gráficos de desempenho dos aspectos globais monitorados|apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento|
 
@@ -60,9 +59,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;|MÉDIA|
 |RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
 |RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
-|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
-|RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
-|RF-008|O sistema deve permitir a criação de planos de intervenção dentro do calendário, que permita categorizar a área multidisciplinar, informar objetivos ou descrição das intervenções e definir metas com tempo estimado para cumprir.|MÉDIA|
+|RF-006|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
 
 
 
