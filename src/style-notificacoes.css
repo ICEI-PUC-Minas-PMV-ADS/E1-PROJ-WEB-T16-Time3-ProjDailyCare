@@ -57,13 +57,11 @@
     
 }
 
-
 .btn-excluirMed:hover {
     background: none;
     transform: scale(1.05);
     background-color: #f1453b;
     color: #ffffff;
-
 }
 
 .btn-fecharCompromisso{
@@ -88,7 +86,6 @@
     transform: scale(1.05);
     background-color: #f1453b;
     color: #ffffff;
-
 }
 
 .campo{
