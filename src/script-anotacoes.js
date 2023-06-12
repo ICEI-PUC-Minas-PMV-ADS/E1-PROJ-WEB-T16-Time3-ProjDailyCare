@@ -6,14 +6,14 @@ titleTag = popupBox.querySelector("input"),
 descTag = popupBox.querySelector("textarea"),
 addBtn = popupBox.querySelector("button");
 
-const months = ["January", "February", "March", "April", "May", "June", "July",
-              "August", "September", "October", "November", "December"];
+const months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
+              "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 const notes = JSON.parse(localStorage.getItem("notes") || "[]");
 let isUpdate = false, updateId;
 
 addBox.addEventListener("click", () => {
-    popupTitle.innerText = "Add a new Note";
-    addBtn.innerText = "Add Note";
+    popupTitle.innerText = "Add nova nota";
+    addBtn.innerText = "Add nota";
     popupBox.classList.add("show");
     document.querySelector("body").style.overflow = "hidden";
     if(window.innerWidth > 660) titleTag.focus();
@@ -41,8 +41,8 @@ function showNotes() {
                             <div class="settings">
                                 <i onclick="showMenu(this)" class="uil uil-ellipsis-h"></i>
                                 <ul class="menu">
-                                    <li onclick="updateNote(${id}, '${note.title}', '${filterDesc}')"><i class="uil uil-pen"></i>Edit</li>
-                                    <li onclick="deleteNote(${id})"><i class="uil uil-trash"></i>Delete</li>
+                                    <li onclick="updateNote(${id}, '${note.title}', '${filterDesc}')"><i class="uil uil-pen"></i>Editar</li>
+                                    <li onclick="deleteNote(${id})"><i class="uil uil-trash"></i>Deletar</li>
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ function showMenu(elem) {
 }
 
 function deleteNote(noteId) {
-    let confirmDel = confirm("Are you sure you want to delete this note?");
+    let confirmDel = confirm("Você tem certeza que deseja deletar nota?");
     if(!confirmDel) return;
     notes.splice(noteId, 1);
     localStorage.setItem("notes", JSON.stringify(notes));
@@ -76,8 +76,8 @@ function updateNote(noteId, title, filterDesc) {
     addBox.click();
     titleTag.value = title;
     descTag.value = description;
-    popupTitle.innerText = "Update a Note";
-    addBtn.innerText = "Update Note";
+    popupTitle.innerText = "Atualizar nota";
+    addBtn.innerText = "Atualizar";
 }
 
 addBtn.addEventListener("click", e => {
@@ -102,10 +102,4 @@ addBtn.addEventListener("click", e => {
         showNotes();
         closeIcon.click();
     }
-});
-
-const lapis = document.querySelector('#lapis');
-
-lapis.addEventListener('click', () => {
-  console.log('Click!');
 });

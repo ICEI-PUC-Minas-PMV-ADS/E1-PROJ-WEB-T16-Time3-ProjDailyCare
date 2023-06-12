@@ -10,10 +10,13 @@ const calendar = document.querySelector(".calendar"),
   appointmentsContainer = document.querySelector(".appointments"),
   addAppointmentButton = document.querySelector(".add-appointment"),
   addAppointmentWrapper = document.querySelector(".add-appointment-wrapper "),
-  addAppointmentCloseButton = document.querySelector(".close "),
+  addAppointmentCloseButton = document.querySelector(".add-appointment-wrapper .close "),
   addAppointmentTitle = document.querySelector(".appointment-name "),
   addAppointmentTime = document.querySelector(".appointment-time "),
-  addAppointmentSubmit = document.querySelector(".add-appointment-button ");
+  addAppointmentSubmit = document.querySelector(".add-appointment-button "),
+  addMedButton = document.querySelector(".add-med"),
+  addMedWrapper = document.querySelector(".add-med-wrapper"),
+  addMedCloseButton = document.querySelector(".add-med-wrapper .close ");
 
 let todayDate = new Date();
 let dayActive;
@@ -35,7 +38,8 @@ const months = [
   "Dezembro",
 ];
 
-const appointmentsArray = [];
+let daysWithEvents = [];
+loadAppointments();
 
 // initialize the calendar, previous days and next days
 function initCalendar() {
@@ -58,8 +62,8 @@ function initCalendar() {
   for (let i = 1; i <= lastDate; i++) {
     // see if there is an appointment on that day
     let appointment = false;
-    appointmentsArray.forEach((appointmentDay) => {
-      if (appointmentDay.day === i && appointmentDay.year === year && appointmentDay.month === month + 1 ) {
+    daysWithEvents.forEach((dayWithEvents) => {
+      if (dayWithEvents.day === i && dayWithEvents.year === year && dayWithEvents.month === month + 1 ) {
         appointment = true;
       }
     });
@@ -110,6 +114,19 @@ next.addEventListener("click", nextMonth);
 
 initCalendar();
 
+function loadAppointments() {
+  var savedAppointments = localStorage.getItem('appointments');
+  if (savedAppointments) {
+    daysWithEvents = JSON.parse(savedAppointments);
+  } else {
+    daysWithEvents = []
+  }
+}
+
+function updateInternalStorage() {
+  localStorage.setItem('appointments', JSON.stringify(daysWithEvents));
+}
+
 // add "active" on the day
 function addListner() {
   const days = document.querySelectorAll(".day");
@@ -138,9 +155,9 @@ todayButton.addEventListener("click", () => {
 // update the appointments if the day is active
 function updateAppointments(date) {
   let appointments = "";
-  appointmentsArray.forEach((appointment) => {
-    if (date === appointment.day && month + 1 === appointment.month && year === appointment.year) {
-      appointment.appointments.forEach((appointment) => {
+  daysWithEvents.forEach((dayWithEvents) => {
+    if (date === dayWithEvents.day && month + 1 === dayWithEvents.month && year === dayWithEvents.year) {
+      dayWithEvents.appointments.forEach((appointment) => {
         appointments += `<div class="appointment">
             <div class="title">
               <h3 class="appointment-title">${appointment.title}</h3>
@@ -175,6 +192,15 @@ document.addEventListener("click", (e) => {
   }
 });
 
+// activate the add med screen
+addMedButton.addEventListener("click", () => {
+  addMedWrapper.classList.toggle("active");
+});
+
+addMedCloseButton.addEventListener("click", () => {
+  addMedWrapper.classList.remove("active");
+});
+
 // allow only time in the appointment time
 addAppointmentTime.addEventListener("input", (e) => {
   addAppointmentTime.value = addAppointmentTime.value.replace(/[^0-9:]/g, "");
@@ -197,24 +223,24 @@ addAppointmentSubmit.addEventListener("click", () => {
     time: time,
   };
   let appointmentAdded = false;
-  if (appointmentsArray.length > 0) {
-    appointmentsArray.forEach((appointment) => {
-      if (appointment.day === dayActive && appointment.month === month + 1 && appointment.year === year) {
-        appointment.appointments.push(newAppointment);
+  if (daysWithEvents.length > 0) {
+    daysWithEvents.forEach((dayWithEvent) => {
+      if (dayWithEvent.day === dayActive && dayWithEvent.month === month + 1 && dayWithEvent.year === year) {
+        dayWithEvent.appointments.push(newAppointment);
         appointmentAdded = true;
       }
     });
   }
 
   if (!appointmentAdded) {
-    appointmentsArray.push({
+    daysWithEvents.push({
       day: dayActive,
       month: month + 1,
       year: year,
       appointments: [newAppointment],
     });
   }
-
+  updateInternalStorage();
   addAppointmentWrapper.classList.remove("active");
   addAppointmentTitle.value = "";
   addAppointmentTime.value = "";
@@ -230,16 +256,16 @@ addAppointmentSubmit.addEventListener("click", () => {
 appointmentsContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("appointment")) {
     const appointmentTitle = e.target.children[0].children[0].innerHTML;
-    appointmentsArray.forEach((appointment) => {
-      if (appointment.day === dayActive && appointment.month === month + 1 && appointment.year === year) {
-        appointment.appointments.forEach((item, index) => {
+    daysWithEvents.forEach((dayWithEvents) => {
+      if (dayWithEvents.day === dayActive && dayWithEvents.month === month + 1 && dayWithEvents.year === year) {
+        dayWithEvents.appointments.forEach((item, index) => {
           if (item.title === appointmentTitle) {
-            appointment.appointments.splice(index, 1);
+            dayWithEvents.appointments.splice(index, 1);
           }
         });
-        // remove the day from the appointments array
-        if (appointment.appointments.length === 0) {
-          appointmentsArray.splice(appointmentsArray.indexOf(appointment), 1);
+        // remove the day from the dayWithEvents array
+        if (dayWithEvents.appointments.length === 0) {
+          daysWithEvents.splice(daysWithEvents.indexOf(dayWithEvents), 1);
           // remove the appointment class from the day
           const dayActiveElement = document.querySelector(".day.active");
           if (dayActiveElement.classList.contains("appointment")) {
@@ -248,6 +274,7 @@ appointmentsContainer.addEventListener("click", (e) => {
         }
       }
     });
+    updateInternalStorage();
     updateAppointments(dayActive);
   }
 });
