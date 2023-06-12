@@ -201,6 +201,8 @@ Dada a saída do novo integrante e a ausência contínua do integrante Pedro Art
 
 A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
 
+![Sprint 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e4aaf506-26d3-4453-9b78-7c55f678dcca)
+![Sprint 4 - 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/245713a7-8d8b-4be4-9707-0eca9abffa4a)
 
 
 A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
