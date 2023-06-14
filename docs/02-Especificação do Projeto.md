@@ -40,7 +40,6 @@ Conforme as vivências, dificuldades e desejos identificados a partir da pesquis
 |Felipe Ribeiro |acessar a plataforma tanto pelo desktop como pelo celular | utilizar o tempo disponível entre uma atividade e outra para atualizar os dados. |
 |Danielle Barbosa | anotar os feedbacks e informações rotineiras dadas pela equipe multidisciplinar e médica |para ter controle das orientações fornecidas pela equipe de saúde e ter um histórico de referências e demandas da equipe|
 |Danielle Barbosa      |controlar diariamente os aspectos globais da filha (humor, agitação, engajamento, evacuação, alimentação, etc)|para identificar gatilhos da filha, ter maior monitoramento dessas condições e poder compartilha-las com a equipe médica|
-|Danielle Barbosa  |poder inserir planos de intervenção fornecidos pela equipe multidisciplinar|estimular minha criança a partir do plano e monitorar sua evolução|
 |Danielle Barbosa      |ter acesso a funções específicas de agenda que contemplem minhas necessidades enquanto mão de uma pessoa neuroatípica|para ter acesso a ferramentas de gestão de organização de acordo com as necessidades e compromissos da minha filha|
 |Danielle Barbosa  |poder fazer pesquisas sobre as informações diárias de comportamento da minha filha através do histórico produzido|retomar um assunto abordado pela equipe ou reanalisar um aspecto|
 |Danielle Barbosa       |ter acesso a gráficos de desempenho dos aspectos globais monitorados|apresentar junto a equipe multidisciplinar / médica o desenvolvimento e eficácia do tratamento|
@@ -59,7 +58,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|Disponibilizar a geração de gráficos a partir de histórico de dados;|MÉDIA|
 |RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
 |RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
-|RF-006|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
 
 
 
