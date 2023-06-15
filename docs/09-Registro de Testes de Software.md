@@ -219,10 +219,10 @@ Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compr
 
 - **Evidências:**
 
-**Campo de adição de nova nota a partir do ícone de "+" em Observação Terapêutica:
+**Campo de adição de nova nota a partir do ícone de "+" em Observação Terapêutica:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/cd5c95bb-330b-4a65-9de9-cdec4c0881e8)
 
-**Adição de nova nota, com título e descrição inseridas e informações sobre a data de criação:"
+**Adição de nova nota, com título e descrição inseridas e informações sobre a data de criação:"**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/2b5c449b-4dae-4e45-b65b-e6b20af51a22)
 
 **Adição uma nota sem texto na descrição e outra sem título, mas nenhuma nota completamente vazia:**
