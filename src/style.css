@@ -74,14 +74,14 @@ header>div div:last-child {
     align-items: center;
     justify-content: center;
     transition: .6s;
-    cursor: pointer;
-    padding-right: 6%;
+    margin-right: 6%;
 }
 
 .icone-saida:hover {
     font-size: 30px;
     background: #395B64;
     color: #F6F6F6;
+    cursor: pointer;
 }
 
 
