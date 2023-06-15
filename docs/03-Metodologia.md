@@ -11,9 +11,6 @@ O projeto orienta-se por meio de metodologias ágeis, desta forma, o Scrum é ut
 - **Developers:**
     - Arthur Zebral de Castro Koehne
     - Laila Suelen Martins Costa
-    - Pedro Arthur Silva Santos
-    - Raphael Henrique Silva Diniz
-
 
 ## Ferramentas
 As ferramentas utilizadas no projeto são:
