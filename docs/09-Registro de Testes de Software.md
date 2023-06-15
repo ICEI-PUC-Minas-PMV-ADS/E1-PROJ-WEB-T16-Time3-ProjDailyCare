@@ -143,7 +143,7 @@ A presente seção trás as evidências dos testes realizados a partir dos 9 [Ca
 **Funcionamento do campo de adicionar horários:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/94267241-d7d1-4b84-a1fc-dfec9383f633)
 
-**Após a seleção do botão "Salvar Horários" os medicamentos são adicionados à tela de Dados do Usuário:
+**Após a seleção do botão "Salvar Horários" os medicamentos são adicionados à tela de Dados do Usuário:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/abadcb14-7cd2-4d45-ac0c-a11b8a505f89)
 
 **A aplicação permite a edição dos medicamentos, permitindo ao usuário adicionar novos ou remover àqueles já adicionados:**
@@ -222,7 +222,7 @@ Observação: o ícone de fechar não é o ideal, uma vez que, para melhor compr
 **Campo de adição de nova nota a partir do ícone de "+" em Observação Terapêutica:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/cd5c95bb-330b-4a65-9de9-cdec4c0881e8)
 
-**Adição de nova nota, com título e descrição inseridas e informações sobre a data de criação:"**
+**Adição de nova nota, com título e descrição inseridas e informações sobre a data de criação:**
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/2b5c449b-4dae-4e45-b65b-e6b20af51a22)
 
 **Adição uma nota sem texto na descrição e outra sem título, mas nenhuma nota completamente vazia:**
