@@ -19,7 +19,6 @@ a {
 
 header {
     background-color: #A5C9CA;
-    padding: 4% 5%;
 }
 
 header>div div:last-child {
@@ -38,6 +37,10 @@ header>div div:last-child {
 
 ::-webkit-input-placeholder {
     color: #A5C9CA;
+}
+
+.img-lampada{
+    width: 35%;
 }
 
 
@@ -72,6 +75,7 @@ header>div div:last-child {
     justify-content: center;
     transition: .6s;
     cursor: pointer;
+    padding-right: 6%;
 }
 
 .icone-saida:hover {
@@ -320,5 +324,13 @@ footer {
     }
     #menu__toggle ~ .menu {
         left: 0 !important;
+    }
+    .img-lampada{
+        width: 35%;
+    }
+}
+@media (min-width: 767px){
+    .img-lampada{
+        width: 35%;
     }
 }

@@ -1,6 +1,16 @@
+var today = new Date(Date.now());
 // Recupera os horários salvos do Local Storage
 var horariosString = localStorage.getItem('horariosMedicamentos');
 var horarios = JSON.parse(horariosString);
+var medicamentosTomadosString = localStorage.getItem('medicamentosTomados');
+var medicamentosTomados = JSON.parse(medicamentosTomadosString);
+if(medicamentosTomados == null){
+  medicamentosTomados = [];
+}
+
+// Recupera os compromissos salvos do Local Storage
+var diasComCompromissosString = localStorage.getItem('appointments');
+var diasComCompromissos = JSON.parse(diasComCompromissosString);
 
 // Recupera os compromissos salvos do Local Storage
 var diasComCompromissosString = localStorage.getItem('appointments');
@@ -18,18 +28,41 @@ function exibirHorarios() {
   var divHorarios = $('#lista-horarios');
   divHorarios.empty(); // Limpar os elementos existentes
   for (var medicamento in horarios) {
-    var horarioObj = horarios[medicamento];  
-    var novoItem = document.createElement("li");
-    novoItem.className = "horario-item horarioSalvo form_grupo";
-    novoItem.innerText = horarioObj.nome + ': ' + horarioObj.horario;
-    listaHorarios.appendChild(novoItem);
-    var botaoRemover = document.createElement("button");
-    botaoRemover.type = "button";
-    botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-    botaoRemover.innerText = "X";
-    botaoRemover.setAttribute("onclick", 'removerItemHorario("' + horarioObj.nome + '")');
-    novoItem.appendChild(botaoRemover);
+    var horarioObj = horarios[medicamento];
+    if(!medicamentoFoiTomado(horarioObj.nome)){
+      var novoItem = document.createElement("li");
+      novoItem.className = "horario-item horarioSalvo form_grupo";
+      novoItem.innerText = horarioObj.nome + ': ' + horarioObj.horario;
+      listaHorarios.appendChild(novoItem);
+      var botaoRemover = document.createElement("button");
+      botaoRemover.type = "button";
+      botaoRemover.className = "ml-3 mb-3 btn-excluirMed";
+    
+      var iconeRemover = document.createElement("span");
+      iconeRemover.className = "bi bi-check-circle-fill";
+    
+      botaoRemover.appendChild(iconeRemover);
+      botaoRemover.setAttribute("onclick", 'removerItemHorario("' + horarioObj.nome + '")');
+    
+      novoItem.appendChild(botaoRemover);
+    }
   }
+}
+
+function medicamentoFoiTomado(nome){
+  if(medicamentosTomados.length === 0 ){
+    return false;
+  }
+
+  for (var medicamentoIndex in medicamentosTomados) {
+    var medicamentoTomado = medicamentosTomados[medicamentoIndex];
+    if(medicamentoTomado.nome == nome){
+      if(medicamentoTomado.dia == today.getDay() && medicamentoTomado.mes == today.getMonth() && medicamentoTomado.ano == today.getYear()){
+        return true;
+      }
+    }
+  }
+  return false;
 }
 
 function exibirCompromissos() {
@@ -47,14 +80,17 @@ function exibirCompromissos() {
       novoItem.innerText = diaDoCompromisso + '/' + mesDoCompromisso + '/' + anoDoCompromisso + ' as ' + compromissoObj.time + ': ' + compromissoObj.title;
       listaCompromissos.appendChild(novoItem);
 
-      var botaoRemover = document.createElement("button");
-      botaoRemover.type = "button";
-      botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-      botaoRemover.innerText = "X";
-      botaoRemover.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
-      novoItem.appendChild(botaoRemover);
+      var botaoFechar = document.createElement("button");
+      botaoFechar.type = "button";
+      botaoFechar.className = "ml-3 mb-3 btn-fecharCompromisso";
+      
+      var iconeFechar = document.createElement("span");
+      iconeFechar.className = "bi bi-x-circle-fill";
+
+      botaoFechar.appendChild(iconeFechar);
+      botaoFechar.setAttribute('onclick', `removerItemCompromisso("${compromissoObj.title}","${diaDoCompromisso}","${mesDoCompromisso}","${anoDoCompromisso}")`);
+      novoItem.appendChild(botaoFechar);
     }
-   
   }
 }
 
@@ -67,11 +103,23 @@ function salvarCompromissos() {
 }
 
 function removerItemHorario(nomeMedicamento) {
-  horarios = horarios.filter(function(medicamento) {
-    return medicamento.nome !== nomeMedicamento;
-  });
-  salvarHorarios();
+  //horarios = horarios.filter(function(medicamento) {
+  //  return medicamento.nome !== nomeMedicamento;
+  //});
+  tomouMedicamentoHoje(nomeMedicamento);
+  //salvarHorarios();
   exibirHorarios();
+}
+
+function tomouMedicamentoHoje(nomeMedicamento){
+  medicamentoTomado = {
+    nome: nomeMedicamento, 
+    dia: new Date(Date.now()).getDay(),
+    mes: new Date(Date.now()).getMonth(),
+    ano: new Date(Date.now()).getYear()
+  };
+  medicamentosTomados.push(medicamentoTomado);
+  localStorage.setItem('medicamentosTomados', JSON.stringify(medicamentosTomados));
 }
 
 function removerItemCompromisso(title, dia, mes, ano) {
@@ -94,4 +142,3 @@ function removerItemCompromisso(title, dia, mes, ano) {
 
 exibirHorarios();
 exibirCompromissos();
-

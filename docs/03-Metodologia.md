@@ -159,16 +159,7 @@ Prevista para o período correspondente entre 24/04 a 14/05.
 
 **1. Planejamento**
 
-A reunião da referida Sprint e seus respectivos planos, organização e divisão de tarefas ocorreu em 26/04/2023. A partir da realização, definiu-se como os principais itens entregáveis o Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer às prioridas definidas nos Requisitos Funcionais apresentados na Especificação de Projeto: 
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001|Fornecer funcionalidades de calendário que permitam aos pacientes incluírem informações de agendamento de compromissos e consultas, bem como respectivas notificações;|ALTA| 
-|RF-002|Permitir a inclusão de informações sobre evolução dos pacientes e observações de terapeutas;|ALTA|
-|RF-004|Possibilitar a inclusão de dados de aspectos globais do paciente, como humor, atenção, alimentação, engajamento e tolerância;|ALTA|
-|RF-005|O sistema deve enviar lembretes ao usuário nos horários das medicações, incluindo uma opção de confirmação|ALTA|
-|RF-006|Permitir que o usuário monitore e controle seu sono, a partir de um lembrete com um horário pré-determinado;|MÉDIA|
-|RF-007|O sistema deve disponibilizar uma busca para os registros de histórico do usuário;|BAIXA|
+Com a saída da integrante Andreia Bera, o grupo disponibilizou a vaga para novos integrantes, momento em que o aluno Raphael Henrique Silva Diniz se juntou a equipe. A partir dessa mudança, a reunião da referida Sprint e seus respectivos planos, organização e divisão de tarefas ocorreu em 26/04/2023. A partir da realização, definiu-se como os principais itens entregáveis o Template Padrão do Site e Programação das Funcionalidades, sendo que este último deve obedecer às prioridas definidas nos Requisitos Funcionais apresentados na [Especificação de Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md). 
 
 A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
 
@@ -178,15 +169,27 @@ A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das 
 
 A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
 
-
 **2. Execução**
 
-Aguardando finalização da Sprint.
+A equipe, que não possuia nenhum integrante que já hávia desenvolvido programas antes, enfrentou muitas dificuldades nessa etapa. Primeiramente, a falta de experiência trouxe insegurança aos integrantes e o tempo disponível para estudar o microfundamento necessário para a realização da sprint foi considerado pequeno. O grupo considerou a referida sprint como a mais desafiadora até então.
+
+A quebra dos itens de backlog em tasks menores também acabou resultando numa lista de tarefas demasiadamente extensa, com grande carga de trabalho para os integrantes, de forma que o planejamento inicial precisou ser abandonado e tomar lugar a uma nova proposta:
+
+![sprint-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/d75e865a-9fdd-48b6-9470-271baf6ce6ad)
+
+Alterando as prioridades para trabalhar com expectativas de entrega factíveis, os membros Arthur Zebral, Carolina Martins, Débora Alexia e Laila Martins entregaram as funcionalidades e telas que lhes foram atribuídas. No entanto, o aluno Pedro Arthur noticiou, restando duas horas para a data de entrega, que não entregaria sua parte e comunicaria ao orientador. O aluno Raphael Henrique não apresentou nenhuma funcionalidade.
+
+A retrospectiva se deu de duas formas: a primeira, em uma reunião posterior à entrega de itens, no dia 15/05/2023, aonde o integrante Raphael Henrique apresentou justificativas plausíveis para sua ausência e comunicou sua retirada do grupo e do Projeto. O aluno Pedro Arthur continuou ausente, fato que foi comunicado ao orientador posteriormente. Os demais integrantes conversaram sobre as expectativas de entrega das demais funcionalidades, as melhorias necessárias para a aplicação e concluíram que, apesar dos pensamentos limitantes de um primeiro contato com a prática de desenvolvimento de software, o comprometimento do grupo permitiu uma entrega que atingia as exigências da etapa. 
+
+A segunda, foi através de uma breve apresentação dos resutados da Sprint junto às turmas 15 e 16 do curso de Análise e Desenvolvimento de Sistemas, durante o encontro síncrono do dia 18/05/2023.
 
 **3. Evidências**
 
-Aguardando finalização da Sprint.
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
 
+- [Programação de Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)
+- [Códigos do Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/tree/main/src)
+- [Release da Sprint](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/releases/tag/Sprint-3)
 
 ### Sprint 4
 
@@ -194,9 +197,16 @@ Prevista para o período correspondente entre 15/05 a 11/06.
 
 **1. Planejamento**
 
-Principais itens entregáveis: Programação das demais funcionalidades, Plano de Testes de Software e Registro de Testes de Software.
+Dada a saída do novo integrante e a ausência contínua do integrante Pedro Arthur, os desdobramentos distribuições de tarefas seguintes contaram apenas com os integrantes Arthur Zebral, Carolina Morais, Laila Martins e Débora Alexia. A reunião de planejamento da Sprint 4 e seus respectivos planos de ação, organização e divisão de tarefas ocorreu em 16/05/2023. A partir da realização, definiu-se como os principais itens entregáveis a **Programação das demais Funcionalidades**, o **Plano de Testes de Software** e o **Registro de Testes de Software**.
 
-![image](https://user-images.githubusercontent.com/112430045/233516822-743e65bd-20ac-4336-9446-75b839bb6512.png)
+A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
+
+![Sprint 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/e4aaf506-26d3-4453-9b78-7c55f678dcca)
+![Sprint 4 - 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/245713a7-8d8b-4be4-9707-0eca9abffa4a)
+
+
+A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
+
 
 
 **2. Execução**

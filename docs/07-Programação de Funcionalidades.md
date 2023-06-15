@@ -75,7 +75,7 @@ function novoAcessoRedirecionar() {
 
 Tela que permite ao usuário realizar o cadastro através do preenchimento dos seguntes dados: nome, email, senha, data de nascimento, estado civil, sexo e em qual aspecto neurodivergente o usuario se encontra.
 
-![Tela de Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/9ed3f489-2786-4aeb-a0b0-a997fa568905)
+![Tela de Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/415c8e01-43ee-4bdc-82f1-d51e459be584)
 
 ### Requisitos Atendidos
 - RF-001
@@ -164,9 +164,9 @@ function cadastro() {
 
 ## Dados do usuário
 
-Permite ao usuário a modificação dos dados inseridos na tela de cadastro.
+Permite ao usuário a modificação dos dados inseridos na tela de cadastro e a inserção de medicamentos de uso contínuo.
 
-![Tela de Dados do Usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/127430454/893bd4bd-348f-4ece-a871-ea039bda0516)
+![Tela de Dados do Usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/1ec1149a-c16d-4f8f-8250-915a082af05f)
 
 ### Requisitos Atendidos
 - RF-002
@@ -301,11 +301,62 @@ atualizandoOrigemLinksMenu();
 - Entre na pasta *edicao*;
 - Abra o arquivo *edicao.html*.
 
+## Home
+
+Essa tela exibe gráficos baseados nos dados de aspectos globais inseridos pelo usuário.
+
+![HomePage](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/3a5a0ef3-3ac7-4402-87d9-63762c1ed37a)
+
+### Requisitos Atendidos
+- RF-003
+
+### Artefatos da Funcionalidade
+- index.html
+- style.css
+- fiveserver.js
+
+### Integrante Responsável pela Tela
+
+- Arthur Zebral
+
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, abra o arquivo *index.html*.
+
+## Notificações
+
+Exibe notificações diárias de medicamento e possui a opção de confirmar o uso da medicação no dia. Exibe ainda os eventos/tarefas adicionados no calendário e permite dispensá-los.
+
+![Tela de Notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a316fc82-3b80-48a7-b897-741c95144707)
+
+### Requisitos Atendidos
+- RF-001
+- RF-005
+
+### Artefatos da Funcionalidade
+- notificacoes.html
+- style-notificacoes.css
+- script-notificacoes.js
+
+### Integrante Responsável pela Tela
+
+- Débora Alexia
+
+### Instruções de Acesso
+
+- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+- Descompacte o arquivo em uma pasta específica;
+- Abra a pasta *src*;
+- Em seguida, abra o arquivo *notificacoes.html*.
+
 ## Anotações
 
 Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre sessões terapêuticas e relatórios de equipes multidisciplinares.
 
-![anotacoes tela](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/a982a824-3b55-461f-91c1-2f7181b7206f)
+![Tela de Anotações](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/4890ce26-c11c-46aa-9a0e-ab0b2e0412b0)
 
 ### Requisitos Atendidos
 - RF-002
@@ -330,7 +381,7 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 
 Essa tela apresenta um calendário interativo e permite ao usuário adicionar eventos ou compromissos. Utiliza técnicas de dinamicidade baseada em AJAX, para acrescentar os elementos de interatividade e melhorar a interface e demais elementos visuais da funcionalidade. Segue uma imagem da tela:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/99dd2fdc-2421-4694-9f3e-00d0edc04b26)
+![Tela de Calendário](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/c1789011-759a-4219-b69d-e0b3463ed34a)
 
 ### Requisitos Atendidos
 - RF-001
@@ -369,7 +420,7 @@ Essa tela apresenta um calendário interativo e permite ao usuário adicionar ev
 
 Essa tela apresenta cinco listas de opções onde o usuário poderá marcar até uma alternativa. Os dados pertinentes a essa tela se referem à aspectos emocionais. alimentares, de foco, de engajamento e de tolerância. Essa tela faz-se de extrema importância para o acompanhamento do paciente ao longo do tempo e no intuito de mensurar seu progresso.
 
-![tela dados medicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/124836743/4946d29a-b386-405a-bd14-c20742be1db1)
+![Tela de Dados Médicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/a816e86f-6f2e-4b11-8f72-449f002ac0fe)
 
 ### Requisitos Atendidos
 - RF-002

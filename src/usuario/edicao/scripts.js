@@ -17,7 +17,7 @@ function recuperarDadosUsuario() {
         document.getElementById('dataNascimento').value = dadosUsuario.data;
         document.getElementById('estadoCivil').value = dadosUsuario.estadoCivil;
         var sexo = document.querySelector(`input[name="sexo"][value="${dadosUsuario.sexo}"]`);
-        sexo.checked = true;
+        if (sexo) sexo.checked = true;
         var selectMedicamentos = $('#medicamentos');
         selectMedicamentos.val(medicamentosSelecionados);
         selectMedicamentos.selectpicker('refresh');
@@ -191,10 +191,16 @@ function criarItemHorario(medicamento, horario) {
 
   var botaoRemover = document.createElement("button");
   botaoRemover.type = "button";
-  botaoRemover.className = "btn btn-danger ml-3 mb-3 btn-excluirMed";
-  botaoRemover.innerText = "X";
+  botaoRemover.className = "ml-3 mb-3 btn-excluirMed";
+
+  var iconeRemover = document.createElement("span");
+  iconeRemover.className = "bi bi-x-circle-fill";
+
+  botaoRemover.appendChild(iconeRemover);
   botaoRemover.setAttribute("onclick", 'removerItemHorario("' + medicamento + '")');
+
   novoItem.appendChild(botaoRemover);
+
 
   return novoItem;
 }
