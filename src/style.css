@@ -110,12 +110,16 @@ main {
   }
   .menu__btn {
     position: relative;
-    top: 0px;
+    top: 12px;
     left: 15px;
+    height: 26px;
     width: 26px;
     cursor: pointer;
     z-index: 11;
     color: #395B64;
+  }
+  .menu__btn > span {
+    margin-top: 12px;
   }
   .menu__btn > span,
   .menu__btn > span::before{
@@ -319,6 +323,9 @@ footer {
 
 
 @media (min-width: 990px) {
+    .menu{
+        top: -24px;
+    }
     .menu__btn {
         display: none;
     }
@@ -329,8 +336,30 @@ footer {
         width: 35%;
     }
 }
-@media (min-width: 767px){
+
+@media (max-width: 990px){
+    .menu{
+        top: -32px;
+    }
+}
+
+@media (max-width: 767px){
     .img-lampada{
-        width: 35%;
+        width: 60px;
+    }
+    header {
+        height: 19%;
+    }
+    .menu{
+        top: -32px;
+    }
+}
+
+@media (max-width: 518px){
+    .menu{
+        top: -56px;
+    }
+    .menu__btn {
+        top: -17px;
     }
 }
