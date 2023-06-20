@@ -60,8 +60,7 @@
 .btn-excluirMed:hover {
     background: none;
     transform: scale(1.05);
-    background-color: #f1453b;
-    color: #ffffff;
+
 }
 
 .btn-fecharCompromisso{
@@ -84,14 +83,8 @@
 .btn-fecharCompromisso:hover {
     background: none;
     transform: scale(1.05);
-    background-color: #f1453b;
-    color: #ffffff;
 }
 
 .campo{
     padding: 0%;
-}
-
-.horarioSalvo{
-        width: 300px;
 }
