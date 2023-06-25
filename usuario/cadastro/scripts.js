@@ -52,5 +52,5 @@ function cadastro() {
 
     // Finalizando cadastro
     alert('Finalizando cadastro');
-    window.location.href = window.location.origin + "/E1-PROJ-WEB-T16-Time3-ProjDailyCare/usuario/login/login.html";
+    window.location.href = window.location.origin + "/E1-PROJ-WEB-T16-Time3-ProjDailyCare/login/login.html";
 }
