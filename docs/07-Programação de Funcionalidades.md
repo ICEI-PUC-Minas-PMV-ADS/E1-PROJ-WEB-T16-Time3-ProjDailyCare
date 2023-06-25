@@ -366,6 +366,21 @@ Esta tela possui funcionalidade que permite ao usuário fazer anotações sobre 
 - style-anotacoes.css
 - script-anotacoes.js
 
+### Estrutura de Dados
+
+```
+const notes = JSON.parse(localStorage.getItem("notes") || "[]");
+let isUpdate = false, updateId;
+
+localStorage.setItem("notes", JSON.stringify(notes));
+    showNotes();
+
+localStorage.setItem("notes", JSON.stringify(notes));
+        showNotes();
+        closeIcon.click();
+
+```
+
 ### Integrante Responsável pela Tela
 
 - Laila Martins
