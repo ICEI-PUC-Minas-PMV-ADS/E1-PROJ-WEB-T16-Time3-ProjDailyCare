@@ -33,7 +33,7 @@ function recuperarDadosUsuario() {
     }
     else {
         alert('Usuário logado não encontrado!');
-        window.location.href = window.location.origin + "/login/login.html";
+        window.location.href = window.location.origin + "/E1-PROJ-WEB-T16-Time3-ProjDailyCare/usuario/login/login.html";
     }
     
    
@@ -92,10 +92,10 @@ function salvarEdicaoUsuario() {
 
 function saida() {
     localStorage.removeItem('usuarioLogado');
-    window.location.href = window.location.origin + "/login/login.html";
+    window.location.href = window.location.origin + "/E1-PROJ-WEB-T16-Time3-ProjDailyCare/usuario/login/login.html";
 }
 function redirecionarTelaEdicao() {
-    window.location.href = window.location.origin + "/usuario/edicao/edicao.html";
+    window.location.href = window.location.origin + "/E1-PROJ-WEB-T16-Time3-ProjDailyCare/usuario/edicao/edicao.html";
 }
 
 function atualizandoOrigemLinksMenu() {
