@@ -41,7 +41,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+O projeto está hospedado no seguinte link: https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/
 
 # Armazenamento do Código-Fonte
 
