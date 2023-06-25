@@ -32,5 +32,5 @@ function login(){
 }
 
 function novoAcessoRedirecionar() {
-    window.location.href = window.location.origin + "/usuario/cadastro/cadastro.html";
+    window.location.href = window.location.origin + "E1-PROJ-WEB-T16-Time3-ProjDailyCare/usuario/cadastro/cadastro.html";
 }
