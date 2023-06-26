@@ -22,13 +22,6 @@ Contém os campos de email e senha que, se preenchidos corretamente, permitem o 
 ### Estrutura de Dados
 
 ```
-function login(){
-    // Iniciando login
-
-     // Colhendo todos os valores dos elementos presentes no formulário
-     var email = document.getElementById('email').value;
-     var senha = document.getElementById('senha').value;
-
     // Colher os usuários salvos no localStorage
     var usuariosLocalStorage = JSON.parse(localStorage.getItem('dadosUsuarios'));
     var encontrouUsuario = false;
@@ -52,12 +45,6 @@ function login(){
         alert('Email ou senha incorretos.');
     }
 
-    // Finalizando login
-}
-
-function novoAcessoRedirecionar() {
-    window.location.href = window.location.origin + "/src/usuario/cadastro/cadastro.html";
-}
 ```
 
 ### Integrante Responsável pela Tela
@@ -91,33 +78,7 @@ Tela que permite ao usuário realizar o cadastro através do preenchimento dos s
 - scripts.js
 
 ### Estrutura de Dados
-```
-function cadastro() {   
-    // Iniciando cadastro
-
-    // Colhendo todos os valores dos elementos presentes no formulário
-    var nome = document.getElementById('inputNome').value;
-    var email = document.getElementById('inputEmail').value;
-    var senha = document.getElementById('inputPassword').value;
-    var dataNascimento = document.getElementById('dataNascimento').value;
-    var estadoCivil = document.getElementById('estadoCivil').value;
-    
-    var sexos = document.querySelectorAll('input[name="sexo"]');
-    var sexoSelecionado = '';
-    for (let i = 0; i < sexos.length; i++) {
-        if (sexos[i].checked){
-            sexoSelecionado = sexos[i].value;
-        }
-    }
-
-    var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"]');
-    var aspectoGlobalSelecionados = [];
-    for (let i= 0; i < aspectoGlobal.length; i++) {
-        if (aspectoGlobal[i].checked){
-            aspectoGlobalSelecionados.push(aspectoGlobal[i].value);
-        }
-    }
-    
+``` 
     // Montando o objeto com as informações do usuário
     var usuarioNovo = {
         nome: nome,
@@ -144,10 +105,6 @@ function cadastro() {
     // Salvar a lista atualizada no localStorage
     localStorage.setItem('dadosUsuarios', JSON.stringify(listaUsuarios));
 
-    // Finalizando cadastro
-    alert('Finalizando cadastro');
-    window.location.href = window.location.origin + "/src/login/login.html";
-}
 ```
 ### Integrante Responsável pela Tela
 
@@ -193,29 +150,6 @@ function recuperarDadosUsuario() {
                 dadosUsuario = usuariosLocalStorage[i];
             }
         }
-        document.getElementById('inputNome').value = dadosUsuario.nome;
-        document.getElementById('inputEmail').value = dadosUsuario.email;
-        document.getElementById('inputPassword').value = dadosUsuario.senha;
-        document.getElementById('dataNascimento').value = dadosUsuario.data;
-        document.getElementById('estadoCivil').value = dadosUsuario.estadoCivil;
-        var sexo = document.querySelector(`input[name="sexo"][value="${dadosUsuario.sexo}"]`);
-        sexo.checked = true;
-    
-        if (dadosUsuario.aspectoGlobal.length){
-            var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"]');
-            for (let i= 0; i < aspectoGlobal.length; i++) {
-                if (dadosUsuario.aspectoGlobal.includes(aspectoGlobal[i].value)){
-                    aspectoGlobal[i].checked = true;
-                }
-            }
-        }
-    }
-    else {
-        alert('Usuário logado não encontrado!');
-        window.location.href = window.location.origin + "/src/login/login.html";
-    }
-    
-   
 }
 recuperarDadosUsuario();
 
@@ -225,28 +159,6 @@ function salvarEdicaoUsuario() {
     // Colher os usuários salvos no localStorage
     var usuariosLocalStorage = JSON.parse(localStorage.getItem('dadosUsuarios'));
 
-    // Colhendo todos os valores dos elementos presentes no formulário
-    var nome = document.getElementById('inputNome').value;
-    var email = document.getElementById('inputEmail').value;
-    var senha = document.getElementById('inputPassword').value;
-    var dataNascimento = document.getElementById('dataNascimento').value;
-    var estadoCivil = document.getElementById('estadoCivil').value;
-    
-    var sexos = document.querySelectorAll('input[name="sexo"]');
-    var sexoSelecionado = '';
-    for (let i = 0; i < sexos.length; i++) {
-        if (sexos[i].checked){
-            sexoSelecionado = sexos[i].value;
-        }
-    }
-
-    var aspectoGlobal = document.querySelectorAll('input[name="aspectoGlobal"]');
-    var aspectoGlobalSelecionados = [];
-    for (let i= 0; i < aspectoGlobal.length; i++) {
-        if (aspectoGlobal[i].checked){
-            aspectoGlobalSelecionados.push(aspectoGlobal[i].value);
-        }
-    }
 
     for (let i= 0; i < usuariosLocalStorage.length; i++) {
         if (usuariosLocalStorage[i].email == usuarioLogado.email){
@@ -273,19 +185,7 @@ function saida() {
     localStorage.removeItem('usuarioLogado');
     window.location.href = window.location.origin + "/src/login/login.html";
 }
-function redirecionarTelaEdicao() {
-    window.location.href = window.location.origin + "/src/usuario/edicao/edicao.html";
-}
 
-function atualizandoOrigemLinksMenu() {
-    var links = document.querySelectorAll('a[name="link"]');
-    for (let i = 0; i < links.length; i++) {
-        var link = links[i];
-        var href = link.getAttribute('href');
-        link.setAttribute('href', `${window.location.origin}/src/${href}`);
-    }
-}
-atualizandoOrigemLinksMenu();
 ```
 
 ### Integrante Responsável pela Tela
