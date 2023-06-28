@@ -205,10 +205,14 @@ A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das 
 A distribuição de tarefas e suas respectivas atualizações pode ser visualizada no [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1), através do filtro de <em> [milestones](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/milestones) </em>, que setorizam os itens de acordo com a Sprint respectiva. 
 
 
-
 **2. Execução**
 
-Aguardando finalização da Sprint.
+O processo de finalização das funcionalidades foi de maior facilidade em relação à sprint anterior, uma vez alcançada a auto-confiança dos integrantes da equipe e a definição de expectativas mais realistas em relação ao projeto. A maior dificuldade se deu em relação à responsividade de algumas telas, pois o grupo não aplicou o conceito de <em> Mobile First </em> em todas, erro que acabou sendo percebido tardiamente, mas que, satisfatoriamente, pôde ser corrigido. 
+
+Em relação ao Plano de Testes, centralizou-se como objetivo testar todas as funcionalidades a partir de testes ponta a ponta orientados pelas Histórias de Usuário descritas na [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md), bem como realizar testes de Campos e Páginas e de Responsividade. 
+
+A construção do Plano de Testes, bem como a posterior realização e o Registro destes, foram divididos de forma que cada integrante testou, no mínimo, dois requisitos funcionais e duas telas diferentes daquelas pelas quais foi responsável por desenvolver.
+
 
 **3. Evidências**
 
