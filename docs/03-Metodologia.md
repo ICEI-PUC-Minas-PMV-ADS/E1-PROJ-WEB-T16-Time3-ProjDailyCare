@@ -209,14 +209,29 @@ A distribuição de tarefas e suas respectivas atualizações pode ser visualiza
 
 O processo de finalização das funcionalidades foi de maior facilidade em relação à sprint anterior, uma vez alcançada a auto-confiança dos integrantes da equipe e a definição de expectativas mais realistas em relação ao projeto. A maior dificuldade se deu em relação à responsividade de algumas telas, pois o grupo não aplicou o conceito de <em> Mobile First </em> em todas, erro que acabou sendo percebido tardiamente, mas que, satisfatoriamente, pôde ser corrigido. 
 
-Em relação ao Plano de Testes, centralizou-se como objetivo testar todas as funcionalidades a partir de testes ponta a ponta orientados pelas Histórias de Usuário descritas na [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md), bem como realizar testes de Campos e Páginas e de Responsividade. 
+Em relação ao Plano de Testes, centralizou-se como objetivo testar todas as funcionalidades a partir de testes ponta a ponta orientados pelas Histórias de Usuário descritas na [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md), realizar testes de Campos e Páginas e de Responsividade.  
 
-A construção do Plano de Testes, bem como a posterior realização e o Registro destes, foram divididos de forma que cada integrante testou, no mínimo, dois requisitos funcionais e duas telas diferentes daquelas pelas quais foi responsável por desenvolver.
+Faz-se importante ressaltar que, embora o registro de testes oriente-se pelo Plano de Testes documentado, ao longo do processo de desenvolvimento, os integrantes do time realizaram inúmeros testes nos respectivos códigos que redigiram. 
+
+A construção do Plano de Testes de Software, bem como a posterior realização e o Registro destes, foram divididos de forma que cada integrante testou, no mínimo, dois requisitos funcionais e duas telas diferentes daqueles pelos quais foi responsável por desenvolver. Dessa forma, a solução pôde ser testada com dinamicidade, simluando práticas de <em> Quality Assurance</em>.
+
+A execução dos testes foi de grande importância para a contastação de falhas antes não reconhecidas e isso se deve, em grande parte, à possibilidade de análise minuciosa dos funcionalidades por aqueles que não desenvolveram-nas. 
+
+A retrospectiva ocorreu em uma reunião posterior à entrega de itens, no dia 14/05/2023. O grupo avaliou a entrega como satisfatória e positiva, constatando-se a superação de vários obstáculos e receios. Considerou-se assim, uma entrega de desenvolvimento coesa, eficaz, objetiva e que dispôs de um ótimo trabalho em equipe dos integrantes Arthur Zebral, Carolina Morais, Laila Martins e Débora Alexia. 
+
+A  Sprint Review se deu  a partir de uma breve apresenção junto às turmas 15 e 16 do curso de Análise e Desenvolvimento de Sistemas, durante o encontro síncrono do dia 15/06/2023.
 
 
 **3. Evidências**
 
-Aguardando finalização da Sprint.
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
+
+- [Programação das demais Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)
+- 
+- [Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)
+  
+- [Registros de Testes de Software]( https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md) 
+
 
 
 ### Sprint 5
