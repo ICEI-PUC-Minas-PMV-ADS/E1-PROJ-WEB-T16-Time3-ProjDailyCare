@@ -22,7 +22,8 @@ As ferramentas utilizadas no projeto são:
 |**Editor de Código**|[Visual Studio Code](https://code.visualstudio.com/)|
 |**Criação de <em>User Flow</em> e <em>Wireframe</em>**|[Marvel](https://marvelapp.com/)|
 |**Gerenciamento do Projeto**|[GitHub Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1)|
-|**Comunicação:**|[Microsoft Teams](https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:JYqqHMA-705z01V5n8kpeZTrU33PPFyJm1hMFNnMI681@thread.tacv2&ctx=channel) e [WhatsApp](https://web.whatsapp.com/)| 
+|**Comunicação:**|[Microsoft Teams](https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:JYqqHMA-705z01V5n8kpeZTrU33PPFyJm1hMFNnMI681@thread.tacv2&ctx=channel) e [WhatsApp](https://web.whatsapp.com/)|
+|**Hospedagem da Solução**|[GitHub Pages]([https://git-scm.com/](https://pages.github.com/))|
 
 
 ## Processo
@@ -233,21 +234,37 @@ As evidências relativas aos itens entregues nessa sprint se encontram nesse mes
 - [Registros de Testes de Software]( https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md) 
 
 
-
 ### Sprint 5
 
 Prevista para o período correspondente entre 12/06 a 25/06.
 
 **1. Planejamento**
 
-Principais itens entregáveis: Implantação da Solução, Apresentação do Projeto e Vídeo de de Demonstração da Solução.
+A reunião de planejamento da Sprint 5 e seus respectivos planos de ação, organização e divisão de tarefas ocorreu em 16/06/2023. A partir da realização, definiu-se como os principais itens entregáveis a **Implantação e Hospedagem da Solução**, o **Desenvolvimento da apresentação** e o **Vídeo de Apresentação da Solução**.
 
-![image](https://user-images.githubusercontent.com/112430045/233517241-1caaa3e1-2d2a-46a3-92c0-798e055045d6.png)
+A fim de garantir a entrega dos itens exigidos e garantir o desenvolvimento das funcionalidades, o Product Backlog foi convertido nas seguintes tasks, apresentadas pelo [Quadro de Tarefas](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/380/views/1):
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/assets/112430045/fee6fd4c-108c-46d1-bb9e-7ce30c2289e9)
 
 **2. Execução**
 
-Aguardando finalização da Sprint.
+Conforme visualmente exposto pelo quadro de tarefas, a integrante Carolina Morais ficou responsável pelos ajustes finais de responsividade e layout da solução, o aluno Arthur Zebral realizou a implementação e a [hospedagem](https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/login/login.html) no GitHub Pages, a aluna Laila Martins desenvolveu a apresentação em slides e Débora Alexia produziu o vídeo de demonstração da aplicação.
+
+Por ser a sprint com o menor número de itens entregáveis, foi considerada pelo grupo como a mais fácil em termos de execução, organização e prazos. 
+
+A retrospectiva ocorreu em uma reunião posterior à entrega de itens, no dia 27/06/2023. O grupo avaliou que a entrega atendeu às expectativas estabelecidas anteriormente e celebrou a conclusão do projeto, que apesar da possibilidade melhorias, foi uma grande conquista para desenvolvedores iniciantes e alunos de primeiro semestre.
+
+A  Sprint Review se deu  a partir de uma apresenção de oito minutos, que incuiu apresentação de slides e uma demonstração da solução já hospedada e compôs a avaliação da entrega. Foi realizada junto às turmas 15 e 16 do curso de Análise e Desenvolvimento de Sistemas, durante o encontro síncrono do dia 29/06/2023.
 
 **3. Evidências**
 
-Aguardando finalização da Sprint.
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
+
+As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
+- [Hospedagem da Solução](https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/)
+- [Apresentação em Slides](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/Apresenta%C3%A7%C3%A3o%20em%20Slides%20-%20DailyCare.pdf)
+- [Vídeo de Demonstração da Solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/APRESENTA%C3%87%C3%83O%20EM%20V%C3%8DDEO%20-%20PROJETO%20DAILYCARE.mp4) 
+
+
+
+
