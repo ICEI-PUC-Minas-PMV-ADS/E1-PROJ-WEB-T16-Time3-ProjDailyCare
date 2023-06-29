@@ -228,7 +228,7 @@ A  Sprint Review se deu  a partir de uma breve apresenção junto às turmas 15 
 As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
 
 - [Programação das demais Funcionalidades](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)
-- 
+
 - [Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)
   
 - [Registros de Testes de Software]( https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md) 
@@ -260,7 +260,6 @@ A  Sprint Review se deu  a partir de uma apresenção de oito minutos, que incui
 
 As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
 
-As evidências relativas aos itens entregues nessa sprint se encontram nesse mesmo repositório, listadas a seguir:
 - [Hospedagem da Solução](https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/)
 - [Apresentação em Slides](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/Apresenta%C3%A7%C3%A3o%20em%20Slides%20-%20DailyCare.pdf)
 - [Vídeo de Demonstração da Solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/APRESENTA%C3%87%C3%83O%20EM%20V%C3%8DDEO%20-%20PROJETO%20DAILYCARE.mp4) 
