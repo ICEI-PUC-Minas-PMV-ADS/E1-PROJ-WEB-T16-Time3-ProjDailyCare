@@ -1,5 +1,3 @@
 # Apresentação
 
-<a href="../presentation/README.md"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
-
-Os aqruivos incluem: Uma apresentação em slides e um vídeo de demonstração do projeto. 
+Os arquivos de apresentação de projeto se encontram na pasta [presentation](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/tree/main/presentation) incluem: Uma [apresentação em slides](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/Apresenta%C3%A7%C3%A3o%20em%20Slides%20-%20DailyCare.pdf) e um [vídeo de demonstração da solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/E1-PROJ-WEB-T16-Time3-ProjDailyCare/blob/main/presentation/APRESENTA%C3%87%C3%83O%20EM%20V%C3%8DDEO%20-%20PROJETO%20DAILYCARE.mp4). 
