@@ -37,7 +37,7 @@
 
 # Hospedagem
 
-O projeto está hospedado no seguinte link: https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/
+[Clique aqui para acessar o link de hospedagem da solução implementada](https://icei-puc-minas-pmv-ads.github.io/E1-PROJ-WEB-T16-Time3-ProjDailyCare/)
 
 # Armazenamento do Código-Fonte
 
