@@ -2,7 +2,7 @@
 
 ARAUJO, A. G. R. **Neurodiversidade, Estigma e Autismo: Avaliação de um Treinamento Online em uma Amostra Brasileira.** Universidade Federal de Grande Dourados.
 
-BAKER, D. L. **The Politics of Neurodiversity: Why Public Policy Matters.**Lynne Rienner Publishers, 2011.
+BAKER, D. L. **The Politics of Neurodiversity: Why Public Policy Matters.** Lynne Rienner Publishers, 2011.
 
 CROWN WORLD MOBILITY. **Perspectivas de Mobilidade Global – O papel da mobilidade na estratégia de diversidade e inclusão corporativa.** Diversidade e Inclusão , 2019. 
 
